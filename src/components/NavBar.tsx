@@ -73,7 +73,7 @@ export default function Navbar() {
             GALLERY
         </Link> 
 
-           <Link href="/contact" className="hover:text-[#00aeef] font-bold">
+           <Link href="/ContactUs" className="hover:text-[#00aeef] font-bold">
             CONTACT US
           </Link>
           
