@@ -5,24 +5,15 @@ import Link from "next/link"
 export default function GalleryPage() {
   // Gallery images data
   const galleryImages = [
-    { id: 1, src: "/gallery/gallery/image 131.png", alt: "Factory workers discussing" },
-    {id: 2, src: "/gallery/gallery/image 132.png", alt: "Factory workers discussing"},
-    {id: 3, src: "/gallery/gallery/image 133.png", alt: "Factory workers discussing"},
-    {id: 4, src: "/gallery/gallery/image 134.png", alt: "Factory workers discussing"},
-    {id: 5, src: "/gallery/gallery/image 135.png", alt: "Factory workers discussing"},
-    {id: 6, src: "/gallery/gallery/image 136.png", alt: "Factory workers discussing"},
+   
+   
     {id: 7, src: "/gallery/gallery/image 137.png", alt: "Factory workers discussing"},
     {id: 9, src: "/gallery/gallery/image 139.png", alt: "Factory workers discussing"},
     {id: 10, src: "/gallery/gallery/image 140.png", alt: "Factory workers discussing"},
-    {id: 11, src: "/gallery/gallery/image 141.png", alt: "Factory workers discussing"},
-    {id: 12, src: "/gallery/gallery/image 142.png", alt: "Factory workers discussing"},
-    {id: 13, src: "/gallery/gallery/image 143.png", alt: "Factory workers discussing"},
-    {id: 14, src: "/gallery/gallery/image 144.png", alt: "Factory workers discussing"},
-    {id: 15, src: "/gallery/gallery/image 145.png", alt: "Factory workers discussing"},
-    {id: 16, src: "/gallery/gallery/image 146.png", alt: "Factory workers discussing"},
-    {id: 17, src: "/gallery/gallery/image 147.png", alt: "Factory workers discussing"},
-    {id: 18, src: "/gallery/gallery/image 148.png", alt: "Factory workers discussing"},
-    {id: 19, src: "/gallery/gallery/image 149.png", alt: "Factory workers discussing"},
+    {id: 11, src: "/gallery/gallery/image 139.png", alt: "Factory workers discussing"},
+    {id: 12, src: "/gallery/gallery/image 137.png", alt: "Factory workers discussing"},
+    {id: 13, src: "/gallery/gallery/image 140.png", alt: "Factory workers discussing"},
+ 
   ]
 
   return (

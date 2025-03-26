@@ -23,11 +23,11 @@ const ServiceCard = ({ title, description }: ServiceCardProps) => {
 export default function AlternatingCardGrid() {
   const services = [
     {
-      title: "Air Compressors Services",
+      title: "Products",
       description: "Reliable & Efficient Compressors for Every Industry Need",
     },
     {
-      title: "Service, Repair & Parts",
+      title: "Repair & Parts",
       description: "Comprehensive Compressor Services & Smart Solutions",
     },
     {
@@ -46,7 +46,7 @@ export default function AlternatingCardGrid() {
 
   return (
     <div className="container mx-auto px-4 py-8">
-        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Our Services</h2>
+        <h2 className="text-3xl font-extrabold text-gray-900 mb-8">Our Expertise</h2>
       <div className="grid grid-cols-1 gap-6">
         {/* First row - 2 cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

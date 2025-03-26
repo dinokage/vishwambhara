@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white shadow-md w-full">
+    <nav className="bg-gradient-to-l from-[#1783C8] to-[#76D6FA] shadow-md w-full">
       <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex w-full justify-between h-16">
           <div className="flex items-center">
@@ -37,21 +37,21 @@ const Navbar = () => {
               <div className="ml-10 flex items-center space-x-4">
                 <Link
                   href="/"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Home
                 </Link>
 
                 <Link
                   href="/about"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   About
                 </Link>
 
                 {/* Products Dropdown */}
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium focus:outline-none">
+                  <DropdownMenuTrigger className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold focus:outline-none">
                     Products{" "}
                     <ChevronDown className="inline-block ml-1 h-4 w-4" />
                   </DropdownMenuTrigger>
@@ -129,16 +129,23 @@ const Navbar = () => {
 
                 <Link
                   href="/services"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Services
                 </Link>
 
                 <Link
                   href="/gallery"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium"
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Gallery
+                </Link>
+                
+                <Link
+                  href="/ContactUs"
+                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
+                >
+                  Contact Us
                 </Link>
               </div>
             </div>
