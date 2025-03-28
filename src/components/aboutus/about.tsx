@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function Aboutpage() {
   return (
-    <main className="min-h-screen bg-white">
+    <main className="bg-white">
       {/* Navigation Bar */}
     
 

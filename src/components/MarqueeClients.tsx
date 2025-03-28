@@ -3,6 +3,7 @@
 import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card-scroll";
 import Image from "next/image";
+
 // Sample data for the cards
 const clientData = [
   {
@@ -30,6 +31,7 @@ const clientData = [
     imageUrl: "/clients/hal.png",
   }
 ];
+
 const projectData = [
   {
     id: 1,
@@ -64,25 +66,53 @@ export default function MarqueeClients() {
         Our Clients
       </h2>
       
-      <div className="relative overflow-hidden">
-        <div className="flex animate-scroll-left hover:[animation-play-state:paused]">
-          {[...clientData, ...clientData].map((card, index) => (
+      {/* Inject CSS for animations */}
+      <style jsx global>{`
+        @keyframes scrollLeft {
+          0% { transform: translateX(0); }
+          100% { transform: translateX(calc(-300px * 4)); }
+        }
+        
+        @keyframes scrollRight {
+          0% { transform: translateX(calc(-300px * 4)); }
+          100% { transform: translateX(0); }
+        }
+        
+        .scroll-left {
+          animation: scrollLeft 25s linear infinite;
+        }
+        
+        .scroll-right {
+          animation: scrollRight 25s linear infinite;
+        }
+        
+        .marquee-container:hover .scroll-left,
+        .marquee-container:hover .scroll-right {
+          animation-play-state: paused;
+        }
+      `}</style>
+      
+      {/* First row - scrolling left */}
+      <div className="relative overflow-hidden marquee-container">
+        <div className="flex space-x-4 py-4 scroll-left">
+          {[...clientData, ...clientData, ...clientData].map((card, index) => (
             <div
               key={`${card.id}-${index}`}
-              className="w-[300px] flex-shrink-0 px-2"
+              className="w-[300px] flex-shrink-0"
             >
               <Card>
-                <CardContent className="flex aspect-[3/2] items-center justify-center p-6">
+                <CardContent className="flex items-center justify-center p-6">
                   <div>
                     <h3 className="text-xl font-semibold">{card.title}</h3>
-                    <p className="mt-2">
+                    <div className="mt-2">
                       <Image
                         src={card.imageUrl}
                         alt={card.title}
-                        height={400}
-                        width={400}
+                        height={100}
+                        width={200}
+                        style={{ objectFit: "contain" }}
                       />
-                    </p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -91,25 +121,27 @@ export default function MarqueeClients() {
         </div>
       </div>
 
-      <div className="relative overflow-hidden mt-8">
-        <div className="flex animate-scroll-right hover:[animation-play-state:paused]">
-          {[...projectData, ...projectData].map((card, index) => (
+      {/* Second row - scrolling right */}
+      <div className="relative overflow-hidden mt-8 marquee-container">
+        <div className="flex space-x-4 py-4 scroll-right">
+          {[...projectData, ...projectData, ...projectData].map((card, index) => (
             <div
               key={`${card.id}-${index}`}
-              className="w-[300px] flex-shrink-0 px-2"
+              className="w-[300px] flex-shrink-0"
             >
               <Card>
-                <CardContent className="flex aspect-[3/2] items-center justify-center p-6">
+                <CardContent className="flex items-center justify-center p-6">
                   <div>
                     <h3 className="text-xl font-semibold">{card.title}</h3>
-                    <p className="mt-2">
+                    <div className="mt-2">
                       <Image
                         src={card.imageUrl}
                         alt={card.title}
-                        height={400}
-                        width={800}
+                        height={100}
+                        width={200}
+                        style={{ objectFit: "contain" }}
                       />
-                    </p>
+                    </div>
                   </div>
                 </CardContent>
               </Card>

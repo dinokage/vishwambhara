@@ -9,16 +9,16 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        'scroll-left': 'scroll-left 40s linear infinite',
-        'scroll-right': 'scroll-right 40s linear infinite',
+        'scroll-left': 'scroll-left 25s linear infinite',
+        'scroll-right': 'scroll-right 25s linear infinite',
       },
       keyframes: {
         'scroll-left': {
           '0%': { transform: 'translateX(0)' },
-          '100%': { transform: 'translateX(-50%)' },
+          '100%': { transform: 'translateX(calc(-300px * 4))' }, // Adjust based on card width and count
         },
         'scroll-right': {
-          '0%': { transform: 'translateX(-50%)' },
+          '0%': { transform: 'translateX(calc(-300px * 4))' }, // Adjust based on card width and count
           '100%': { transform: 'translateX(0)' },
         },
       },

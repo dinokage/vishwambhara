@@ -52,11 +52,6 @@ function Footer() {
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services" className="hover:text-[#00aeef]">
-                    Services
-                  </Link>
-                </li>
-                <li>
                   <Link href="/contact" className="hover:text-[#00aeef]">
                     Contact Us
                   </Link>

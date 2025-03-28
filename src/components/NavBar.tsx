@@ -22,7 +22,7 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-l from-[#1783C8] to-[#76D6FA] sticky top-0 z-10 shadow-md w-full">
+    <nav className="bg-gradient-to-l from-[#1783C8] to-[#76D6FA] sticky top-0 z-20 shadow-md w-full">
       <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex w-full justify-between h-16">
           <div className="flex items-center">
@@ -126,13 +126,6 @@ const Navbar = () => {
                     )}
                   </DropdownMenuContent>
                 </DropdownMenu>
-
-                <Link
-                  href="/services"
-                  className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
-                >
-                  Services
-                </Link>
 
                 <Link
                   href="/gallery"
