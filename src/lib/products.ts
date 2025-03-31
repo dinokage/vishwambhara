@@ -102,8 +102,8 @@ export const productCategories = [
       "categories": [
         {
           "name": "Gear Units",
-          "href": "/products/sew/gear-units",
-          "slug": "gear-units",
+          "href": "/products/sew/gear-motors",
+          "slug": "gear-motors",
           "subcategories": [
             { "name": "R Series", "href": "/products/sew/gear-motors/r-series", 
               "items": [
@@ -167,7 +167,7 @@ export const productCategories = [
       "slug": "weg",
       "categories": [
         {
-          "name": "AC Motors",
+          "name": "AC Motors - NEMA",
           "href": "/products/weg/ac-motors",
           "slug": "ac-motors",
           "subcategories": [
@@ -175,10 +175,8 @@ export const productCategories = [
               "name": "General Purpose",
               "href": "/products/weg/ac-motors/general-purpose",
               "slug": "general-purpose",
-              "subcategories": [
-                { "name": "ODP Rolled Steel", "href": "/products/weg/ac-motors/general-purpose/odp-rolled", "slug": "odp-rolled", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] },
+              "items": [
+                { "name": "ODP Rolled Steel", "href": "/products/weg/ac-motors/general-purpose/odp-rolled", "slug": "odp-rolled" },
                 { "name": "TEFC Cast Iron", "href": "/products/weg/ac-motors/general-purpose/tefc-cast", "slug": "tefc-cast", "items": [
               {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
             ] },
@@ -187,37 +185,30 @@ export const productCategories = [
             {
               "name": "Severe Duty",
               "href": "/products/weg/ac-motors/severe-duty",
-              "subcategories": [
-                { "name": "W22", "href": "/products/weg/ac-motors/severe-duty/w22", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] }
+              "items": [
+                { "name": "W22", "href": "/products/weg/ac-motors/severe-duty/w22" },
+                { "name": "W22 API 661", "href": "/products/weg/ac-motors/severe-duty/w22-api-661" },
+                { "name": "IEEE 841", "href": "/products/weg/ac-motors/severe-duty/ieee-841" },
+                { "name": "Cooling Tower", "href": "/products/weg/ac-motors/severe-duty/cooling-tower" },
               ]
             },
             {
               "name": "Explosion Proof/DIP",
-              "href": "/products/weg/ac-motors/severe-duty",
-              "subcategories": [
-                { "name": "W22", "href": "/products/weg/ac-motors/severe-duty/w22", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] }
-              ]
-            },
-            {
-              "name": "Brake Motor",
-              "href": "/products/weg/ac-motors/severe-duty",
-              "subcategories": [
-                { "name": "W22", "href": "/products/weg/ac-motors/severe-duty/w22", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] }
+              "href": "/products/weg/ac-motors/explosion-proof",
+              "items": [
+                { "name": "Explosion Proof Motor", "href": "/products/weg/ac-motors/explosion-proof/explosion",  },
+                { "name": "Explosion Proof Fractional Motor", "href": "/products/weg/ac-motors/explosion-proof/explosion-frac",  },
               ]
             },
             {
               "name": "WIN - Cast Iron TEFC",
-              "href": "/products/weg/ac-motors/severe-duty",
-              "subcategories": [
-                { "name": "W22", "href": "/products/weg/ac-motors/severe-duty/w22", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] }
+              "href": "/products/weg/ac-motors/tefc",
+              "items": [
+                { "name": "WIN IE2 0.18 kW 6P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T", "href": "/products/weg/ac-motors/tefc/tefc-b3t-18", },
+                { "name": "WIN IE2 0.25 kW 4P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T", "href": "/products/weg/ac-motors/tefc/tefc-b3t-25", },
+                { "name": "WIN IE2 0.25 kW 4P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - V1", "href": "/products/weg/ac-motors/tefc/tefc-v1-25", },
+                { "name": "WIN IE2 0.37 kW 2P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B35T", "href": "/products/weg/ac-motors/tefc/tefc-b35t-37", },
+                { "name": "WIN IE2 0.37 kW 2P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T", "href": "/products/weg/ac-motors/tefc/tefc-b3t-37", },
               ]
             },
           ]
@@ -232,12 +223,24 @@ export const productCategories = [
           "name": "Low Voltage Motors",
           "href": "/products/marathon/low-voltage",
           "subcategories": [
-            { "name": "Terramax SCA", "href": "/products/marathon/low-voltage/terramax-sca", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
+            { "name": "Terramax", "href": "/products/marathon/low-voltage/terramax", "items": [
+              {"name": "Terramax SCA", "href": "/products/marathon/low-voltage/terramax/terramax-sca"},
+              {"name": "Terramax TCA", "href": "/products/marathon/low-voltage/terramax/terramax-tca"},
+              {"name": "Terramax QCA", "href": "/products/marathon/low-voltage/terramax/terramax-qca"},
+              {"name": "Terramax SCV", "href": "/products/marathon/low-voltage/terramax/terramax-scv"},
+              {"name": "Terramax TCV", "href": "/products/marathon/low-voltage/terramax/terramax-tcv"},
             ] },
-            { "name": "Terramax TCA", "href": "/products/marathon/low-voltage/terramax-tca", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
-            ] }
+            { "name": "SPDP", "href": "/products/marathon/low-voltage/spdp", "items": [
+              {"name": "RW SPDP", "href": "/products/marathon/low-voltage/spdp/rw-spdp"},
+              {"name": "CW SPDP", "href": "/products/marathon/low-voltage/spdp/cw-spdp"},
+            ] },
+            { "name": "Other", "href": "/products/marathon/low-voltage/other", "items": [
+              {"name": "Flamem Proof Motors(IE1/IE2)", "href": "/products/marathon/low-voltage/other/flame-proof"},
+              {"name": "Smoke Spill Motors (IE@/IE3)", "href": "/products/marathon/low-voltage/other/smoke-spill"},
+              {"name": "Firefighting Motors", "href": "/products/marathon/low-voltage/other/firefighting"},
+              {"name": "KS Crane Duty", "href": "/products/marathon/low-voltage/other/ks-crane-duty"},
+            ] },
+
           ]
         },
         {
@@ -245,14 +248,38 @@ export const productCategories = [
           "href": "/products/marathon/medium-voltage",
           "subcategories": [
             { "name": "FLOWPAK Motors", "href": "/products/marathon/medium-voltage/flowpak", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
+              {"name": "TEFC SQUIRREL CAGE", "href": "/products/marathon/medium-voltage/flowpak/tefc-squirrel-cage"},
+              {"name": "TEFC SLIP RING", "href": "/products/marathon/medium-voltage/flowpak/tefc-slip-ring"},
             ] },
             { "name": "UNIPAK Motors", "href": "/products/marathon/medium-voltage/flowpak", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
+              {"name": "CAC SQUIRREL CAGE", "href": "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage"},
             ] },
             { "name": "TEEPAK Motors", "href": "/products/marathon/medium-voltage/flowpak", "items": [
-              {"name": "MOVIGEAR DBC", "href": "/products/sew/mechatronic-drive-systems/movigear/dbc"}
+              {"name": "CAC SQUIRREL CAGE", "href": "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage"},
             ] },
+            
+          ]
+        },
+        {
+          "name": "Fans",
+          "href": "/products/marathon/fans",
+          "subcategories": [
+            {
+              "name": "Propeller Fans",
+              "href": "/products/marathon/fans/propeller-fans",
+              "items": [
+                {"name": "Propeller Fan - Standard Efficiency", "href": "/products/marathon/fans/propeller-fans/standard-efficiency"},
+                {"name": "Propeller Fan - Premium Efficiency", "href": "/products/marathon/fans/propeller-fans/high-efficiency"},
+              ]
+            },
+            {
+              "name": "Other",
+              "href": "/products/marathon/fans/other",
+              "items": [
+                {"name": "Axial Flow Fan", "href": "/products/marathon/fans/other/axial-flow"},
+                {"name": "Centrifugal Fan", "href": "/products/marathon/fans/other/centrifugal"},
+              ]
+            }
           ]
         }
       ]
