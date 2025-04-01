@@ -658,36 +658,67 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Walk-Behind",
             href: "/products/ipc-tenant/scrubbers/walk-behind",
-            subcategories: [
+            items: [
               {
                 name: "CT 15",
                 href: "/products/ipc-tenant/scrubbers/walk-behind/ct15",
-                items: [
-                  {
-                    name: "MOVIGEAR DBC",
-                    href: "/products/sew/mechatronic-drive-systems/movigear/dbc",
-                  },
-                ],
+                image: "ipc-ct15-left-side_zntkqc",
               },
               {
                 name: "CT 30",
                 href: "/products/ipc-tenant/scrubbers/walk-behind/ct30",
-                items: [
-                  {
-                    name: "MOVIGEAR DBC",
-                    href: "/products/sew/mechatronic-drive-systems/movigear/dbc",
-                  },
-                ],
+                image: "ipc-ct30_leh0vc",
+              },
+              {
+                name: "CT 40",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct40",
+                image: "ipc-ct40_zdsfhb"
+              },
+              {
+                name: "CT 45",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct45",
+                image: "ipc-ct45_trnoqf"
+              },
+              {
+                name: "CT 46",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct46",
+                image: "ipc-ct-46-scrubber_c9r3al"
+              },
+              {
+                name: "CT 51",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct51",
+                image: "ipc-ct51v3_vqdimh"
+              },
+              {
+                name: "CT 55",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct55",
+                image: "ipc-ct55_nhydpj"
+              },
+              {
+                name: "CT 70",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct70",
+                image: "ipc-ct70_coze8s"
+              },
+              {
+                name: "CT 71",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct71",
+                image: "ipc-ct71-double-brushes_kyco0x"
+              },
+              {
+                name: "CT 90",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/ct90",
+                image: "ipc-ct90_apjaaw"
               },
             ],
           },
           {
             name: "Ride On",
             href: "/products/ipc-tenant/scrubbers/ride-on",
-            subcategories: [
+            items: [
               {
                 name: "CT 80",
                 href: "/products/ipc-tenant/scrubbers/ride-on/ct80",
+                image:"ipc-ct80_rllfvj",
                 items: [
                   {
                     name: "MOVIGEAR DBC",
@@ -696,8 +727,31 @@ export const productCategories: ProductCategory[] = [
                 ],
               },
               {
-                name: "512 Rider",
-                href: "/products/ipc-tenant/scrubbers/ride-on/512",
+                name: "CT 110",
+                href: "/products/ipc-tenant/scrubbers/ride-on/ct110",
+                image:"ipc-ct110_duvtvz",
+                items: [
+                  {
+                    name: "MOVIGEAR DBC",
+                    href: "/products/sew/mechatronic-drive-systems/movigear/dbc",
+                  },
+                ],
+              },
+              {
+                name: "CT 160",
+                href: "/products/ipc-tenant/scrubbers/ride-on/ct160",
+                image:"ipc-ct160_uywf1d",
+                items: [
+                  {
+                    name: "MOVIGEAR DBC",
+                    href: "/products/sew/mechatronic-drive-systems/movigear/dbc",
+                  },
+                ],
+              },
+              {
+                name: "CT 231",
+                href: "/products/ipc-tenant/scrubbers/ride-on/ct231",
+                image:"ipc-ct231_w0ysii",
                 items: [
                   {
                     name: "MOVIGEAR DBC",
@@ -709,6 +763,224 @@ export const productCategories: ProductCategory[] = [
           },
         ],
       },
+      {
+        name: "High Pressure Washers",
+        href: "/products/ipc-tenant/high-pressure-washers",
+        subcategories: [
+          {
+            name: "Cold Water",
+            href: "/products/ipc-tenant/high-pressure-washers/cold-water",
+            items:[
+              {
+                name: "PW-C10",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c10",
+                image: "",
+              },
+              {
+                name: "PW-C22",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c22",
+                image: "ipc-pw-c22_p77cco",
+              },
+              {
+                name: "PW-C23",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-23",
+                image: "ipc-pw-c23_l7dhn9",
+              },
+              {
+                name: "PW-C25",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/ pw-c25",
+                image: "ipc-pw-c25_ej9a8n",
+              },
+              {
+                name: "PW-C40",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c40",
+                image: "ipc-pw-c40_wj8may",
+              },
+              {
+                name: "PW-C50",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c50",
+                image: "ipc-pw-c50_epudwz",
+              },
+              {
+                name: "PW-C70",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c70",
+                image: "",
+              },
+              
+
+            ]
+            
+
+          },
+          {
+            name: " Hot Water",
+            href: "/products/ipc-tenant/high-pressure-washers/hot-water",
+            items:[
+              {
+                name: "PW-H28",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-h28",
+                image: "ipc-pw-h28_sngvs9",
+              },
+              {
+                name: "PW-H50",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-h50",
+                image: "",
+              },
+              {
+                name: "PW-H90",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-h90",
+                image: "ipc-pw-h90_leqy7n",
+              },
+              {
+                name: "PW-H100",
+                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-h100",
+                image: "ipc-pw-h100-htm_zpzpiu",
+              },
+
+            ]
+
+          },
+        ]
+
+
+      },
+      {
+        name: "Pure Water Cleaning Systems",
+        href: "/products/ipc-tenant/pure-water-cleaning-systems",
+        subcategories:[
+          {
+            name:"Professional Machines",
+            href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines",
+            items:[
+              {
+                name: "HIghpure HPO",
+                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpo",
+                image: "ipc-highpurehpo_f3aznk",
+              },
+              {
+                name: "Highpure HPB",
+                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpb",
+                image: "ipc-highpurehpb_yq4uvn",
+              },
+              {
+                name: "Highpure HPE",
+                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpe",
+                image: "ipc-highpurehpe_pvjged",
+              },
+              {
+                name: "Greentube GTO",
+                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/greentube-gto",
+                image: "ipc-greentubegto_lgj3ou",
+              },
+
+            ]
+
+
+          },
+        ]
+
+      },
+      {
+        name: "Vacuum Cleaners",
+        href: "/products/ipc-tenant/vaccum-cleaners",
+        subcategories:[
+          {
+            name:"Only Dry",
+            href: "/products/ipc-tenant/vaccum-cleaners/only-dry",
+            items :[
+              {
+                name: "LP 1/12 ECO B",
+                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/lp-1/2-eco-b",
+                image: "ipc-lp-1-12-eco-a-2_lu2gga",
+              },
+              {
+                name: "LP 1/16 ECO B",
+                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/lp-1/16-eco-b",
+                image: "ipc-lp-1-16-eco-b_rwxpr5",
+              },
+              {
+                name: "FOX",
+                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/fox",
+                image: "ipc-fox_zuk6dp",
+              },
+              
+
+            ]
+          },
+          {
+            name:"Wet & Dry",
+            href: "/products/ipc-tenant/vaccum-cleaners/wet & dry",
+            items : [
+              
+              {
+                name: "ASPIRO 150 Steel",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-150-steel",
+                image: "ipc-aspiro-150-steel_gcushv",
+              },
+              {
+                name: "ASPIRO 151 PLAST",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-151-plast",
+                image: "ipc-aspiro-151-plast_mdiqg1",
+              },
+              {
+                name: "ASPIRO 151 Steel",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-151-steel",
+                image: "ipc-aspiro-151-steel_xqrwdl",
+              },
+              {
+                name: "APIRO 730 STEEL",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-730-steel",
+                image: "ipc-aspiro750-steel_ermvyj",
+              },
+              {
+                name: "ASPIRO 724 STEEL",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-724-steel",
+                image: "",
+              },
+              {
+                name: "ASPIRO 735 STEEL",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-735-steel",
+                image: "ipc-aspiro-735-steel_irblgo",
+              },
+              {
+                name: "ASPIRO 429 SUB",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet & dry/aspiro-429-steel",
+                image: "ipc-aspiro-429-sub_ce1lfo",
+              },
+
+            ]
+          },
+          {
+            name:"Wet Extractors",
+            href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors",
+            items :[
+              {
+                name: "LAVA",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/lava",
+                image: "ipc-lava_glmius",
+              },
+              {
+                name: "NEW GARAGE",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/new-garage",
+                image: "ipc-new-garage_llf564",
+              },
+              {
+                name: "GS 1/33 EXT",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/gs-1/33-ext",
+                image: "ipc-gs1-33ext_gzhu5u",
+              },
+              {
+                name: "GS 2/62 EXT",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/gs-2/62/ext",
+                image: "ipc-gs2-62ext_adqbet",
+              }
+
+            ]
+          },
+        ]
+
+      },
+
     ],
   },
   {
@@ -739,8 +1011,20 @@ export const productCategories: ProductCategory[] = [
               },
             ],
           },
+          {
+            name: "Wastewater Treatment",
+            href: "/products/nalco/water-treatment/Waste",
+            items: [
+              {
+                name: "MOVIGEAR DBC",
+                href: "/products/sew/mechatronic-drive-systems/movigear/dbc",
+
+              },
+            ],
+          },
         ],
       },
+
       {
         name: "Monitoring Systems",
         href: "/products/nalco/monitoring",
