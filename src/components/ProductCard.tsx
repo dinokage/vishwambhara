@@ -1,5 +1,6 @@
 import Image from "next/image"
 
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 export default function ProductCard({name, description, url}: {name: string, description: string, url: string}) {
     return (
       <div className="max-w-4xl mx-auto overflow-hidden rounded-lg shadow-md bg-white h-fit border border-gray-200">
@@ -23,9 +24,6 @@ export default function ProductCard({name, description, url}: {name: string, des
           {/* Right side with company description */}
           <div className="p-8 bg-[#222222] text-white md:w-3/5">
             <h2 className="text-3xl font-bold mb-6 tracking-wide">{name}</h2>
-            <p className="text-lg leading-relaxed">
-              {description}
-            </p>
           </div>
         </div>
       </div>

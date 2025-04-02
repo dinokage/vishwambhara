@@ -78,7 +78,7 @@ const Navbar = () => {
                                           <DropdownMenuSubTrigger className="w-full">
                                             {subcategory.name}
                                           </DropdownMenuSubTrigger>
-                                          <DropdownMenuSubContent className="w-56">
+                                          <DropdownMenuSubContent className="max-h-56 w-56 overflow-y-auto">
                                             {subcategory.items.map((item) => (
                                               <DropdownMenuItem key={item.name}>
                                                 <Link
@@ -135,7 +135,7 @@ const Navbar = () => {
                 </Link>
                 
                 <Link
-                  href="/ContactUs"
+                  href="/contact"
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Contact Us

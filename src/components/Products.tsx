@@ -1,64 +1,100 @@
-import React from "react";
-import ProductCard from "./ProductCard";
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight } from "lucide-react"
 
-const products = [
+interface BrandCard {
+  id: string
+  name: string
+  productImage: string
+  logoImage: string
+  url: string
+}
+
+const brands: BrandCard[] = [
   {
-    name: "Atlas Copco",
-    description:
-      "Atlas Copco is a global, industrial company based in Stockholm, Sweden, with almost 40,000 employees and customers in more than 180 countries.",
-    url: "/logos/atlas-copco.png",
+    id: "atlas-copco",
+    name: "ATLAS COPCO",
+    productImage:
+      "/logos/atlas-copco.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#atlas-logo",
+    url: "/products/atlas-copco",
   },
   {
+    id: "sew-eurodrive",
     name: "SEW EURODRIVE",
-    description:
-      "SEW products stand for diversity, quality, reliability and the power of innovation. Performance characteristics that you will find throughout the entire product.",
-    url: "/logos/sew.png",
+    productImage:
+      "/logos/sew.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#sew-logo",
+    url: "/products/sew",
   },
   {
-    name: "SPX johnson",
-    description:
-      "For more than 75 years SPX FLOW Johnson Pump brand pumps have been developed, manufactured and marketed for industrial use.",
-    url: "/logos/spx.png",
+    id: "delval",
+    name: "Delval",
+    productImage:
+      "/logos/delval.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#kirloskar-logo",
+    url: "/products/delval",
   },
   {
-    name: "XYLEM",
-    description:
-      "Xylem offers a portfolio of products and systems designed to effectively meet the demands and challenges of treating water & wastewater.",
-    url: "/logos/xylem.png",
+    id: "praj",
+    name: "Praj",
+    productImage:
+      "/logos/praj.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#xylem-logo",
+    url: "/products/praj",
   },
   {
-    name: "Kirloskar",
-    description:
-      "At the heart of agriculture, industry and economy, we are there. Our aim is to empower people, enhance business strengthen infrastructure.",
-    url: "/logos/kirloskar.png",
+    id: "weg",
+    name: "WEG",
+    productImage:
+      "/logos/weg.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#johnson-logo",
+    url: "/products/weg",
   },
   {
-    name: "Nilfisk",
-    description:
-      "Nilfisk was founded on a vision of  producing & selling products of the highest quality worldwide. Nilfisk has responded to the changing needs of markets.",
-    url: "/logos/nilfisk.png",
+    id: "snap-on",
+    name: "Snap-On",
+    productImage:
+      "/logos/snap-on.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#nilfisk-logo",
+    url: "/products/snap-on",
   },
-];
+]
 
-function HomeProducts() {
+export default function HomeProducts() {
   return (
     <div className="container mx-auto px-4 py-6">
+      <h2 className="text-3xl font-bold text-center mb-6">Our products</h2>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
       
-        <h1 className="mx-10 p-10 text-4xl font-bold ">
-          Our Products
-        </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 p-10 gap-8 mx-10">
-        {products.map((product, index) => (
-          <ProductCard
-            key={index}
-            name={product.name}
-            description={product.description}
-            url={product.url}
-          />
+        {brands.map((brand) => (
+          <div key={brand.id} className="border border-gray-200 rounded-md p-6 flex flex-col items-center">
+            <div className="h-32 flex items-center justify-center mb-4">
+              <Image
+                src={brand.productImage || "/placeholder.svg"}
+                alt={`${brand.name} product`}
+                width={180}
+                height={120}
+                className="max-h-full object-contain"
+              />
+            </div>
+            <h3 className="text-sky-500 font-medium text-center mb-4">{brand.name}</h3>
+            <Link
+              href={brand.url}
+              className="inline-flex items-center border border-gray-300 rounded px-4 py-2 text-sm hover:bg-gray-50 transition-colors"
+            >
+              Read More <ArrowRight className="ml-1 h-4 w-4" />
+            </Link>
+          </div>
         ))}
       </div>
     </div>
-  );
+  )
 }
 
-export default HomeProducts;

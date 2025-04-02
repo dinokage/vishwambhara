@@ -1,11 +1,9 @@
-"use client"
-
 import { notFound } from "next/navigation";
 import Link from "next/link";
 // import Image from "next/image";
 import { productCategories as productData } from "@/lib/products";
 import {use} from 'react';
-import { CldImage } from "next-cloudinary";
+import CloudinaryImage from "@/components/CloudinaryImage";
 
 export default function ProductItemPage({ 
   params 
@@ -65,7 +63,7 @@ export default function ProductItemPage({
           {/* Placeholder for product image */}
           <div className="w-full aspect-square bg-white rounded flex items-center justify-center">
             {/* <span className="text-gray-500">Product Image</span> */}
-            <CldImage src={item.image || ""} width={800} height={800} alt="Product Image" className="object-contain rounded" />
+            <CloudinaryImage src={item.image?.trim() || ""} width={800} height={800} alt="Product Image" />
           </div>
         </div>
         

@@ -4,9 +4,9 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div className=" relative overflow-hidden">
+    <div className="container mx-auto relative overflow-hidden max-h-128">
       {/* Main Section */}
-      <div className=" rounded-b-[50px] mb-8 py-8">
+      <div className=" rounded-b-[50px] mb-8">
         
       </div>
 
@@ -23,7 +23,7 @@ export default function Contact() {
               <p># 39-11-3/2, 1st Floor, Above Punjab National Bank of Commerce, Muralinagar, Bank Street, Sector-11, Visakhapatnam - 530007, AP, India.</p>
               <p className="font-semibold">Register Office</p>
               <p>APIIE E Block,Plot No 54,Autonagar,Gajuwaka,
-              Visakhapatnam – 530007, AP, India.</p>
+              Visakhapatnam - 530007, AP, India.</p>
             </div>
           </div>
 
@@ -59,14 +59,14 @@ export default function Contact() {
             }}
           >
             <form>
-              <div className="space-y-4">
+              <div className="space-y-2 text-black overflow-y-auto">
                 <Input type="text" placeholder="Your Name" className="bg-white p-3 w-full" />
                 <Input type="email" placeholder="Your Email" className="bg-white p-3 w-full" />
                 <Input type="text" placeholder="Phone Number" className="bg-white p-3 w-full" />
                 <Input type="text" placeholder="Services" className="bg-white p-3 w-full" />
                 <textarea
                   placeholder="Message"
-                  className="bg-white p-3 w-full h-32 rounded-lg"
+                  className="bg-white p-3 w-full h-32 rounded-lg text-black overflow-scroll"
                 ></textarea>
               </div>
               <button className="bg-[#0275d8] hover:bg-[#0261b0] text-white font-bold py-2 px-4 rounded mt-4 w-full">
