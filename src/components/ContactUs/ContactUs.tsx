@@ -40,7 +40,7 @@ export default function Contact() {
             <Image src="/contact3.png" alt="Email Address" width={100} height={100} className="w-12 h-12" />
             <div>
               <p className="font-semibold">Email Address</p>
-              <p>info@classique.co.in / kk@classique.co.in</p>
+              <p>info@classique.co.in / sales@classique.co.in</p>
             </div>
           </div>
         </div>

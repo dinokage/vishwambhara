@@ -2,60 +2,96 @@
 
 import * as React from "react";
 import { Card, CardContent } from "@/components/ui/card-scroll";
-import Image from "next/image";
+import CloudinaryImage from "./CloudinaryImage";
 
 // Sample data for the cards
 const clientData = [
   {
     id: 1,
-    title: "Bharat Petroleum",
+    title: "HAL",
     content: "Content for Card 1",
-    imageUrl: "/clients/bpcl.png",
+    imageUrl: "8_jjwxxf",
   },
   {
     id: 2,
-    title: "CAIRN",
+    title: "Gemini Cooking Oil",
     content: "Content for Company 2",
-    imageUrl: "/clients/cairn.png",
+    imageUrl: "image_232_a4pft5",
   },
   {
     id: 3,
-    title: "Divis",
+    title: "Rushil Decor",
     content: "Content for Company 3",
-    imageUrl: "/clients/divis.png",
+    imageUrl: "image_236_datupc",
   },
   {
     id: 4,
-    title: "HAL",
+    title: "Grand Pharma",
     content: "Content for Company 4",
-    imageUrl: "/clients/hal.png",
-  }
+    imageUrl: "image_240_xzcp9o",
+  },
+  {
+    id: 5,
+    title: "JK Paper",
+    content: "Content for Company 4",
+    imageUrl: "image_235_rl9vw0",
+  },
+  {
+    id: 6,
+    title: "RAK Ceramics",
+    content: "Content for Company 4",
+    imageUrl: "image_234_f4ebir",
+  },
+  {
+    id: 7,
+    title: "Coca Cola",
+    content: "Content for Company 4",
+    imageUrl: "image_239_mnazsp",
+  },
 ];
 
 const projectData = [
   {
     id: 1,
-    title: "JK Paper",
+    title: "AM/NS India",
     content: "Content for Card 1",
-    imageUrl: "/clients/jk.png",
+    imageUrl: "image_237_ixbgf4",
   },
   {
     id: 2,
-    title: "Ruchi",
+    title: "UB",
     content: "Content for Company 2",
-    imageUrl: "/clients/ruchi.png",
+    imageUrl: "image_238_y6ygiw",
   },
   {
     id: 3,
-    title: "Vizag Steel",
+    title: "HPCL",
     content: "Content for Company 4",
-    imageUrl: "/clients/vizag.png",
+    imageUrl: "image_221_zxwvw6",
   },
   {
     id: 4,
-    title: "HSL",
+    title: "Laurus Labs",
     content: "Content for Company 5",
-    imageUrl: "/clients/hsl.png",
+    imageUrl: "image_223_pwopuh",
+  },
+  {
+    id: 5,
+    title: "Vizag Steel",
+    content: "Content for Company 5",
+    imageUrl: "image_224_onrgvh",
+  },
+  {
+    id: 6,
+    title: "Pfizer",
+    content: "Content for Company 5",
+    imageUrl: "image_231_orwg7m",
+  },
+  {
+    id: 7,
+    title: "Pepsi",
+    content: "Content for Company 5",
+    imageUrl: "image_233_f9es0q",
   },
 ];
 
@@ -70,20 +106,20 @@ export default function MarqueeClients() {
       <style jsx global>{`
         @keyframes scrollLeft {
           0% { transform: translateX(0); }
-          100% { transform: translateX(calc(-300px * 4)); }
+          100% { transform: translateX(calc(-600px * 4)); }
         }
         
         @keyframes scrollRight {
-          0% { transform: translateX(calc(-300px * 4)); }
+          0% { transform: translateX(calc(-600px * 4)); }
           100% { transform: translateX(0); }
         }
         
         .scroll-left {
-          animation: scrollLeft 25s linear infinite;
+          animation: scrollLeft 30s linear infinite;
         }
         
         .scroll-right {
-          animation: scrollRight 25s linear infinite;
+          animation: scrollRight 30s linear infinite;
         }
         
         .marquee-container:hover .scroll-left,
@@ -101,16 +137,15 @@ export default function MarqueeClients() {
               className="w-[300px] flex-shrink-0"
             >
               <Card>
-                <CardContent className="flex items-center justify-center p-6">
+                <CardContent className="flex h-[20vh] items-center justify-center p-6">
                   <div>
-                    <h3 className="text-xl font-semibold">{card.title}</h3>
+                    {/* <h3 className="text-xl font-semibold">{card.title}</h3> */}
                     <div className="mt-2">
-                      <Image
+                      <CloudinaryImage
                         src={card.imageUrl}
                         alt={card.title}
-                        height={100}
+                        height={200}
                         width={200}
-                        style={{ objectFit: "contain" }}
                       />
                     </div>
                   </div>
@@ -132,14 +167,13 @@ export default function MarqueeClients() {
               <Card>
                 <CardContent className="flex items-center justify-center p-6">
                   <div>
-                    <h3 className="text-xl font-semibold">{card.title}</h3>
+                    {/* <h3 className="text-xl font-semibold">{card.title}</h3> */}
                     <div className="mt-2">
-                      <Image
+                      <CloudinaryImage
                         src={card.imageUrl}
                         alt={card.title}
-                        height={100}
+                        height={200}
                         width={200}
-                        style={{ objectFit: "contain" }}
                       />
                     </div>
                   </div>

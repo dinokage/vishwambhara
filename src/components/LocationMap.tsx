@@ -11,16 +11,15 @@ const LocationMap = () => {
             <div className="bg-blue-50 p-6 rounded-lg">
               <h3 className="text-xl font-semibold mb-4">Sales Office</h3>
               <p className="text-gray-700">
-                # 39-11-3/2, 1st Floor, Above Punjab National Bank of Commerce, Muralinagar, 
+                # 39-11-3/2, 1st Floor, Above Punjab National Bank, Muralinagar, 
                 Bank Street, Sector-11, Visakhapatnam - 530007, AP, India.
               </p>
             </div>
             
             <div className="bg-blue-50 p-6 rounded-lg">
-              <h3 className="text-xl font-semibold mb-4">Register Office</h3>
+              <h3 className="text-xl font-semibold mb-4">Register Office - Godown</h3>
               <p className="text-gray-700">
-                APIIE E Block, Plot No 54, Autonagar, Gajuwaka,
-                Visakhapatnam – 530007, AP, India.
+                #HIG No. 76, OPP Ebenezer Nursing Home, Aganampudi to Duvvada Rly Station Rd, Talarivanipalem, Visakhapatnam, 530053
               </p>
             </div>
             

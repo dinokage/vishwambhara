@@ -30,15 +30,6 @@ const brands: BrandCard[] = [
     url: "/products/sew",
   },
   {
-    id: "delval",
-    name: "Delval",
-    productImage:
-      "/logos/delval.png",
-    logoImage:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#kirloskar-logo",
-    url: "/products/delval",
-  },
-  {
     id: "praj",
     name: "Praj",
     productImage:
@@ -57,13 +48,22 @@ const brands: BrandCard[] = [
     url: "/products/weg",
   },
   {
-    id: "snap-on",
-    name: "Snap-On",
+    id: "marathon",
+    name: "Marathon",
     productImage:
-      "/logos/snap-on.png",
+      "/logos/marathon.png",
+    logoImage:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#kirloskar-logo",
+    url: "/products/marathon",
+  },
+  {
+    id: "idex-pumps",
+    name: "Idex Pumps",
+    productImage:
+      "/logos/idex-pumps.png",
     logoImage:
       "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-BITMXWh6Fv09XM403CyQjHs5eLaVdl.png#nilfisk-logo",
-    url: "/products/snap-on",
+    url: "/products/idex-pumps",
   },
 ]
 

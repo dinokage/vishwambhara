@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, ChevronDown, Search } from "lucide-react";
+import { Menu, ChevronDown } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -14,15 +14,13 @@ import {
   DropdownMenuSubContent,
 } from "@/components/ui/dropdown-menu";
 import { productCategories as productData } from "@/lib/products";
-
-// This structure should be populated with data from your Excel file
-// Each sheet would be a main category, and the contents would be subcategories
+import SearchBar from "@/components/SearchBar";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-gradient-to-l from-[#1783C8] to-[#76D6FA] sticky top-0 z-20 shadow-md w-full">
+    <nav className="bg-white sticky top-0 z-20 shadow-md w-full">
       <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex w-full justify-between h-16">
           <div className="flex items-center">
@@ -146,16 +144,7 @@ const Navbar = () => {
 
           {/* Search Bar */}
           <div className="hidden md:flex items-center">
-            <div className="flex items-center bg-[#f8f5e1] rounded-full px-4 py-2">
-              <input
-                type="text"
-                placeholder="Search products..."
-                className="bg-transparent border-none focus:outline-none text-sm w-48 lg:w-64"
-              />
-              <button className="ml-2 text-gray-700">
-                <Search size={18} />
-              </button>
-            </div>
+            <SearchBar className="w-48 lg:w-64" />
           </div>
 
           {/* Mobile menu button */}
@@ -240,16 +229,7 @@ const Navbar = () => {
 
             {/* Mobile search */}
             <div className="mt-4 px-3">
-              <div className="flex items-center bg-[#f8f5e1] rounded-full px-4 py-2">
-                <input
-                  type="text"
-                  placeholder="Search products..."
-                  className="bg-transparent border-none focus:outline-none text-sm w-full"
-                />
-                <button className="ml-2 text-gray-700">
-                  <Search size={18} />
-                </button>
-              </div>
+              <SearchBar />
             </div>
           </div>
         </div>
