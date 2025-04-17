@@ -17,6 +17,7 @@ export default function CloudinaryImage({ src, width = 600, height = 400, alt = 
       height={height}
       alt={alt}
       sizes="100vw"
+      className='object-cover w-full h-full rounded-lg'
     />
   );
 }

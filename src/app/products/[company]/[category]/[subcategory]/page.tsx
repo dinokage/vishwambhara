@@ -2,8 +2,8 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCategories as productData } from "@/lib/products";
 import { use } from 'react';
-// import { CldImage } from "next-cloudinary";
-import CloudinaryImage from "@/components/CloudinaryImage";
+import ProductCard from "@/components/ProductCard";
+import { ChevronRight } from "lucide-react";
 
 export default function SubcategoryPage({ 
   params 
@@ -32,19 +32,19 @@ export default function SubcategoryPage({
   return (
     <div className="container mx-auto py-8 px-4">
       {/* Breadcrumb navigation */}
-      <div className="mb-6 text-sm">
-        <Link href="/" className="text-gray-500 hover:underline">Home</Link>
-        {" > "}
-        <Link href="/products" className="text-gray-500 hover:underline">Products</Link>
-        {" > "}
-        <Link href={company.href} className="text-gray-500 hover:underline">
+      <div className="flex items-center flex-wrap text-sm text-gray-500 mb-6">
+        <Link href="/" className="hover:text-blue-600 transition-colors">Home</Link>
+        <ChevronRight className="mx-2 h-4 w-4" />
+        <Link href="/products" className="hover:text-blue-600 transition-colors">Products</Link>
+        <ChevronRight className="mx-2 h-4 w-4" />
+        <Link href={company.href} className="hover:text-blue-600 transition-colors">
           {company.name}
         </Link>
-        {" > "}
-        <Link href={category.href} className="text-gray-500 hover:underline">
+        <ChevronRight className="mx-2 h-4 w-4" />
+        <Link href={category.href} className="hover:text-blue-600 transition-colors">
           {category.name}
         </Link>
-        {" > "}
+        <ChevronRight className="mx-2 h-4 w-4" />
         <span className="text-gray-900 font-medium">{subcategory.name}</span>
       </div>
 
@@ -57,23 +57,29 @@ export default function SubcategoryPage({
         </p>
       </div>
       
-      {/* Items grid */}
-      {subcategory.items && subcategory.items.length > 0 && (
+      {/* Items grid with new ProductCard component */}
+      {subcategory.items && subcategory.items.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {subcategory.items.map((item) => (
-            <Link 
-              href={item.href} 
+            <ProductCard
               key={item.name}
-              className="block p-6 border rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white"
-            >
-              <div className="aspect-square bg-gray-100 mb-4 flex items-center justify-center">
-                {/* <span className="text-gray-400">Product Image</span> */}
-                <CloudinaryImage src={item.image?.trim() || ""} width={800} height={800} alt="Product Image" />
-              </div>
-              <h2 className="text-lg font-semibold">{item.name}</h2>
-              <div className="mt-4 text-blue-500">View details →</div>
-            </Link>
+              name={item.name}
+              href={item.href}
+              image={item.image?.trim() || ""}
+              companyName={company.name}
+              description={`${item.name} by ${company.name} - part of our ${subcategory.name} product line. Designed for optimal performance and reliability.`}
+            />
           ))}
+        </div>
+      ) : (
+        <div className="bg-gray-50 p-8 rounded-lg text-center">
+          <p className="text-gray-500">No products found in this category.</p>
+          <Link 
+            href={category.href}
+            className="mt-4 inline-block text-blue-600 hover:underline"
+          >
+            Browse other products in {category.name}
+          </Link>
         </div>
       )}
     </div>

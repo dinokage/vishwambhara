@@ -1,9 +1,9 @@
-"use client";
+'use client'
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { Menu, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -15,12 +15,94 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { productCategories as productData } from "@/lib/products";
 import SearchBar from "@/components/SearchBar";
+import { cn } from "@/lib/utils";
+
+const MobileNavItem = ({ 
+  href, 
+  children, 
+  className, 
+  active = false,
+  onClick 
+}: { 
+  href: string; 
+  children: React.ReactNode; 
+  className?: string; 
+  active?: boolean;
+  onClick?: () => void;
+}) => (
+  <Link
+    href={href}
+    className={cn(
+      "text-gray-600 hover:text-gray-900 py-2 px-4 block rounded-md transition-colors",
+      active && "bg-blue-50 text-blue-600",
+      className
+    )}
+    onClick={onClick}
+  >
+    {children}
+  </Link>
+);
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const [scrolled, setScrolled] = useState(false);
+  const [activePath, setActivePath] = useState("");
+  
+  // Track scroll position and set scrolled state
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrolled(window.scrollY > 10);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+  
+  // Set active path based on current URL
+  useEffect(() => {
+    setActivePath(window.location.pathname);
+  }, []);
+
+  const closeMenu = () => setIsOpen(false);
+  
+  // Expanded mobile menu item that can have children
+  const MobileMenuExpandable = ({ 
+    title, 
+    children 
+  }: { 
+    title: string; 
+    children: React.ReactNode;
+  }) => {
+    const [expanded, setExpanded] = useState(false);
+    
+    return (
+      <div className="mb-1">
+        <button
+          className="flex items-center justify-between w-full text-left text-gray-600 hover:text-gray-900 px-4 py-2 rounded-md"
+          onClick={() => setExpanded(!expanded)}
+        >
+          <span className="font-medium">{title}</span>
+          <ChevronDown 
+            className={`transition-transform ${expanded ? 'rotate-180' : ''}`} 
+            size={18} 
+          />
+        </button>
+        
+        {expanded && (
+          <div className="pl-4 ml-2 border-l border-gray-200 mt-1 space-y-1">
+            {children}
+          </div>
+        )}
+      </div>
+    );
+  };
 
   return (
-    <nav className="bg-white sticky top-0 z-20 shadow-md w-full">
+    <nav 
+      className={cn(
+        "sticky top-0 z-20 w-full bg-white transition-shadow duration-200",
+        scrolled && "shadow-md"
+      )}
+    >
       <div className="container mx-auto px-4 py-2 sm:px-6 lg:px-8">
         <div className="flex w-full justify-between h-16">
           <div className="flex items-center">
@@ -33,23 +115,28 @@ const Navbar = () => {
             {/* Desktop menu */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-4">
-                <Link
-                  href="/"
+                <MobileNavItem 
+                  href="/" 
+                  active={activePath === "/"} 
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Home
-                </Link>
+                </MobileNavItem>
 
-                <Link
-                  href="/about"
+                <MobileNavItem 
+                  href="/about" 
+                  active={activePath.startsWith("/about")}
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   About
-                </Link>
+                </MobileNavItem>
 
                 {/* Products Dropdown */}
                 <DropdownMenu>
-                  <DropdownMenuTrigger className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold focus:outline-none">
+                  <DropdownMenuTrigger className={cn(
+                    "text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold focus:outline-none",
+                    activePath.startsWith("/products") && "bg-blue-50 text-blue-600"
+                  )}>
                     Products{" "}
                     <ChevronDown className="inline-block ml-1 h-4 w-4" />
                   </DropdownMenuTrigger>
@@ -125,19 +212,21 @@ const Navbar = () => {
                   </DropdownMenuContent>
                 </DropdownMenu>
 
-                <Link
-                  href="/gallery"
+                <MobileNavItem 
+                  href="/gallery" 
+                  active={activePath.startsWith("/gallery")}
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Gallery
-                </Link>
+                </MobileNavItem>
                 
-                <Link
-                  href="/contact"
+                <MobileNavItem 
+                  href="/contact" 
+                  active={activePath.startsWith("/contact")}
                   className="text-gray-600 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-bold"
                 >
                   Contact Us
-                </Link>
+                </MobileNavItem>
               </div>
             </div>
           </div>
@@ -151,89 +240,74 @@ const Navbar = () => {
           <div className="md:hidden flex items-center">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500"
+              className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-blue-500"
+              aria-expanded={isOpen}
             >
-              <span className="sr-only">Open main menu</span>
-              <Menu className="block h-6 w-6" aria-hidden="true" />
+              <span className="sr-only">{isOpen ? 'Close menu' : 'Open menu'}</span>
+              {isOpen ? (
+                <X className="block h-6 w-6" aria-hidden="true" />
+              ) : (
+                <Menu className="block h-6 w-6" aria-hidden="true" />
+              )}
             </button>
           </div>
         </div>
       </div>
 
-      {/* Mobile menu */}
-      {isOpen && (
-        <div className="md:hidden">
-          <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <Link
-              href="/"
-              className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Home
-            </Link>
+      {/* Mobile menu - Improved with smooth transitions */}
+      <div 
+        className={cn(
+          "md:hidden fixed inset-0 bg-white z-50 transform transition-transform duration-300 ease-in-out",
+          isOpen ? "translate-x-0" : "translate-x-full"
+        )}
+      >
+        <div className="flex justify-between items-center p-4 border-b">
+          <Link href="/" onClick={closeMenu}>
+            <Image src="/logo.png" width={150} height={60} alt="Logo" />
+          </Link>
+          <button
+            onClick={closeMenu}
+            className="p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100"
+          >
+            <X size={24} />
+          </button>
+        </div>
+        
+        <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 max-h-[calc(100vh-80px)] overflow-y-auto">
+          <MobileNavItem href="/" onClick={closeMenu}>
+            Home
+          </MobileNavItem>
 
-            <Link
-              href="/about"
-              className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              About
-            </Link>
+          <MobileNavItem href="/about" onClick={closeMenu}>
+            About
+          </MobileNavItem>
 
-            {/* Mobile Products Dropdown */}
-            <div className="space-y-1">
-              <div className="text-gray-600 px-3 py-2 rounded-md text-base font-medium">
-                Products
+          {/* Mobile Products Dropdown - Improved hierarchy */}
+          <MobileMenuExpandable title="Products">
+            {productData.map((company) => (
+              <div key={company.name} className="py-1">
+                <MobileNavItem href={company.href} onClick={closeMenu}>
+                  {company.name}
+                </MobileNavItem>
               </div>
+            ))}
+          </MobileMenuExpandable>
 
-              {productData.map((company) => (
-                <div key={company.name} className="pl-6 space-y-1">
-                  <Link
-                    href={company.href}
-                    className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-sm font-medium"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {company.name}
-                  </Link>
+          <MobileNavItem href="/gallery" onClick={closeMenu}>
+            Gallery
+          </MobileNavItem>
+          
+          <MobileNavItem href="/contact" onClick={closeMenu}>
+            Contact Us
+          </MobileNavItem>
 
-                  {company.categories &&
-                    company.categories.map((category) => (
-                      <Link
-                        key={category.name}
-                        href={category.href}
-                        className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-xs font-medium pl-6"
-                        onClick={() => setIsOpen(false)}
-                      >
-                        {category.name}
-                      </Link>
-                    ))}
-                </div>
-              ))}
-            </div>
-
-            <Link
-              href="/services"
-              className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Services
-            </Link>
-
-            <Link
-              href="/gallery"
-              className="text-gray-600 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium"
-              onClick={() => setIsOpen(false)}
-            >
-              Gallery
-            </Link>
-
-            {/* Mobile search */}
-            <div className="mt-4 px-3">
-              <SearchBar />
-            </div>
+          {/* Mobile search */}
+          <div className="mt-4 px-3">
+            <p className="text-sm text-gray-500 mb-2">Search Products:</p>
+            <SearchBar />
           </div>
         </div>
-      )}
+      </div>
     </nav>
   );
 };
