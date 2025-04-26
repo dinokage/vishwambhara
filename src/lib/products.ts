@@ -491,6 +491,7 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "WIN IE2 0.18 kW 6P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T",
                 href: "/products/weg/ac-motors/tefc/tefc-b3t-18",
+                image: "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx"
               },
               {
                 name: "WIN IE2 0.25 kW 4P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T",
@@ -551,12 +552,7 @@ export const productCategories: ProductCategory[] = [
                 name: "Terramax SCV",
                 href: "/products/marathon/low-voltage/terramax/terramax-scv",
                 image: "terramax_scv_ie2_lojw60",
-              },
-              {
-                name: "Terramax TCV",
-                href: "/products/marathon/low-voltage/terramax/terramax-tcv",
-                image: "terramax_tcv_eocen4",
-              },
+              }
             ],
           },
           {
@@ -1063,10 +1059,10 @@ export const productCategories: ProductCategory[] = [
                 image: "venti-cool-20u_g5d2qa",
               },
               {
-                name: "Venti-cool 8U",
-                href: "/products/symphony/coolers/venticool/venti-cool-8u",
-                image: "venti-cool-8u_prqzuo",
-              },
+                name: "Industrial Ducting Cooler",
+                href: "/products/symphony/coolers/venticool/industrial-ducting-cooler",
+                image: "Products-05_kzqml1"
+              }
             ],
           },
           {
@@ -1084,14 +1080,14 @@ export const productCategories: ProductCategory[] = [
                 image: "Movicool--DD125_dx7cob",
               },
               {
-                name: "Movicool-XL100",
+                name: "Movicool-XE100",
                 href: "/products/symphony/coolers/movicool/movicool-xl100",
-                image: "Movicool--XL-100_ex6kq2",
+                image: "movicool-xe-100_zinnux",
               },
               {
-                name: "Movicool-XL200",
+                name: "Movicool-XE200",
                 href: "/products/symphony/coolers/movicool/movicool-xl200",
-                image: "Movicool--XL-200_gvwhcr",
+                image: "movicool-xe-200_emr534",
               },
             ],
           },
@@ -1113,54 +1109,29 @@ export const productCategories: ProductCategory[] = [
             href: "/products/ipc-tenant/scrubbers/walk-behind",
             items: [
               {
-                name: "CT 15",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct15",
-                image: "ipc-ct15-left-side_zntkqc",
+                name: "T300",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/t300",
+                image: "image.tennant-ap.M-T300_cdyyeb",
               },
               {
-                name: "CT 30",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct30",
-                image: "ipc-ct30_leh0vc",
+                name: "T300e",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/t300e",
+                image: "image.tennant-ap.M-T300E_mmr1ej",
               },
               {
-                name: "CT 40",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct40",
-                image: "ipc-ct40_zdsfhb",
+                name: "i-mpop XL Plus",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/i-mpop-xl-plus",
+                image: "image.tennant-ap.1267980_jc8cmf",
               },
               {
-                name: "CT 45",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct45",
-                image: "ipc-ct45_trnoqf",
+                name: "T1",
+                href: "/products/ipc-tenant/scrubbers/walk-behind/t1",
+                image: "image.tennant-ap.9008639_nagqcd",
               },
               {
-                name: "CT 46",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct46",
-                image: "ipc-ct-46-scrubber_c9r3al",
-              },
-              {
-                name: "CT 51",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct51",
-                image: "ipc-ct51v3_vqdimh",
-              },
-              {
-                name: "CT 55",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct55",
-                image: "ipc-ct55_nhydpj",
-              },
-              {
-                name: "CT 70",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct70",
-                image: "ipc-ct70_coze8s",
-              },
-              {
-                name: "CT 71",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct71",
-                image: "ipc-ct71-double-brushes_kyco0x",
-              },
-              {
-                name: "CT 90",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/ct90",
-                image: "ipc-ct90_apjaaw",
+                name: "T600",
+                href: "image.tennant-ap.M-T600_tlq7as",
+                image: "image.tennant-ap.M-T600_tlq7as",
               },
             ],
           },
@@ -1169,156 +1140,123 @@ export const productCategories: ProductCategory[] = [
             href: "/products/ipc-tenant/scrubbers/ride-on",
             items: [
               {
-                name: "CT 80",
-                href: "/products/ipc-tenant/scrubbers/ride-on/ct80",
-                image: "ipc-ct80_rllfvj",
+                name: "T560",
+                href: "/products/ipc-tenant/scrubbers/ride-on/t560",
+                image: "image.tennant-ap.STN8001001E01_ajffzn",
               },
               {
-                name: "CT 110",
-                href: "/products/ipc-tenant/scrubbers/ride-on/ct110",
-                image: "ipc-ct110_duvtvz",
+                name: "T16",
+                href: "/products/ipc-tenant/scrubbers/ride-on/t16",
+                image: "image.tennant-ap.M-T16_uwpwwx",
               },
               {
-                name: "CT 160",
-                href: "/products/ipc-tenant/scrubbers/ride-on/ct160",
-                image: "ipc-ct160_uywf1d",
+                name: "T7",
+                href: "/products/ipc-tenant/scrubbers/ride-on/t7",
+                image: "image.tennant-ap.M-T7_ykkq33"
               },
               {
-                name: "CT 231",
-                href: "/products/ipc-tenant/scrubbers/ride-on/ct231",
-                image: "ipc-ct231_w0ysii",
+                name: "T12",
+                href: "/products/ipc-tenant/scrubbers/ride-on/t12",
+                image: "image.tennant-ap.M-T12_vtniqa"
               },
             ],
           },
         ],
       },
       {
-        name: "High Pressure Washers",
-        href: "/products/ipc-tenant/high-pressure-washers",
+        name: "Sweeper Scrubbers",
+        href: "/products/ipc-tenant/sweeper-scrubbers",
         subcategories: [
           {
-            name: "Cold Water",
-            href: "/products/ipc-tenant/high-pressure-washers/cold-water",
+            name: "Battery Powered",
+            href: "/products/ipc-tenant/sweeper-scrubbers/battery-powered",
             items: [
               {
-                name: "PW-C10",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c10",
-                image: "ipc-pw-c22_p77cco",
-              },
-              {
-                name: "PW-C22",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c22",
-                image: "ipc-pw-c22_p77cco",
-              },
-              {
-                name: "PW-C23",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-23",
-                image: "ipc-pw-c23_l7dhn9",
-              },
-              {
-                name: "PW-C25",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c25",
-                image: "ipc-pw-c25_ej9a8n",
-              },
-              {
-                name: "PW-C40",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c40",
-                image: "ipc-pw-c40_wj8may",
-              },
-              {
-                name: "PW-C50",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c50",
-                image: "ipc-pw-c50_epudwz",
-              },
-              {
-                name: "PW-C70",
-                href: "/products/ipc-tenant/high-pressure-washers/cold-water/pw-c70",
-                image: "ipc-pw-c22_p77cco",
-              },
-            ],
+                name: "M17",
+                href: "/products/ipc-tenant/sweeper-scrubbers/battery-powered/m17",
+                image: "image.tennant-ap.M-M17_gwsvtv"
+              }
+            ]
           },
           {
-            name: " Hot Water",
-            href: "/products/ipc-tenant/high-pressure-washers/hot-water",
+            name: "Ride On",
+            href: "/products/ipc-tenant/sweeper-scrubbers/ride-on",
             items: [
               {
-                name: "PW-H28",
-                href: "/products/ipc-tenant/high-pressure-washers/hot-water/pw-h28",
-                image: "ipc-pw-h28_sngvs9",
+                name: "M20",
+                href: "/products/ipc-tenant/sweeper-scrubbers/ride-on/m20",
+                image: "image.tennant-ap.M-M20_kekoqn"
               },
               {
-                name: "PW-H50",
-                href: "/products/ipc-tenant/high-pressure-washers/hot-water/pw-h50",
-                image: "IPC-PW-H50_gbn2rn",
+                name: "M30",
+                href: "/products/ipc-tenant/sweeper-scrubbers/ride-on/m30",
+                image: "image.tennant-ap.M-M30_nxcxza"
               },
-              {
-                name: "PW-H90",
-                href: "/products/ipc-tenant/high-pressure-washers/hot-water/pw-h90",
-                image: "ipc-pw-h90_leqy7n",
-              },
-              {
-                name: "PW-H100",
-                href: "/products/ipc-tenant/high-pressure-washers/hot-water/pw-h100",
-                image: "ipc-pw-h100-htm_zpzpiu",
-              },
-            ],
-          },
-        ],
+            ]
+          }
+        ]
       },
       {
-        name: "Pure Water Cleaning Systems",
-        href: "/products/ipc-tenant/pure-water-cleaning-systems",
+        name: "Burnishers & floor Cleaning",
+        href: "/products/ipc-tenant/burnishers-floor-cleaning",
         subcategories: [
           {
-            name: "Professional Machines",
-            href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines",
+            name: "Rider",
+            href: "/products/ipc-tenant/burnishers-floor-cleaning/rider",
             items: [
               {
-                name: "HIghpure HPO",
-                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpo",
-                image: "ipc-highpurehpo_f3aznk",
-              },
-              {
-                name: "Highpure HPB",
-                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpb",
-                image: "ipc-highpurehpb_yq4uvn",
-              },
-              {
-                name: "Highpure HPE",
-                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/highpure-hpe",
-                image: "ipc-highpurehpe_pvjged",
-              },
-              {
-                name: "Greentube GTO",
-                href: "/products/ipc-tenant/pure-water-cleaning-systems/professional-machines/greentube-gto",
-                image: "ipc-greentubegto_lgj3ou",
-              },
-            ],
+                name: "B10",
+                href: "/products/ipc-tenant/burnishers-floor-cleaning/rider/b10",
+                image: "image.tennant-ap.M-B10_gfdzzh"
+              }
+            ]
           },
-        ],
+          {
+            name: "Walk Behind",
+            href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind",
+            items: [
+              {
+                name: "BR-1600-NDC",
+                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
+                image: "image.tennant-ap.9007347_czhi35"
+              },
+              {
+                name: "BR-2000-DC",
+                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/br-2000-dc",
+                image: "image.tennant-ap.9007349_pzpxm5"
+              },
+              {
+                name: "B5",
+                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/b5",
+                image: "image.tennant-ap.M-B5_vuo3op"
+              },
+              {
+                name: "B7",
+                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/b7",
+                image: "image.tennant-ap.M-B7_mcn1cn"
+              },
+            ]
+          }
+        ]
       },
+      
       {
         name: "Vacuum Cleaners",
         href: "/products/ipc-tenant/vaccum-cleaners",
         subcategories: [
           {
-            name: "Only Dry",
-            href: "/products/ipc-tenant/vaccum-cleaners/only-dry",
+            name: "Dry Canister",
+            href: "/products/ipc-tenant/vaccum-cleaners/dry-canister",
             items: [
               {
-                name: "LP 1/12 ECO B",
-                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/lp-1-2-eco-b",
-                image: "ipc-lp-1-12-eco-a-2_lu2gga",
+                name: "V-CAN-16",
+                href: "/products/ipc-tenant/vaccum-cleaners/dry-canister/v-can-16",
+                image: "image.tennant-ap.1252618_lrgyqi",
               },
               {
-                name: "LP 1/16 ECO B",
-                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/lp-1-16-eco-b",
-                image: "ipc-lp-1-16-eco-b_rwxpr5",
-              },
-              {
-                name: "FOX",
-                href: "/products/ipc-tenant/vaccum-cleaners/only-dry/fox",
-                image: "ipc-fox_zuk6dp",
+                name: "V-CAN-10",
+                href: "/products/ipc-tenant/vaccum-cleaners/dry-canister/v-can-10",
+                image: "image.tennant-ap.1244292_ulvtkd",
               },
             ],
           },
@@ -1327,65 +1265,35 @@ export const productCategories: ProductCategory[] = [
             href: "/products/ipc-tenant/vaccum-cleaners/wet-dry",
             items: [
               {
-                name: "ASPIRO 150 Steel",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-150-steel",
-                image: "ipc-aspiro-150-steel_gcushv",
+                name: "V-WD-62",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-62",
+                image: "image.tennant-ap.1244337_sxvxqu"
               },
               {
-                name: "ASPIRO 151 PLAST",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-151-plast",
-                image: "ipc-aspiro-151-plast_mdiqg1",
+                name: "V-WD-72",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-72",
+                image: "image.tennant-ap.1244342_nycbgm",
               },
               {
-                name: "ASPIRO 151 Steel",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-151-steel",
-                image: "ipc-aspiro-151-steel_xqrwdl",
-              },
-              {
-                name: "APIRO 730 STEEL",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-730-steel",
-                image: "ipc-aspiro750-steel_ermvyj",
-              },
-              {
-                name: "ASPIRO 724 STEEL",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-724-steel",
-                image: "",
-              },
-              {
-                name: "ASPIRO 735 STEEL",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-735-steel",
-                image: "ipc-aspiro-735-steel_irblgo",
-              },
-              {
-                name: "ASPIRO 429 SUB",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/aspiro-429-steel",
-                image: "ipc-aspiro-429-sub_ce1lfo",
+                name: "V-WD-27",
+                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-27",
+                image: "image.tennant-ap.1244332_klk8vn",
               },
             ],
           },
           {
-            name: "Wet Extractors",
-            href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors",
+            name: "Backpack Vacuum",
+            href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum",
             items: [
               {
-                name: "LAVA",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/lava",
-                image: "ipc-lava_glmius",
+                name: "V-BP-7",
+                href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum/v-bp-7",
+                image: "image.tennant-ap.1233392_xhluxz",
               },
               {
-                name: "NEW GARAGE",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/new-garage",
-                image: "ipc-new-garage_llf564",
-              },
-              {
-                name: "GS 1/33 EXT",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/gs-1-33-ext",
-                image: "ipc-gs1-33ext_gzhu5u",
-              },
-              {
-                name: "GS 2/62 EXT",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-extractors/gs-2-62-ext",
-                image: "ipc-gs2-62ext_adqbet",
+                name: "V-BP-6",
+                href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum/v-bp-6",
+                image: "image.tennant-ap.1215364_te2kk8",
               },
             ],
           },
@@ -1400,39 +1308,19 @@ export const productCategories: ProductCategory[] = [
             href: "/products/ipc-tenant/sweepers/walk-behind",
             items: [
               {
-                name: "510 M",
-                href: "/products/ipc-tenant/sweepers/walk-behind/510-m",
-                image: "ipc-sweeper-510m_xzxy18",
+                name: "S6",
+                href: "/products/ipc-tenant/sweepers/walk-behind/s6",
+                image: "image.tennant-ap.1251268_glpavh",
               },
               {
-                name: "464",
-                href: "/products/ipc-tenant/sweepers/walk-behind/464",
-                image: "ipc-464_mwlwgk",
+                name: "S10",
+                href: "/products/ipc-tenant/sweepers/walk-behind/s10",
+                image: "image.tennant-ap.M-S10_jrng0h",
               },
               {
-                name: "664",
-                href: "/products/ipc-tenant/sweepers/walk-behind/664",
-                image: "ipc-664_hfd03m",
-              },
-              {
-                name: "505",
-                href: "/products/ipc-tenant/sweepers/walk-behind/505",
-                image: "ipc-505_fedj2x",
-              },
-              {
-                name: "705",
-                href: "/products/ipc-tenant/sweepers/walk-behind/705",
-                image: "ipc-705_younca",
-              },
-              {
-                name: "512",
-                href: "/products/ipc-tenant/sweepers/walk-behind/512",
-                image: "ipc-512_plspkg",
-              },
-              {
-                name: "712",
-                href: "/products/ipc-tenant/sweepers/walk-behind/712",
-                image: "ipc-712_pg5qii",
+                name: "S7",
+                href: "/products/ipc-tenant/sweepers/walk-behind/s7",
+                image: "image.tennant-ap.1251273_eqsihc",
               },
             ],
           },
@@ -1441,24 +1329,19 @@ export const productCategories: ProductCategory[] = [
             href: "/products/ipc-tenant/sweepers/ride-on",
             items: [
               {
-                name: "1050",
-                href: "/products/ipc-tenant/sweepers/ride-on/1050",
-                image: "ipc-1050_v9bmrg",
+                name: "s30",
+                href: "/products/ipc-tenant/sweepers/ride-on/s30",
+                image: "image.tennant-ap.M-S30_ktvut8",
               },
               {
-                name: "1250",
-                href: "/products/ipc-tenant/sweepers/ride-on/1250",
-                image: "ipc-1250_evg4es",
+                name: "6100",
+                href: "/products/ipc-tenant/sweepers/ride-on/6100",
+                image: "image.tennant-ap.M-6100_gfncxj",
               },
               {
-                name: "1280",
-                href: "/products/ipc-tenant/sweepers/ride-on/1280",
-                image: "ipc-1280_jttds3",
-              },
-              {
-                name: "1404",
-                href: "/products/ipc-tenant/sweepers/ride-on/1404",
-                image: "ipc-1404_wq0rvh",
+                name: "S16",
+                href: "/products/ipc-tenant/sweepers/ride-on/s16",
+                image: "image.tennant-ap.M-S16H_ezqq8u",
               },
             ],
           },

@@ -1,10 +1,10 @@
 "use client";
 
 import Link from "next/link";
-// import CloudinaryImage from "./CloudinaryImage";
-import Image from "next/image";
+// import Image from "next/image";
 import { ArrowRight } from "lucide-react";
 import { teamMembers } from "@/lib/team";
+import CloudinaryImage from "./CloudinaryImage";
 
 // Team member type definition
 
@@ -28,16 +28,16 @@ export function TeamSection() {
         </Link>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        {teamMembers.map((member) => (
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+        {teamMembers.slice(0,5).map((member) => (
           <div key={member.id} className="bg-white rounded-lg shadow-sm border overflow-hidden">
             <div className="bg-gray-100 relative">
-              <Image
+              <CloudinaryImage
                 src={member.imageId}
                 alt={`${member.name} - ${member.designation}`}
                 width={400}
                 height={400}
-                className="object-fill w-full h-full"
+                removeBackground={true} // Optional: Set to true if you want to remove the background
               />
             </div>
             <div className="p-4">

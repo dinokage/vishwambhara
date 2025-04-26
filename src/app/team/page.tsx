@@ -1,4 +1,5 @@
-import Image from "next/image";
+// import Image from "next/image";
+import CloudinaryImage from "@/components/CloudinaryImage";
 import { teamMembers } from "@/lib/team";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
@@ -27,15 +28,16 @@ export default function TeamsPage() {
         our company a leader in the industry.
       </p>
       
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
         {allTeamMembers.map((member) => (
           <div key={member.id} className="bg-white rounded-lg shadow-sm border overflow-hidden hover:shadow-md transition-shadow w-fit">
             <div className="bg-gray-100 relative">
-              <Image
+              <CloudinaryImage
                 src={member.imageId}
                 alt={`${member.name} - ${member.designation}`}
                 width={300}
                 height={300}
+                removeBackground={true} // Optional: Set to true if you want to remove the background
               />
             </div>
             <div className="p-4">

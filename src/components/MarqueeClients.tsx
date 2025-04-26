@@ -12,36 +12,54 @@ const clientData = [
     content: "Content for Card 1",
     imageUrl: "8_jjwxxf",
   },
-  {
-    id: 2,
-    title: "Gemini Cooking Oil",
-    content: "Content for Company 2",
-    imageUrl: "image_232_a4pft5",
-  },
-  {
-    id: 3,
-    title: "Rushil Decor",
-    content: "Content for Company 3",
-    imageUrl: "image_236_datupc",
-  },
-  {
-    id: 4,
-    title: "Grand Pharma",
-    content: "Content for Company 4",
-    imageUrl: "image_240_xzcp9o",
-  },
-  {
-    id: 5,
-    title: "JK Paper",
-    content: "Content for Company 4",
-    imageUrl: "image_235_rl9vw0",
-  },
-  {
-    id: 6,
-    title: "RAK Ceramics",
-    content: "Content for Company 4",
-    imageUrl: "image_234_f4ebir",
-  },
+  {  
+  id: 5,
+  title: "AM/NS India",
+  content: "Content for Card 1",
+  imageUrl: "image_237_ixbgf4",
+},
+// {
+//   id: 2,
+//   title: "UB",
+//   content: "Content for Company 2",
+//   imageUrl: "UB_fjbikp",
+// },
+{
+  id: 3,
+  title: "HPCL",
+  content: "Content for Company 4",
+  imageUrl: "image_221_zxwvw6",
+},
+  // {
+  //   id: 2,
+  //   title: "Gemini Cooking Oil",
+  //   content: "Content for Company 2",
+  //   imageUrl: "image_232_a4pft5",
+  // },
+  // {
+  //   id: 3,
+  //   title: "Rushil Decor",
+  //   content: "Content for Company 3",
+  //   imageUrl: "image_236_datupc",
+  // },
+  // {
+  //   id: 4,
+  //   title: "Grand Pharma",
+  //   content: "Content for Company 4",
+  //   imageUrl: "image_240_xzcp9o",
+  // },
+  // {
+  //   id: 5,
+  //   title: "JK Paper",
+  //   content: "Content for Company 4",
+  //   imageUrl: "image_235_rl9vw0",
+  // },
+  // {
+  //   id: 6,
+  //   title: "RAK Ceramics",
+  //   content: "Content for Company 4",
+  //   imageUrl: "image_234_f4ebir",
+  // },
   {
     id: 7,
     title: "Coca Cola",
@@ -52,34 +70,16 @@ const clientData = [
 
 const projectData = [
   {
-    id: 1,
-    title: "AM/NS India",
-    content: "Content for Card 1",
-    imageUrl: "image_237_ixbgf4",
-  },
-  {
-    id: 2,
-    title: "UB",
-    content: "Content for Company 2",
-    imageUrl: "image_238_y6ygiw",
-  },
-  {
-    id: 3,
-    title: "HPCL",
-    content: "Content for Company 4",
-    imageUrl: "image_221_zxwvw6",
-  },
-  {
     id: 4,
     title: "Laurus Labs",
     content: "Content for Company 5",
-    imageUrl: "image_223_pwopuh",
+    imageUrl: "Laurus-labs_ixe527",
   },
   {
     id: 5,
     title: "Vizag Steel",
     content: "Content for Company 5",
-    imageUrl: "image_224_onrgvh",
+    imageUrl: "vzgstl_1_g18bfg",
   },
   {
     id: 6,
@@ -144,8 +144,8 @@ export default function MarqueeClients() {
                       <CloudinaryImage
                         src={card.imageUrl}
                         alt={card.title}
-                        height={200}
-                        width={200}
+                        height={50}
+                        width={50}
                       />
                     </div>
                   </div>
