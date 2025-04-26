@@ -22,8 +22,7 @@ export default function Contact() {
               <p className="font-semibold">Sales Office</p>
               <p># 39-11-3/2, 1st Floor, Above Punjab National Bank of Commerce, Muralinagar, Bank Street, Sector-11, Visakhapatnam - 530007, AP, India.</p>
               <p className="font-semibold">Register Office</p>
-              <p>APIIE E Block,Plot No 54,Autonagar,Gajuwaka,
-              Visakhapatnam - 530007, AP, India.</p>
+              <p> #HIG No. 76, OPP Ebenezer Nursing Home, Aganampudi to Duvvada Rly Station Rd, Talarivanipalem, Visakhapatnam, 530053</p>
             </div>
           </div>
 

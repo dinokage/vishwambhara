@@ -1096,36 +1096,36 @@ export const productCategories: ProductCategory[] = [
     ],
   },
   {
-    name: "IPC Tenant",
-    href: "/products/ipc-tenant",
-    image: "ipcworldwide_logo_aaqsu6",
+    name: "Tennant",
+    href: "/products/tennant",
+    image: "tennant_fi68v1",
     categories: [
       {
         name: "Scrubbers",
-        href: "/products/ipc-tenant/scrubbers",
+        href: "/products/tennant/scrubbers",
         subcategories: [
           {
             name: "Walk-Behind",
-            href: "/products/ipc-tenant/scrubbers/walk-behind",
+            href: "/products/tennant/scrubbers/walk-behind",
             items: [
               {
                 name: "T300",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/t300",
+                href: "/products/tennant/scrubbers/walk-behind/t300",
                 image: "image.tennant-ap.M-T300_cdyyeb",
               },
               {
                 name: "T300e",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/t300e",
+                href: "/products/tennant/scrubbers/walk-behind/t300e",
                 image: "image.tennant-ap.M-T300E_mmr1ej",
               },
               {
                 name: "i-mpop XL Plus",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/i-mpop-xl-plus",
+                href: "/products/tennant/scrubbers/walk-behind/i-mpop-xl-plus",
                 image: "image.tennant-ap.1267980_jc8cmf",
               },
               {
                 name: "T1",
-                href: "/products/ipc-tenant/scrubbers/walk-behind/t1",
+                href: "/products/tennant/scrubbers/walk-behind/t1",
                 image: "image.tennant-ap.9008639_nagqcd",
               },
               {
@@ -1137,26 +1137,26 @@ export const productCategories: ProductCategory[] = [
           },
           {
             name: "Ride On",
-            href: "/products/ipc-tenant/scrubbers/ride-on",
+            href: "/products/tennant/scrubbers/ride-on",
             items: [
               {
                 name: "T560",
-                href: "/products/ipc-tenant/scrubbers/ride-on/t560",
+                href: "/products/tennant/scrubbers/ride-on/t560",
                 image: "image.tennant-ap.STN8001001E01_ajffzn",
               },
               {
                 name: "T16",
-                href: "/products/ipc-tenant/scrubbers/ride-on/t16",
+                href: "/products/tennant/scrubbers/ride-on/t16",
                 image: "image.tennant-ap.M-T16_uwpwwx",
               },
               {
                 name: "T7",
-                href: "/products/ipc-tenant/scrubbers/ride-on/t7",
+                href: "/products/tennant/scrubbers/ride-on/t7",
                 image: "image.tennant-ap.M-T7_ykkq33"
               },
               {
                 name: "T12",
-                href: "/products/ipc-tenant/scrubbers/ride-on/t12",
+                href: "/products/tennant/scrubbers/ride-on/t12",
                 image: "image.tennant-ap.M-T12_vtniqa"
               },
             ],
@@ -1165,31 +1165,31 @@ export const productCategories: ProductCategory[] = [
       },
       {
         name: "Sweeper Scrubbers",
-        href: "/products/ipc-tenant/sweeper-scrubbers",
+        href: "/products/tennant/sweeper-scrubbers",
         subcategories: [
           {
             name: "Battery Powered",
-            href: "/products/ipc-tenant/sweeper-scrubbers/battery-powered",
+            href: "/products/tennant/sweeper-scrubbers/battery-powered",
             items: [
               {
                 name: "M17",
-                href: "/products/ipc-tenant/sweeper-scrubbers/battery-powered/m17",
+                href: "/products/tennant/sweeper-scrubbers/battery-powered/m17",
                 image: "image.tennant-ap.M-M17_gwsvtv"
               }
             ]
           },
           {
             name: "Ride On",
-            href: "/products/ipc-tenant/sweeper-scrubbers/ride-on",
+            href: "/products/tennant/sweeper-scrubbers/ride-on",
             items: [
               {
                 name: "M20",
-                href: "/products/ipc-tenant/sweeper-scrubbers/ride-on/m20",
+                href: "/products/tennant/sweeper-scrubbers/ride-on/m20",
                 image: "image.tennant-ap.M-M20_kekoqn"
               },
               {
                 name: "M30",
-                href: "/products/ipc-tenant/sweeper-scrubbers/ride-on/m30",
+                href: "/products/tennant/sweeper-scrubbers/ride-on/m30",
                 image: "image.tennant-ap.M-M30_nxcxza"
               },
             ]
@@ -1198,41 +1198,41 @@ export const productCategories: ProductCategory[] = [
       },
       {
         name: "Burnishers & floor Cleaning",
-        href: "/products/ipc-tenant/burnishers-floor-cleaning",
+        href: "/products/tennant/burnishers-floor-cleaning",
         subcategories: [
           {
             name: "Rider",
-            href: "/products/ipc-tenant/burnishers-floor-cleaning/rider",
+            href: "/products/tennant/burnishers-floor-cleaning/rider",
             items: [
               {
                 name: "B10",
-                href: "/products/ipc-tenant/burnishers-floor-cleaning/rider/b10",
+                href: "/products/tennant/burnishers-floor-cleaning/rider/b10",
                 image: "image.tennant-ap.M-B10_gfdzzh"
               }
             ]
           },
           {
             name: "Walk Behind",
-            href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind",
+            href: "/products/tennant/burnishers-floor-cleaning/walk-behind",
             items: [
               {
                 name: "BR-1600-NDC",
-                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
+                href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
                 image: "image.tennant-ap.9007347_czhi35"
               },
               {
                 name: "BR-2000-DC",
-                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/br-2000-dc",
+                href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-2000-dc",
                 image: "image.tennant-ap.9007349_pzpxm5"
               },
               {
                 name: "B5",
-                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/b5",
+                href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b5",
                 image: "image.tennant-ap.M-B5_vuo3op"
               },
               {
                 name: "B7",
-                href: "/products/ipc-tenant/burnishers-floor-cleaning/walk-behind/b7",
+                href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b7",
                 image: "image.tennant-ap.M-B7_mcn1cn"
               },
             ]
@@ -1242,57 +1242,57 @@ export const productCategories: ProductCategory[] = [
       
       {
         name: "Vacuum Cleaners",
-        href: "/products/ipc-tenant/vaccum-cleaners",
+        href: "/products/tennant/vaccum-cleaners",
         subcategories: [
           {
             name: "Dry Canister",
-            href: "/products/ipc-tenant/vaccum-cleaners/dry-canister",
+            href: "/products/tennant/vaccum-cleaners/dry-canister",
             items: [
               {
                 name: "V-CAN-16",
-                href: "/products/ipc-tenant/vaccum-cleaners/dry-canister/v-can-16",
+                href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-16",
                 image: "image.tennant-ap.1252618_lrgyqi",
               },
               {
                 name: "V-CAN-10",
-                href: "/products/ipc-tenant/vaccum-cleaners/dry-canister/v-can-10",
+                href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-10",
                 image: "image.tennant-ap.1244292_ulvtkd",
               },
             ],
           },
           {
             name: "Wet & Dry",
-            href: "/products/ipc-tenant/vaccum-cleaners/wet-dry",
+            href: "/products/tennant/vaccum-cleaners/wet-dry",
             items: [
               {
                 name: "V-WD-62",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-62",
+                href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-62",
                 image: "image.tennant-ap.1244337_sxvxqu"
               },
               {
                 name: "V-WD-72",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-72",
+                href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-72",
                 image: "image.tennant-ap.1244342_nycbgm",
               },
               {
                 name: "V-WD-27",
-                href: "/products/ipc-tenant/vaccum-cleaners/wet-dry/v-wd-27",
+                href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-27",
                 image: "image.tennant-ap.1244332_klk8vn",
               },
             ],
           },
           {
             name: "Backpack Vacuum",
-            href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum",
+            href: "/products/tennant/vaccum-cleaners/backpack-vaccum",
             items: [
               {
                 name: "V-BP-7",
-                href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum/v-bp-7",
+                href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-7",
                 image: "image.tennant-ap.1233392_xhluxz",
               },
               {
                 name: "V-BP-6",
-                href: "/products/ipc-tenant/vaccum-cleaners/backpack-vaccum/v-bp-6",
+                href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-6",
                 image: "image.tennant-ap.1215364_te2kk8",
               },
             ],
@@ -1301,46 +1301,46 @@ export const productCategories: ProductCategory[] = [
       },
       {
         name: "Sweepers",
-        href: "/products/ipc-tenant/sweepers",
+        href: "/products/tennant/sweepers",
         subcategories: [
           {
             name: "Walk-Behind",
-            href: "/products/ipc-tenant/sweepers/walk-behind",
+            href: "/products/tennant/sweepers/walk-behind",
             items: [
               {
                 name: "S6",
-                href: "/products/ipc-tenant/sweepers/walk-behind/s6",
+                href: "/products/tennant/sweepers/walk-behind/s6",
                 image: "image.tennant-ap.1251268_glpavh",
               },
               {
                 name: "S10",
-                href: "/products/ipc-tenant/sweepers/walk-behind/s10",
+                href: "/products/tennant/sweepers/walk-behind/s10",
                 image: "image.tennant-ap.M-S10_jrng0h",
               },
               {
                 name: "S7",
-                href: "/products/ipc-tenant/sweepers/walk-behind/s7",
+                href: "/products/tennant/sweepers/walk-behind/s7",
                 image: "image.tennant-ap.1251273_eqsihc",
               },
             ],
           },
           {
             name: "Ride On",
-            href: "/products/ipc-tenant/sweepers/ride-on",
+            href: "/products/tennant/sweepers/ride-on",
             items: [
               {
                 name: "s30",
-                href: "/products/ipc-tenant/sweepers/ride-on/s30",
+                href: "/products/tennant/sweepers/ride-on/s30",
                 image: "image.tennant-ap.M-S30_ktvut8",
               },
               {
                 name: "6100",
-                href: "/products/ipc-tenant/sweepers/ride-on/6100",
+                href: "/products/tennant/sweepers/ride-on/6100",
                 image: "image.tennant-ap.M-6100_gfncxj",
               },
               {
                 name: "S16",
-                href: "/products/ipc-tenant/sweepers/ride-on/s16",
+                href: "/products/tennant/sweepers/ride-on/s16",
                 image: "image.tennant-ap.M-S16H_ezqq8u",
               },
             ],
