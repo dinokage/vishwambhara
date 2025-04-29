@@ -32,7 +32,7 @@ export const teamMembers: TeamMember[] = [
     id: 5,
     name: "Satyakiran Kandula",
     designation: "Manager - CECB ",
-    imageId: "WhatsApp_Image_2025-04-15_at_2.00.08_PM_1_3_dczomp",
+    imageId: "satyakiran_zpaoxd",
   },
   {
     id: 18,
@@ -49,27 +49,27 @@ export const teamMembers: TeamMember[] = [
  
   {
     id: 2,
-    name: "Govindu rajulu Kotipalli",
+    name: "Govindu Rajulu Kotipalli",
     designation: "Service Manager - South",
-    imageId: "WhatsApp_Image_2025-04-15_at_4.55.14_PM_2_upmcbz",
+    imageId: "govindu_mbqxnp",
   },
   {
     id: 3,
     name: "Santosh Sahoo",
     designation: "Service Manager - North",
-    imageId: "WhatsApp_Image_2025-04-15_at_3.25.14_PM_2_ok68qu",
+    imageId: "santosh_yzdng0",
   },
   {
     id: 4,
     name: "Satyanarayana Kotipalli",
     designation: "Service Team Leader - South",
-    imageId: "WhatsApp_Image_2025-04-15_at_2.17.13_PM_2_n3cmof",
+    imageId: "satyanarayana_nl47oe",
   },
   {
     id: 6,
     name: "Sai Kumar Metta",
     designation: "Service Team Leader-North",
-    imageId: "WhatsApp_Image_2025-04-15_at_2.00.08_PM_1_m9tii3",
+    imageId: "saikumar_zi6b4f",
   },
   {
     id: 13,
@@ -128,7 +128,7 @@ export const teamMembers: TeamMember[] = [
     id: 1,
     name: "Gouri Prasad Patnaik",
     designation: "Manager - Stores",
-    imageId: "WhatsApp_Image_2025-04-15_at_1.40.44_PM_1_1_jmukua", // Cloudinary public_id
+    imageId: "pp-gouri_gqx227", // Cloudinary public_id
   },
   {
     id: 14,
