@@ -10,8 +10,8 @@ const carouselItems = [
     id: 1,
     src: "/carousel/compressor.webp",
     alt: "Lab-tested. Industry-approved.",
-    title: "Lab-tested. Industry-approved.",
-    subtitle: "Results that speak precision",
+    title: "Industrial Engineering Experts",
+    subtitle: "",
     cta: "Explore Our Testing",
     link: "/about-us"
   },

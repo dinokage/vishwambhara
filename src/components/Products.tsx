@@ -84,7 +84,6 @@ export default function HomeProducts() {
                 className="max-h-full object-contain"
               />
             </div>
-            <h3 className="text-sky-500 font-medium text-center mb-4">{brand.name}</h3>
             <Link
               href={brand.url}
               className="inline-flex items-center border border-gray-300 rounded px-4 py-2 text-sm hover:bg-gray-50 transition-colors"
