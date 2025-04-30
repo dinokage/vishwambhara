@@ -6,6 +6,7 @@ import { Eye, X, ShoppingCart, ArrowRight } from 'lucide-react'
 import CloudinaryImage from './CloudinaryImage'
 import { Dialog, DialogContent, DialogTitle, DialogDescription } from '@/components/ui/dialog'
 import { Button } from '@/components/ui/button'
+import InquiryForm from './InquiryForm'
 
 type QuickViewProps = {
   name: string
@@ -23,6 +24,12 @@ const ProductCard = ({
   description = "High-quality industrial product designed for optimal performance and reliability."
 }: QuickViewProps) => {
   const [isOpen, setIsOpen] = useState(false)
+  const [showInquiryForm, setShowInquiryForm] = useState(false)
+
+  const handleInquireClick = (e: React.MouseEvent) => {
+    e.preventDefault()
+    setShowInquiryForm(true)
+  }
 
   return (
     <>
@@ -120,13 +127,11 @@ const ProductCard = ({
                   </Button>
                   
                   <Button
-                    asChild
+                    onClick={handleInquireClick}
                     className="flex items-center justify-center gap-2 flex-1 bg-[#0275d8] hover:bg-[#0261b0]"
                   >
-                    <Link href="/contact">
-                      <ShoppingCart className="h-4 w-4" />
-                      Inquire Now
-                    </Link>
+                    <ShoppingCart className="h-4 w-4" />
+                    Inquire Now
                   </Button>
                 </div>
                 
@@ -141,6 +146,15 @@ const ProductCard = ({
           </div>
         </DialogContent>
       </Dialog>
+
+      {/* Inquiry Form */}
+      <InquiryForm
+        isOpen={showInquiryForm}
+        onClose={() => setShowInquiryForm(false)}
+        productName={name}
+        productImage={image}
+        companyName={companyName}
+      />
     </>
   )
 }
