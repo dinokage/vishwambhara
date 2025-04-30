@@ -58,7 +58,6 @@ export async function POST(request: NextRequest) {
       email, 
       phone, 
       productName, 
-      productImage, 
       companyName 
     } = body;
 
