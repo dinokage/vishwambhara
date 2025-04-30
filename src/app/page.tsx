@@ -12,7 +12,7 @@ export default function Home() {
       <Carousel />
       <HomeProducts />
      
-        <Image src="/anniversary.svg" alt="25 years anniversary" quality={100} width={400} height={400} className="object-contain mx-auto h-screen w-7xl px-20 rotate-270"/>
+        <Image src="/anniversary.svg" alt="25 years anniversary" quality={100} width={400} height={400} className="object-contain mx-auto w-7xl px-20 rotate-270"/>
      
       <Services />
       <TeamSection />

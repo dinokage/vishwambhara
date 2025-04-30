@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { productCategories as productData } from "@/lib/products";
 import { use } from 'react';
+import CloudinaryImage from "@/components/CloudinaryImage";
 
 export default function CategoryPage({ 
   params 
@@ -56,7 +57,7 @@ export default function CategoryPage({
               className="block p-6 border rounded-lg shadow-sm hover:shadow-md transition-shadow bg-white"
             >
               <div className="aspect-square bg-gray-100 mb-4 flex items-center justify-center">
-                <span className="text-gray-400">Subcategory Image</span>
+                {subcategory.image ? <CloudinaryImage src={subcategory.image} alt={subcategory.name} /> : <span className="text-gray-400">Subcategory Image</span>}
               </div>
               <h2 className="text-lg font-semibold">{subcategory.name}</h2>
               <p className="text-gray-600 mt-2">

@@ -88,7 +88,7 @@ export default function ProductItemPage({
             <h3 className="text-lg font-medium mb-3">Interested in this product?</h3>
             <p className="mb-4">Contact us for more information, pricing, and availability.</p>
             <Link 
-              href="/ContactUs" 
+              href="/contact" 
               className="inline-block bg-[#0275d8] hover:bg-[#0261b0] text-white font-bold py-2 px-4 rounded"
             >
               Contact Us

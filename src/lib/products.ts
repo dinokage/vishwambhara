@@ -14,6 +14,8 @@ export const productCategories: ProductCategory[] = [
             name: "Oil-free Air Compressors",
             href: "/products/atlas-copco/air-compressors/oil-free",
             slug: "oil-free",
+            image: "lfx-compact-oil-free-_piston-compressors_zmepxq",
+
             items: [
               {
                 name: "LFx compact oil-free piston compressors",
@@ -93,12 +95,14 @@ export const productCategories: ProductCategory[] = [
             name: "Piston Compressors",
             href: "/products/atlas-copco/air-compressors/piston",
             slug: "piston",
+            image:"industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
+
+            
             items: [
               {
                 name: "Industrial Piston Compressor - Low Pressure <15 bar",
                 href: "/products/atlas-copco/air-compressors/piston/low-pressure",
-                image:
-                  "industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
+                image:"industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
               },
               {
                 name: "Industrial Piston Compressor - High Pressure ≥15 bar",
@@ -119,16 +123,19 @@ export const productCategories: ProductCategory[] = [
         name: "Air Dryers",
         href: "/products/atlas-copco/air-treatment",
         slug: "air-treatment",
+        image: "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
+
         subcategories: [
           {
             name: "Desiccant air dryers",
             href: "/products/atlas-copco/air-treatment/desiccant",
+            image: "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
+
             items: [
               {
                 name: "BD+CD+XD+ twin tower desiccant air dryers",
                 href: "/products/atlas-copco/air-treatment/desiccant/bd-cd-xd",
-                image:
-                  "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
+                image: "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
               },
               {
                 name: "CD+ with Cerades",
@@ -150,6 +157,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Refrigerated air dryers",
             href: "/products/atlas-copco/air-treatment/refrigerated",
+            image: "f_-_refrigerated_-_air_-_dryer_qwhzw7",
+
             items: [
               {
                 name: "F refrigerated air dryer",
@@ -184,6 +193,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Industrial heat pumps",
             href: "/products/atlas-copco/energy-conversion/heat-pumps",
+            image: "eh_industrial_-_heat_-_pump_hll6jt",
+
             items: [
               {
                 name: "EH industrial heat pump ",
@@ -195,6 +206,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "AIRNet",
             href: "/products/atlas-copco/energy-conversion/airnet",
+            image: "aluminium_-_piping_fqyu01",
+
             items: [
               {
                 name: "Aluminium Piping",
@@ -231,6 +244,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "R Series",
             href: "/products/sew/gear-motors/r-series",
+            image: "RX_series_betpv0",
+
             items: [
               {
                 name: "RX series (single-stage)",
@@ -252,6 +267,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "F Series",
             href: "/products/sew/gear-motors/f-series",
+            image: "F_series_parallel-shaft_helical_bxqyz6",
+
             items: [
               {
                 name: "F series parallel shaft helical gear units",
@@ -263,6 +280,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "K Series ",
             href: "/products/sew/gear-motors/k-series",
+            image: "K_series_helical-bevel_gear_units_chln8j",
+
             items: [
               {
                 name: "K series helical-bevel gear units",
@@ -274,6 +293,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "S Series ",
             href: "/products/sew/gear-motors/s-series",
+            image: "S_series_helical-worm_gear_units_kua6ag",
+
             items: [
               {
                 name: "S series helical-worm gear units",
@@ -285,6 +306,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "W Series ",
             href: "/products/sew/gear-motors/w-series",
+            image: "W_series_right-angle_gear_units_gltleu",
+
             items: [
               {
                 name: "W series right-angle gear units",
@@ -296,6 +319,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Mechatronic drives",
             href: "/products/sew/gear-motors/mechatronic-drives",
+            image: "MOVIGEAR_mechatronic_drive_xdf2he",
+
             items: [
               {
                 name: "MOVIGEAR",
@@ -320,6 +345,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Industrial Gear units ",
             href: "/products/sew/gear-motors/industrial-gear-units",
+            image:
+                  "industrial-gear-unit-bevel-helical-gear-unit-ml-390x220_ajsauo",
             items: [
               {
                 name: "bevel-helical gear units",
@@ -339,10 +366,14 @@ export const productCategories: ProductCategory[] = [
       {
         name: "Inverter technology",
         href: "/products/sew/inverter-technology",
+        image: "Movitrac_Inverter_MCO7B_230V_whvne3",
+
         subcategories: [
           {
             name: "Control cabinet installation",
             href: "/products/sew/inverter-technology/control-cabinet",
+            image: "Movitrac_Inverter_MCO7B_230V_whvne3",
+
             items: [
               {
                 name: "MOVITRAC Inverter MCO7B",
@@ -373,6 +404,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Water Systems",
             href: "/products/praj/solutions/water-systems",
+            image: "raw-water-to-point-of-use_af1kuc",
+
             items: [
               {
                 name: "Raw Water to Point Of Use",
@@ -419,6 +452,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "General Purpose",
             href: "/products/weg/ac-motors/general-purpose",
+            image: "odp-rool-steel_rk0vft",
             slug: "general-purpose",
             items: [
               {
@@ -445,6 +479,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Severe Duty",
             href: "/products/weg/ac-motors/severe-duty",
+            image: "w22_oyn1fz",
+
             items: [
               {
                 name: "W22",
@@ -471,6 +507,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Explosion Proof/DIP",
             href: "/products/weg/ac-motors/explosion-proof",
+            image: "explosion-proof_b4vfyu",
+
             items: [
               {
                 name: "Explosion Proof Motor",
@@ -487,6 +525,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "WIN - Cast Iron TEFC",
             href: "/products/weg/ac-motors/tefc",
+            image: "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx",
             items: [
               {
                 name: "WIN IE2 0.18 kW 6P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T",
@@ -523,7 +562,7 @@ export const productCategories: ProductCategory[] = [
   {
     name: "Marathon",
     href: "/products/marathon",
-    image: "marathon_mobbim",
+    image: "image_17_y5xewg",
     categories: [
       {
         name: "Low Voltage Motors",
@@ -532,6 +571,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Terramax",
             href: "/products/marathon/low-voltage/terramax",
+            image: " teramax_sca_ufmxzt",
+
             items: [
               {
                 name: "Terramax SCA",
@@ -558,6 +599,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "SPDP",
             href: "/products/marathon/low-voltage/spdp",
+            image: "rw_spdp_fytjjd",
             items: [
               {
                 name: "RW SPDP",
@@ -574,22 +616,27 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Other",
             href: "/products/marathon/low-voltage/other",
+            image: "flamem_proof_motors_e1_e2_jb4zoc",
             items: [
               {
                 name: "Flame Proof Motors(IE1/IE2)",
                 href: "/products/marathon/low-voltage/other/flame-proof",
+                image: "flamem_proof_motors_e1_e2_jb4zoc"
               },
               {
                 name: "Smoke Spill Motors (IE@/IE3)",
                 href: "/products/marathon/low-voltage/other/smoke-spill",
+                image: "smoke_spill_motors_ie_ie3_hk2qqd"
               },
               {
                 name: "Firefighting Motors",
                 href: "/products/marathon/low-voltage/other/firefighting",
+                image: "firefighting_motors_shdrz5"
               },
               {
                 name: "KS Crane Duty",
                 href: "/products/marathon/low-voltage/other/ks-crane-duty",
+                image: "ks_crane_duty_iaxll3"
               },
             ],
           },
@@ -598,6 +645,7 @@ export const productCategories: ProductCategory[] = [
       {
         name: "Medium Voltage Motors",
         href: "/products/marathon/medium-voltage",
+        image: "Marathon-SPDP-TEFC-Motor-550x350_vkgp6w",
         subcategories: [
           {
             name: "FLOWPAK Motors",
@@ -606,10 +654,12 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "TEFC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/flowpak/tefc-squirrel-cage",
+                image: "Marathon-SPDP-TEFC-Motor-550x350_vkgp6w"
               },
               {
                 name: "TEFC SLIP RING",
                 href: "/products/marathon/medium-voltage/flowpak/tefc-slip-ring",
+                image: "Mn41tLf3QznFN-xxlarge_jbhblc"
               },
             ],
           },
@@ -620,6 +670,7 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "CAC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage",
+                image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
               },
             ],
           },
@@ -630,6 +681,8 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "CAC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage",
+                image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
+
               },
             ],
           },
@@ -638,10 +691,14 @@ export const productCategories: ProductCategory[] = [
       {
         name: "Fans",
         href: "/products/marathon/fans",
+                image: "propeller_fan-standard_efficiency_qex78t",
+
         subcategories: [
           {
             name: "Propeller Fans",
             href: "/products/marathon/fans/propeller-fans",
+            image: "propeller_fan-standard_efficiency_qex78t",
+
             items: [
               {
                 name: "Propeller Fan - Standard Efficiency",
@@ -658,6 +715,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Other",
             href: "/products/marathon/fans/other",
+            image: "axial-flow_fan_iuqvn9",
+
             items: [
               {
                 name: "Axial Flow Fan",
@@ -678,7 +737,7 @@ export const productCategories: ProductCategory[] = [
   {
     name: "Idex Pumps",
     href: "/products/idex-pumps",
-    image: "idex-pumps_nyp1nq",
+    image: "image_16_b5nrec",
     categories: [
       {
         name: "Pumps",
@@ -687,6 +746,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "EODD Pumps",
             href: "/products/idex-pumps/pumps/eodd-pumps",
+            image: "vertical-eodd-pump_p6wv05",
+
             items: [
               {
                 name: "2” EODD PUMP PERFORMANCE",
@@ -722,6 +783,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "NK series",
             href: "/products/alfa-pumps/non-metallic-pumps/nk-series",
+            image: "NK-Series-1-1-768x768_ea92fx",
+
             items: [
               {
                 name: "NK Series NK-C (closed-couple) ",
@@ -733,6 +796,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "NKP Series",
             href: "/products/alfa-pumps/non-metallic-pumps/nkp-series",
+            image: "NKP-Series-1-1-1024x1024_ioixu7",
+
             items: [
               {
                 name: "NKP Series NKP - C (CLOSE - COUPLED) ",
@@ -749,6 +814,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "TNP SERIES",
             href: "/products/alfa-pumps/non-metallic-pumps/tnp-series",
+            image: "TNP-Series-1-1-1024x1024_ddhzqi",
+
             items: [
               {
                 name: "TNP Series CANTILEVER TYPE VERTICAL",
@@ -773,6 +840,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Buttefly Valves",
             href: "/products/delval/valves/butterfly",
+            image: "series-40-41-split-body-lined_ukmrsr",
+
             items: [
               {
                 name: "Series 40/41 Split Body Lined",
@@ -809,6 +878,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Ball Valves",
             href: "/products/delval/valves/ball",
+            image: "series-64-three-piece_v5ipwk",
+
             items: [
               {
                 name: "Series -64 Three Piece Ball Valve",
@@ -840,6 +911,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Trple Offset Valve",
             href: "/products/delval/valves/triple-offset",
+            image: "series-4-trio-triple-offset_bfnnfh",
+
             items: [
               {
                 name: "Series 4 Trio  triple offset valve",
@@ -851,6 +924,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Actuators",
             href: "/products/delval/valves/actuators",
+            image: "series-21-pnuematic-rack_lfvspx",
+
             items: [
               {
                 name: "Series 21 pneumatic rack & pinion",
@@ -885,6 +960,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Primary Scraper",
             href: "/products/bmd/belt-scraper/primary-scraper",
+            image: "primary-belt-scraper-hd_koyfbp",
             items: [
             {
               name: "Primary Scraper HD",
@@ -901,6 +977,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Secondary Scraper",
             href: "/products/bmd/belt-scraper/secondary-scraper",
+            image: "secondary-belt-scraper-sd_qyit75",
             items: [
               {
                 name: "Secondary Scraper HD",
@@ -923,6 +1000,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Dual",
             href: "/products/bmd/skirt-seal/dual",
+            image: "dual-skirt-seal_ecnzkl",
             items: [
               {
                 name: "Dual Skirt Seal",
@@ -935,22 +1013,26 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Rear",
             href: "/products/bmd/skirt-seal/rear",
+            image: "rear-skirt-seal_e5w0gl",
+
             items: [
               {
                 name: "Rear Skirt Seal",
                 href: "/products/bmd/skirt-seal/rear/rear-skirt-seal",
-                image: "rear-skirt-seal_e5w0gl"
+                image: "rear-skirt-seal_e5w0gl",
               }
             ]
           },
           {
             name: "Self Adjusted",
             href: "/products/bmd/skirt-seal/self-adjusted",
+            image: "self-adjusted-skirt-seal_k5rg2h",
+
             items: [
               {
                 name: "Self Adjusted Skirt Seal",
                 href: "/products/bmd/skirt-seal/self-adjusted/self-adjusted-skirt-seal",
-                image: "self-adjusted-skirt-seal_k5rg2h"
+                image: "self-adjusted-skirt-seal_k5rg2h",
               }
             ]
           }
@@ -963,11 +1045,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Belt tracker/ positioner",
             href: "/products/bmd/belt-tracker/belt-tracker-positioner",
+            image: "belt-tracker_ifd2td",
+
             items: [
               {
                 name: "Belt Tracker",
                 href: "/products/bmd/belt-tracker/belt-tracker-positioner/belt-tracker",
-                image: "belt-tracker_ifd2td"
+                image: "belt-tracker_ifd2td",
               }
             ]
           }
@@ -980,6 +1064,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Air Storm / Blaster",
             href: "/products/bmd/air-storm/air-storm-blaster",
+            image: "air-storm_p4mzo3",
             items: [
               {
                 name: "Air Storm",
@@ -997,6 +1082,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Dust",
             href: "/products/bmd/dust-free-zone/dust",
+            image: "DFZ1-1_ek6cic",
             items: [
               {
                 name: "Dust Filter Bag",
@@ -1013,6 +1099,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Mild Steel Structure",
             href: "/products/bmd/dust-free-zone/mild-steel-structure",
+            image: "DFZ3_uuz0qv",
             items: [
               {
                 name: "Mild Steel Structure",
@@ -1037,6 +1124,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Venticool",
             href: "/products/symphony/coolers/venticool",
+            image: "Venticooler-40u-1_dmsoy0",
             items: [
               {
                 name: "Venti-cool 40",
@@ -1068,6 +1156,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Movicool",
             href: "/products/symphony/coolers/movicool",
+            image: "movicool-xxl_zb5joc",
+
             items: [
               {
                 name: "Movicool XXL",
@@ -1107,6 +1197,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Walk-Behind",
             href: "/products/tennant/scrubbers/walk-behind",
+            image: "image.tennant-ap.M-T300_cdyyeb",
+
             items: [
               {
                 name: "T300",
@@ -1138,6 +1230,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Ride On",
             href: "/products/tennant/scrubbers/ride-on",
+            image: "image.tennant-ap.STN8001001E01_ajffzn",
+
             items: [
               {
                 name: "T560",
@@ -1170,6 +1264,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Battery Powered",
             href: "/products/tennant/sweeper-scrubbers/battery-powered",
+            image: "image.tennant-ap.M-M17_gwsvtv",
             items: [
               {
                 name: "M17",
@@ -1181,11 +1276,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Ride On",
             href: "/products/tennant/sweeper-scrubbers/ride-on",
+            image: "image.tennant-ap.M-M20_kekoqn",
+
             items: [
               {
                 name: "M20",
                 href: "/products/tennant/sweeper-scrubbers/ride-on/m20",
-                image: "image.tennant-ap.M-M20_kekoqn"
+                image: "image.tennant-ap.M-M20_kekoqn",
               },
               {
                 name: "M30",
@@ -1203,22 +1300,26 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Rider",
             href: "/products/tennant/burnishers-floor-cleaning/rider",
+            image: "image.tennant-ap.M-B10_gfdzzh",
+
             items: [
               {
                 name: "B10",
                 href: "/products/tennant/burnishers-floor-cleaning/rider/b10",
-                image: "image.tennant-ap.M-B10_gfdzzh"
+                image: "image.tennant-ap.M-B10_gfdzzh",
               }
             ]
           },
           {
             name: "Walk Behind",
             href: "/products/tennant/burnishers-floor-cleaning/walk-behind",
+            image: "image.tennant-ap.9007347_czhi35",
+
             items: [
               {
                 name: "BR-1600-NDC",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
-                image: "image.tennant-ap.9007347_czhi35"
+                image: "image.tennant-ap.9007347_czhi35",
               },
               {
                 name: "BR-2000-DC",
@@ -1247,6 +1348,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Dry Canister",
             href: "/products/tennant/vaccum-cleaners/dry-canister",
+            image: "image.tennant-ap.1252618_lrgyqi",
+
             items: [
               {
                 name: "V-CAN-16",
@@ -1263,11 +1366,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Wet & Dry",
             href: "/products/tennant/vaccum-cleaners/wet-dry",
+            image: "image.tennant-ap.1244337_sxvxqu",
+
             items: [
               {
                 name: "V-WD-62",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-62",
-                image: "image.tennant-ap.1244337_sxvxqu"
+                image: "image.tennant-ap.1244337_sxvxqu",
               },
               {
                 name: "V-WD-72",
@@ -1284,6 +1389,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Backpack Vacuum",
             href: "/products/tennant/vaccum-cleaners/backpack-vaccum",
+            image: "image.tennant-ap.1233392_xhluxz",
+
             items: [
               {
                 name: "V-BP-7",
@@ -1306,6 +1413,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Walk-Behind",
             href: "/products/tennant/sweepers/walk-behind",
+            image: "image.tennant-ap.1251268_glpavh",
+
             items: [
               {
                 name: "S6",
@@ -1327,6 +1436,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Ride On",
             href: "/products/tennant/sweepers/ride-on",
+            image: "image.tennant-ap.M-S30_ktvut8",
+
             items: [
               {
                 name: "s30",
@@ -1362,6 +1473,8 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Cooling-Towers",
             href: "/products/classik-cooling-towers/towers/cooling-towers",
+            image: "adiabatic-cooling-towers_sisfyf",
+
             items: [
               {
                 name: "Adiabatic Cooling Towers",
@@ -1441,11 +1554,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Pre Cleaner",
             href: "/products/fowler-westrup/post-harvesting-machines/pre-cleaner",
+            image: "phm_sab_majmlm",
+
             items: [
               {
                 name: "SAB 5-50 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/pre-cleaner/sab-5-50-tph",
-                image: "phm_sab_majmlm"
+                image: "phm_sab_majmlm",
               },
               {
                 name: "SAC 5-50 TPH",
@@ -1462,6 +1577,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Drum Pre Cleaners",
             href: "/products/fowler-westrup/post-harvesting-machines/drum-pre-cleaners",
+            image: "drum_nhi7ci",
             items: [
               {
                 name: "DP-630,950",
@@ -1473,6 +1589,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Vegetable Seed Cleaners",
             href: "/products/fowler-westrup/post-harvesting-machines/vegetable-seed-cleaners",
+            image: "gsu_walwtm",
             items: [
               {
                 name: "GSU 0.5-1.0 TPH",
@@ -1484,11 +1601,12 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Fine Cleaners",
             href: "/products/fowler-westrup/post-harvesting-machines/fine-cleaners",
+            image: "fau_rbzfir",
             items: [
               {
                 name: "FAU 3-12 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/fine-cleaners/fau-3-12-tph",
-                image: "fau_rbzfir"
+                image: "fau_rbzfir",
               },
               {
                 name: "UB, UB/4 and UB(50:50) for High Capacity",
@@ -1500,11 +1618,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Modular Cleaners",
             href: "/products/fowler-westrup/post-harvesting-machines/modular-cleaners",
+            image: "mc_sp_tfa05m",
+
             items: [
               {
                 name: "SP up to 200 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/modular-cleaners/sp-up-to-200-tph",
-                image: "mc_sp_tfa05m"
+                image: "mc_sp_tfa05m",
               },
               {
                 name: "CC up to 200 TPH",
@@ -1516,11 +1636,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Gravity Seperators",
             href: "/products/fowler-westrup/post-harvesting-machines/gravity-seperators",
+            image: "gs_xudxo0",
+
             items: [
               {
                 name: "HICAP GS up to 4 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/gravity-seperators/hicap-gs-up-to-4-tph",
-                image: "gs_xudxo0"
+                image: "gs_xudxo0",
               },
               {
                 name: "Voyager GVX-1050 up to 4 TPH",
@@ -1532,11 +1654,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Destoners",
             href: "/products/fowler-westrup/post-harvesting-machines/destoners",
+            image: "ds_uqoyte",
+
             items: [
               {
                 name: "DS up to 4 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/destoners/ds-up-to-4-tph",
-                image: "ds_uqoyte"
+                image: "ds_uqoyte",
               },
               {
                 name: "MaxiCap DS up to 20 TPH",
@@ -1548,33 +1672,39 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Indented Cylinders",
             href: "/products/fowler-westrup/post-harvesting-machines/indented-cylinders",
+            image: "is_tr_biksnu",
+
             items: [
               {
                 name: "TR up to 12 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/indented-cylinders/tr-up-to-12-tph",
-                image: "is_tr_biksnu"
+                image: "is_tr_biksnu",
               }
             ]
           },
           {
             name: "Spiral Seperators",
             href: "/products/fowler-westrup/post-harvesting-machines/spiral-seperators",
+            image: "ss_ht_uoazm4",
+
             items: [
               {
                 name: "HT-1,2,4,6,8",
                 href: "/products/fowler-westrup/post-harvesting-machines/spiral-seperators/ht-1-2-4-6-8",
-                image: "ss_ht_uoazm4"
+                image: "ss_ht_uoazm4",
               }
             ]
           },
           {
             name: "Lab Machines",
             href: "/produts/fowler-westrup/post-harvesting-machines/lab-machines",
+            image: "lab_cleaner_fegph9",
+
             items: [
               {
                 name: "Lab Cleaner",
                 href: "/products/fowler-westrup/post-harvesting-machines/lab-machines/lab-cleaner",
-                image: "lab_cleaner_fegph9"
+                image: "lab_cleaner_fegph9",
               },
               {
                 name: "Lab Gravity Seperator",
@@ -1597,11 +1727,12 @@ export const productCategories: ProductCategory[] = [
           {
             name: "TRU- PRIME SERIES",
             href: "/products/fowler-westrup/colour-sorter/tru-prime-series",
+            image: "color-sorter-tru-192-prime_x0r76y",            
             items: [
               {
                 name: "TRU-192 PRIME",
                 href: "/products/fowler-westrup/colour-sorter/tru-prime-series/tru-192-prime",
-                image: "color-sorter-tru-192-prime_x0r76y"
+                image: "color-sorter-tru-192-prime_x0r76y",
               },
               {
                 name: "TRU-320 R PRIME",
@@ -1618,11 +1749,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "TRU - CHAMP SERIES",
             href: "/products/fowler-westrup/colour-sorter/tru-champ-series",
+            image: "color-sorter-tru-e-60-champ_mfaua2",
+
             items: [
               {
                 name: "TRU-E 60 CHAMP",
                 href: "/products/fowler-westrup/colour-sorter/tru-champ-series/tru-e-60-champ",
-                image: "color-sorter-tru-e-60-champ_mfaua2"
+                image: "color-sorter-tru-e-60-champ_mfaua2",
               },
               {
                 name: "TRU-G 60 CHAMP",
@@ -1640,55 +1773,64 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Pre-cleaner",
             href: "/products/fowler-westrup/rice-milling-machinery/pre-cleaner",
+            image: "phm_sab_majmlm",
+
             items: [
               {
                 name: "SAB",
                 href: "/products/fowler-westrup/rice-milling-machinery/pre-cleaner/sab",
-                image: "phm_sab_majmlm"
+                image: "phm_sab_majmlm",
               }
             ]
           },
           {
             name: "Destoner",
             href: "/products/fowler-westrup/rice-milling-machinery/destoner",
+            image: "rm_destoner_csp_mn29va",
+
             items: [
               {
                 name: "DSP",
                 href: "/products/fowler-westrup/rice-milling-machinery/destoner/dsp",
-                image: "rm_destoner_csp_mn29va"
+                image: "rm_destoner_csp_mn29va",
               }
             ]
           },
           {
             name: "Paddy Husker",
             href: "/products/fowler-westrup/rice-milling-machinery/paddy-husker",
+            image: "rm_paddyhusker_nqm8pt",
             items: [
               {
                 name: "YSA - 100 Closed Circuit Type",
                 href: "/products/fowler-westrup/rice-milling-machinery/paddy-husker/ysa-100-closed-circuit-type",
-                image: "rm_paddyhusker_nqm8pt"
+                image: "rm_paddyhusker_nqm8pt",
               }
             ]
           },
           {
             name: "Paddy Seperator",
             href: "/products/fowler-westrup/rice-milling-machinery/paddy-seperator",
+            image: "rm_paddyseperator_cfkwn9",
+
             items: [
               {
                 name: "SE-500",
                 href: "/products/fowler-westrup/rice-milling-machinery/paddy-seperator/se-500",
-                image: "rm_paddyseperator_cfkwn9"
+                image: "rm_paddyseperator_cfkwn9",
               }
             ]
           },
           {
             name: "Abraisive Whiitener",
             href: "/products/fowler-westrup/rice-milling-machinery/abraisive-whitener",
+            image: "rm_abressive_nzldix",
+
             items: [
               {
                 name: "XPA-25",
                 href: "/products/fowler-westrup/rice-milling-machinery/abraisive-whitener/xpa-25",
-                image: "rm_abressive_nzldix"
+                image: "rm_abressive_nzldix",
               }
             ]
           },
@@ -1701,11 +1843,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Galvanized Silo systems",
             href: "/products/fowler-westrup/silo-systems/galvanized-silo-systems",  
+            image: "gs_flat_uvlvce",
+
             items: [
               {
                 name: "flat bottom Silo",
                 href: "/products/fowler-westrup/silo-systems/galvanized-silo-systems/flat-bottom-silo",
-                image: "gs_flat_uvlvce"
+                image: "gs_flat_uvlvce",
               },
               {
                 name: "Hopper Bottom Silo",
@@ -1723,11 +1867,13 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Oil Filtration",
             href: "/products/fowler-westrup/filtration-systems/oil-filtration",
+            image: "lubeoilfiltration_lltfug",
+
             items: [
               {
                 name: "Lube Oil Filtration Machine",
                 href: "/products/fowler-westrup/filtration-systems/oil-filtration/lube-oil-filtration-machine",
-                image: "lubeoilfiltration_lltfug"
+                image: "lubeoilfiltration_lltfug",
               }
             ]
           }
