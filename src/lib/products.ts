@@ -650,6 +650,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "FLOWPAK Motors",
             href: "/products/marathon/medium-voltage/flowpak",
+            image: "Marathon-SPDP-TEFC-Motor-550x350_vkgp6w",
             items: [
               {
                 name: "TEFC SQUIRREL CAGE",
@@ -665,22 +666,25 @@ export const productCategories: ProductCategory[] = [
           },
           {
             name: "UNIPAK Motors",
-            href: "/products/marathon/medium-voltage/flowpak",
+            href: "/products/marathon/medium-voltage/unipak",
+            image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
             items: [
               {
                 name: "CAC SQUIRREL CAGE",
-                href: "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage",
+                href: "/products/marathon/medium-voltage/unipak/cac-squirrel-cage",
                 image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
               },
             ],
           },
           {
             name: "TEEPAK Motors",
-            href: "/products/marathon/medium-voltage/flowpak",
+            href: "/products/marathon/medium-voltage/teepak",
+            image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
+
             items: [
               {
                 name: "CAC SQUIRREL CAGE",
-                href: "/products/marathon/medium-voltage/flowpak/cac-squirrel-cage",
+                href: "/products/marathon/medium-voltage/teepak/cac-squirrel-cage",
                 image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
 
               },
