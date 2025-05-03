@@ -190,9 +190,9 @@ export const productCategories: ProductCategory[] = [
             name: "Piston Compressors",
             href: "/products/atlas-copco/air-compressors/piston",
             slug: "piston",
-            image:"industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
+            image:
+              "industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
 
-            
             items: [
               {
                 name: "Industrial Piston Compressor - Low Pressure <15 bar",
@@ -369,16 +369,77 @@ export const productCategories: ProductCategory[] = [
                 name: "RX series (single-stage)",
                 href: "/products/sew/gear-motors/r-series/rx-series",
                 image: "RX_series_betpv0",
+                specs: [
+                  "Feature:",
+                  "Highly efficient helical gear units in 6 frame sizes",
+                  "High output speed, torque up to 830 Nm",
+                  "Gear unit ratios up to i = 8.65",
+                  "Available in foot- or flange-mounted design",
+
+                  "Technical Data:",
+                  "Sizes 57 / 67 / 77 / 87 / 97 / 107",
+                  "Gear unit ratio:1.30 – 8.65i",
+                  "Max. output torque:69 – 830NM",
+                  "Motor power range (Mounting via AM motor adapter):	0.12 – 45KW",
+
+                  "Area of Applications:",
+                  "Roller conveyors",
+                  "Belt conveyors",
+                  "Chain conveyors",
+                ],
               },
               {
                 name: "R series (two and three stages)",
                 href: "/products/sew/gear-motors/r-series/r-series",
                 image: "R_series_wqdqep",
+                specs: [
+                  "Features:",
+                  "15 sizes",
+                  "Optimum ratio between performance and space requirements",
+                  "Finally stepped sizes and gear ratios",
+                  "Also available with reduced backlash",
+                  "Technical Data:",
+                  "Sizes 07 / 17 / 27 / 37 / 47 / 57 / 67 / 77 / 87 / 97 / 107 / 127 / 137 / 147 / 167",
+                  "Gear unit ratio:3.21 – 289.74i",
+                  "Double gear unit reduction ratio:90 – 27 001i",
+                  "Max. output torque:50 – 20 000*NM",
+                  "Motor power range (Mounting via AM motor adapter):	0.12 – 90KW",
+
+                  "Area of Applications:",
+                  "Rotary tables",
+                  "Pumps and fans",
+                  "Waste water and sewage treatment plants",
+                  "Roller conveyors",
+                  "Belt conveyors",
+                  "Chain conveyors",
+                  "Corner transfer unit",
+                ],
               },
               {
                 name: "RM series (two and three stages)",
                 href: "/products/sew/gear-motors/r-series/rm-series",
                 image: "RM_series_tr1hrd",
+                specs: [
+                  "Features:",
+                  "Helical gear units with extended output bearing hub",
+                  "Specifically designed for agitators",
+                  "Ten frame sizes",
+                  "Offering gear unit ratios up to i = 289.74",
+                  "Allowing for high overhung and axial loads as well as bending moments",
+
+                  "Technical Data:",
+                  "Sizes 57 / 67 / 77 / 87 / 97 / 107 / 127 / 137 / 147 / 167",
+                  "Gear unit ratio:4.29 – 289.74i ",
+                  "Double gear unit reduction ratio:134 – 27 001i",
+                  "Max. output torque:450 – 20 000NM",
+                  "Motor power range (Mounting via AM motor adapter):0.12 – 160KW",
+
+                  "Area of Applications:",
+                  "Agitators",
+                  "Blenders",
+                  "Mixers",
+                  "Kneaders",
+                ],
               },
             ],
           },
@@ -392,6 +453,34 @@ export const productCategories: ProductCategory[] = [
                 name: "F series parallel shaft helical gear units",
                 href: "/products/sew/gear-motors/f-series/parallel-shaft",
                 image: "F_series_parallel-shaft_helical_bxqyz6",
+                specs: [
+                  "The axis-parallel gear units have a slim design. Nonetheless, they offer a power range from 130 to 20,000 Nm. We think they are always a good choice when space is limited.",
+
+                  "Features:",
+                  "Slim design for limited installation space",
+                  "Also available with reduced backlash",
+                  "Available variants:",
+                  "Foot- or flange-mounted",
+                  "B5 or B14 flange-mounted",
+                  "Solid shaft or hollow shaft",
+                  "Hollow shaft with keyed connection, shrink disk, splined hollow shaft, or TorqLOC",
+
+                  "Technical Data:",
+                  "sizes 27 / 37 / 47 / 57 / 67 / 77 / 87 / 97 / 107 / 127 / 157",
+                  "Gear unit ratio:3.77 – 281.71i",
+                  "Double gear unit reduction ratio:87 – 31 434i",
+                  "Max. output torque:130 – 20 000*NM",
+                  "Motor power range (Mounting via AM motor adapter):0.12 – 200KW",
+
+                  "Area of Applications:",
+                  "Conveyor applications",
+                  "Chain conveyors",
+                  "Process applications",
+                  "Presses",
+                  "Extruders",
+                  "Screw conveyors",
+                  "Gantry cranes",
+                ],
               },
             ],
           },
@@ -405,6 +494,30 @@ export const productCategories: ProductCategory[] = [
                 name: "K series helical-bevel gear units",
                 href: "/products/sew/gear-motors/k-series/helical-bevel",
                 image: "K_series_helical-bevel_gear_units_chln8j",
+                specs: [
+                  "Features:",
+                  "Helical-bevel gear units (two and three stages)",
+                  "High efficiency",
+                  "Gearing with high fatigue strength",
+                  "Long, maintenance-free operating life",
+                  "Can be combined with our complete motor portfolio",
+
+                  "Technical Data:",
+                  "sizes 37 / 47 / 57 / 67 / 77 / 87 / 97 / 107 / 127 / 157 / 167 / 187 ((three stages))",
+                  "Gear unit ratio:3.98 – 197.37i ",
+                  "Double gear unit reduction ratio:94 – 32 625i",
+                  "Max. output torque: 200 – 53 000*NM",
+                  "Motor power range (Mounting via AM motor adapter):0.12 – 90KW",
+
+                  "Area of Applications:",
+                  "Pallet conveyors",
+                  "Belt conveyors",
+                  "Chain conveyors",
+                  "Hoists and lifting stations",
+                  "Scissor lift tables",
+                  "Freight elevators",
+                  "Travel and hoist drives in stacker cranes",
+                ],
               },
             ],
           },
@@ -418,6 +531,32 @@ export const productCategories: ProductCategory[] = [
                 name: "S series helical-worm gear units",
                 href: "/products/sew/gear-motors/s-series/helical-worm",
                 image: "S_series_helical-worm_gear_units_kua6ag",
+                specs: [
+                  "The strength of our helical-worm gear units lies in their simple mechanical design, making them more efficient than plain worm gear units. S series gear units also run smoothly in operation.",
+
+                  "Features:",
+                  "Much greater efficiency than plain worm gear units thanks to helical-worm combinations",
+                  "Very low-noise operation",
+                  "Available designs:",
+                  "Foot-mounted or flange-mounted design",
+                  "B5 or B14 flange-mounted design",
+                  "Solid or hollow shaft",
+                  "Hollow shaft with keyed connection, shrink disk, splining or TorqLOC®",
+
+                  "Technical Data:",
+                  "S series/S..7p series / sizes 37 / 47 / 57 / 67 / 77 / 87 / 97",
+                  "Gear unit ratio:	3.97 – 288.00i ",
+                  "Double gear unit reduction ratio:110 – 33 818i",
+                  "Max. output torque:92 – 4 300 NM",
+                  "Motor power range (Mounting via AM motor adapter):0.12 – 30 KW",
+
+                  "Area of Applications:",
+                  "Stage drives",
+                  "Adjustment drives",
+                  "Presses",
+                  "Rotary tables",
+                  "Corner transfer units",
+                ],
               },
             ],
           },
@@ -444,11 +583,33 @@ export const productCategories: ProductCategory[] = [
                 name: "MOVIGEAR",
                 href: "/products/sew/gear-motors/mechatronic-drives/movigear",
                 image: "MOVIGEAR_mechatronic_drive_xdf2he",
+                specs: [
+                  "For specific requirements in wet area applications, we offer a version of MOVIGEAR® that is specially designed for wet areas.",
+
+                  "This package also provides the features required for use in areas with high levels of mechanical and chemical resistance or cleaning agents:",
+
+                  "Degree of protection IP66",
+                  "HP200 surface treatment with an almost non-porous surface provides excellent anti-stick properties as well as chemical and mechanical resistance",
+                  "All external screws, breather valves, pressure compensation screw fittings, and output shafts made of stainless steel",
+                ],
               },
               {
                 name: "MOVITMOT Gear Motor ",
                 href: "/products/sew/gear-motors/mechatronic-drives/movimot",
                 image: "MOVIMOT_gearmotor_with_inverter_c8ah7r",
+                specs: [
+                  "MOVIMOT® gearmotors of the D series can be combined with our DR.. series of motors with various efficiency levels as standard:",
+
+                  "DRU.. = IE4 Super Premium Efficiency",
+                  "DRP.. = IE3 Premium Efficiency",
+                  "DRE.. = IE2 High Efficiency",
+
+                  "Vector-oriented motor control",
+                  "Full motor protection",
+                  "Brake management",
+                  "Ambient temperature of -30 °C/-20 °C to +40 °C",
+                  "Control via binary signals: Inputs for CW/stop, CCW/stop, setpoint changeover, isolated signal relay, fixed setpoints, ramps for acceleration and deceleration",
+                ],
               },
               {
                 name: "MOVIFIT Gear Motor",
@@ -456,6 +617,9 @@ export const productCategories: ProductCategory[] = [
                 slug: "movifit",
                 image:
                   "Movifit_Gear_Motor_power_Range_0.37_to_4kw_speed_range_280_to_2900Rpm_e2t5z0",
+                specs: [
+                  "With the MOVIGEAR® mechatronic drive system, we set entirely new standards for efficiency and functionality. MOVIGEAR® combines motor, gear unit, and corresponding drive electronics in one system.",
+                ],
               },
             ],
           },
@@ -464,7 +628,7 @@ export const productCategories: ProductCategory[] = [
             name: "Industrial Gear units ",
             href: "/products/sew/gear-motors/industrial-gear-units",
             image:
-                  "industrial-gear-unit-bevel-helical-gear-unit-ml-390x220_ajsauo",
+              "industrial-gear-unit-bevel-helical-gear-unit-ml-390x220_ajsauo",
             items: [
               {
                 name: "bevel-helical gear units",
@@ -476,6 +640,24 @@ export const productCategories: ProductCategory[] = [
                 name: "Planetary gear units",
                 href: "/products/sew/gear-motors/industrial-gear-units/planetary",
                 image: "P_and_XP_series_gear_ze8ui9",
+                specs: [
+                  "The XP series industrial gear units are compactly built planetary gear units for very high torque ratings up to 5 200 kNm. As a stand-alone gear unit it is positioned separately from the motor.",
+
+                  "Features:",
+                  "Stand-alone industrial gear unit platform with 13 sizes",
+                  "Suitable for highest torques",
+                  "Very compact design",
+                  "High torsional stiffness",
+                  "Free input shaft or direct mounting of motors and primary gear units",
+                  "Various output shaft variants",
+                  "Various predefined options and additional designs",
+                  "Customer-specific adaptations possible",
+
+                  "Technical Data:",
+                  "2-, 3- and 4-stage",
+                  "Gear ratio:22 – 3 600i",
+                  "Nominal torque MN2 kNm:600 – 5 200",
+                ],
               },
             ],
           },
@@ -497,12 +679,57 @@ export const productCategories: ProductCategory[] = [
                 name: "MOVITRAC Inverter MCO7B",
                 href: "/products/sew/inverter-technology/control-cabinet/movitrac-mco7b",
                 image: "Movitrac_Inverter_MCO7B_230V_whvne3",
+                specs: [
+                  "Features:",
+                  "Compact frequency inverter for space-saving installation",
+                  "Its straightforward operation saves time during startup",
+                  "Broad voltage and power range",
+                  "3x AC 380 – 500 V: 0.25 kW – 90 kW",
+                  "3x AC 230 – 240 V: 1.5 kW – 30 kW",
+                  "1x AC 230 – 240 V: 0.25 kW – 2.2 kW",
+                  "Overload",
+                  "125 % IN continuous duty",
+                  "150 % IN for at least 60 s",
+                  "Safe Torque Off (STO) EN ISO 13849-1 PL d (as standard from 5.5 kW)",
+                  "Adapted to your application",
+                  "The design enables the integration of Fieldbus interfaces",
+                  "Functional safety technology options",
+                  "Input/output extensions",
+
+                  "Technical Data:",
+                  "Power range kW: 0.25 - 75KW",
+                  "Nominal output current A:1.7 to 130",
+                ],
               },
               {
                 name: "MoviDrive Inverter MDX61B",
                 href: "/products/sew/inverter-technology/control-cabinet/movidrive-mdx61b",
                 image:
                   "MoviDrive_Inverter_MDX61B_230V_Three_Phase_1.5_to_30_kw_feiawm",
+                  specs: [
+                    'Flexible, compact and intelligent: our MOVIDRIVE® B drive inverters. They save space in the control cabinet and are equipped with integrated positioning and sequence control as standard.',
+
+'Features:',
+'Configurable inverter adapted to your application',
+'Broad voltage and power range',
+'Flexible application with synchronous and asynchronous motors',
+'Safe Torque Off (STO) EN ISO 13849-1 PL d',
+'Modular design, incl. a wide range of options',
+
+'Area of Application:',
+'MOVIDRIVE® B is used in the following industries:',
+
+'Automotive industry',
+'Food and beverage industry',
+'Transport and logistics',
+'MOVIDRIVE® B is used in the following applications:',
+
+'Warehousing systems',
+'Feeding systems',
+'Hoists',
+'Synchronized applications',
+'Gantries'
+                  ]
               },
             ],
           },
@@ -643,12 +870,14 @@ export const productCategories: ProductCategory[] = [
           {
             name: "WIN - Cast Iron TEFC",
             href: "/products/weg/ac-motors/tefc",
-            image: "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx",
+            image:
+              "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx",
             items: [
               {
                 name: "WIN IE2 0.18 kW 6P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T",
                 href: "/products/weg/ac-motors/tefc/tefc-b3t-18",
-                image: "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx"
+                image:
+                  "MKT_WMO_IMAGE_3PH_WIN_RAL5009_TEFC_100_B3Tz_1200Wx1200H_mvpajx",
               },
               {
                 name: "WIN IE2 0.25 kW 4P 71 3Ph 240/415 V 50 Hz IC411 - TEFC - B3T",
@@ -676,7 +905,7 @@ export const productCategories: ProductCategory[] = [
       },
     ],
   },
-  
+
   {
     name: "Marathon",
     href: "/products/marathon",
@@ -711,7 +940,7 @@ export const productCategories: ProductCategory[] = [
                 name: "Terramax SCV",
                 href: "/products/marathon/low-voltage/terramax/terramax-scv",
                 image: "terramax_scv_ie2_lojw60",
-              }
+              },
             ],
           },
           {
@@ -739,22 +968,22 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Flame Proof Motors(IE1/IE2)",
                 href: "/products/marathon/low-voltage/other/flame-proof",
-                image: "flamem_proof_motors_e1_e2_jb4zoc"
+                image: "flamem_proof_motors_e1_e2_jb4zoc",
               },
               {
                 name: "Smoke Spill Motors (IE@/IE3)",
                 href: "/products/marathon/low-voltage/other/smoke-spill",
-                image: "smoke_spill_motors_ie_ie3_hk2qqd"
+                image: "smoke_spill_motors_ie_ie3_hk2qqd",
               },
               {
                 name: "Firefighting Motors",
                 href: "/products/marathon/low-voltage/other/firefighting",
-                image: "firefighting_motors_shdrz5"
+                image: "firefighting_motors_shdrz5",
               },
               {
                 name: "KS Crane Duty",
                 href: "/products/marathon/low-voltage/other/ks-crane-duty",
-                image: "ks_crane_duty_iaxll3"
+                image: "ks_crane_duty_iaxll3",
               },
             ],
           },
@@ -773,38 +1002,41 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "TEFC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/flowpak/tefc-squirrel-cage",
-                image: "Marathon-SPDP-TEFC-Motor-550x350_vkgp6w"
+                image: "Marathon-SPDP-TEFC-Motor-550x350_vkgp6w",
               },
               {
                 name: "TEFC SLIP RING",
                 href: "/products/marathon/medium-voltage/flowpak/tefc-slip-ring",
-                image: "Mn41tLf3QznFN-xxlarge_jbhblc"
+                image: "Mn41tLf3QznFN-xxlarge_jbhblc",
               },
             ],
           },
           {
             name: "UNIPAK Motors",
             href: "/products/marathon/medium-voltage/unipak",
-            image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
+            image:
+              "koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
             items: [
               {
                 name: "CAC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/unipak/cac-squirrel-cage",
-                image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
+                image:
+                  "koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
               },
             ],
           },
           {
             name: "TEEPAK Motors",
             href: "/products/marathon/medium-voltage/teepak",
-            image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
+            image:
+              "koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
 
             items: [
               {
                 name: "CAC SQUIRREL CAGE",
                 href: "/products/marathon/medium-voltage/teepak/cac-squirrel-cage",
-                image:"koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg"
-
+                image:
+                  "koel-km33t70cactssb03-5-hp-6-pole-three-phase-ie3-squirrel-cage-induction-motor_ugmbhg",
               },
             ],
           },
@@ -813,7 +1045,7 @@ export const productCategories: ProductCategory[] = [
       {
         name: "Fans",
         href: "/products/marathon/fans",
-                image: "propeller_fan-standard_efficiency_qex78t",
+        image: "propeller_fan-standard_efficiency_qex78t",
 
         subcategories: [
           {
@@ -876,16 +1108,27 @@ export const productCategories: ProductCategory[] = [
                 href: "/products/idex-pumps/pumps/eodd-pumps/2-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
                 specs:["The 2 Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2 port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments."]
+                specs: [
+                  'The 2" Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2" port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments.',
+                ],
               },
               {
                 name: "3” EODD PUMP PERFORMANCE",
                 href: "/products/idex-pumps/pumps/eodd-pumps/3-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
+                specs: [
+                  'The 3" Cognito Electric-Operated Double Diaphragm (EODD) Pump is engineered to deliver powerful, reliable performance for industrial operations. With a 3" port size, it offers high-flow capacity while maintaining the efficiency and durability that Cognito products are known for. Designed to handle extreme conditions, this sealless pump ensures smooth, safe operation with minimal maintenance.',
+                ],
               },
               {
                 name: "4” EODD PUMP PERFORMANCE",
                 href: "/products/idex-pumps/pumps/eodd-pumps/4-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
+                specs: [
+                  'The 4" Cognito Electric-Operated Double Diaphragm (EODD) Pump is a cutting-edge solution designed for industrial operations that demand both performance and precision.',
+                  "Built with the durability to withstand extreme conditions, this robust pump offers efficient, sealless operation, ensuring reliable performance while minimizing downtime.",
+                  'Its 4" inlet and outlet configuration supports high-flow capabilities, making it ideal for heavy-duty applications.',
+                ],
               },
             ],
           },
@@ -1025,31 +1268,95 @@ export const productCategories: ProductCategory[] = [
                 name: "Series 40/41 Split Body Lined",
                 href: "/products/delval/valves/butterfly/series-40-41-split-body-lined",
                 image: "series-40-41-split-body-lined_ukmrsr",
+                specs: [
+                  "Body Style:Series 40 - Wafer Series 41 - Lug",
+                  "Body:CI, DI, CS, SS",
+                  "Disc/Stem:316 SS,Duplex SS",
+                  "Seat:PTFE lined EPDM",
+                  "Size Range:2” to 24” (DN 50 to 600)",
+                  "Pressure Rating:150 PSIG (PN 10)",
+                  "Design Standard:API 609, BS EN 593",
+                  "Testing Standard:API 598, BS EN 12266-1",
+                ],
               },
               {
                 name: "Series 42/43 Lined",
                 href: "/products/delval/valves/butterfly/series-42-43-lined",
                 image: "series-42-43-lined_ru1rot",
+                specs: [
+                  "Body Style:Series 42 - Wafer,Series 43 - Lug ",
+                  "Body:DI, CS, SS",
+                  "Disc/Stem:316 SS,Duplex SS,PTFE Lined",
+                  "PFA Lined,UHMWPE Lined,Halar® Coated",
+                  "Seat:PTFE/Silicone, PTFE/FKM,PFA/Silicone, PFA/FKM,UHMWPE/FKM",
+                  'Size Range:2" to 24“ (DN 50 to 600) ',
+                  "Pressure Rating:150 PSIG (PN 10)",
+                  "Design Standard:API 609, BS EN 593",
+                  "Testing Standard:API 598, BS EN 12266-1",
+                ],
               },
               {
                 name: "Series 44-49 High Performance Double Offset",
                 href: "/products/delval/valves/butterfly/series-44-49-high-performance-double-offset",
                 image: "series-44-49-high-perf-double-offset_tczteo",
+                specs: [
+                  " Body Style:Wafer, Lug, Double Flanged",
+                  "Body:CS, SS",
+                  "Disc:CF8M, CF8",
+                  "Stem:316 SS, 17-4 PH, XM-19",
+                  "Seat:Ultra, PTFE, RTFE, Metal (SS, Inconel), Firesafe",
+                  'Size Range:Series 44, 45 -  2" to 48“ (DN 50 to 1200)',
+                  "Series 47, 48 - 2” to 24” (DN 50 to 600)",
+                  'Series 46 -  3" to 48“ (DN 80 to 1200)',
+                  'Series 49 -  3" to 24“ (DN 80 to 600)',
+                  "Pressure Rating:Series 44, 45, 46 - Class 150 &, Series 47, 48, 49 - Class 300 ",
+                  "Design Standard:API 609 Category B, BS EN 593",
+                  "Testing Standard:API 598, BS EN 12266-1",
+                ],
               },
               {
                 name: "Series 50/52 Resilient Seated",
                 href: "/products/delval/valves/butterfly/series-50-52-resilient-seated",
                 image: "series-50-52-resilient-seated_dgzy2u",
+                specs: [
+                  "Body Style:Series 50 – Wafer,Series 52 – Lug ,Series 5A – Wafer (Alternate stem size),",
+                  "Series 5B – Lug (Alternate stem size)",
+                  "Body:CI, DI, CS",
+                  "Disc:Nylon coated Ductile Iron,Aroxy Ductile Iron,CF8M",
+                  "Stem:410 SS, 17-4 PH",
+                  "Seat:EPDM, White EPDM,Buna-N, White Buna-N,FKM, Silicone",
+                  'Size Range:2" to 24“ (DN 50 to 600)',
+                  'Pressure Rating:2" to 12" – Class 125, 175 PSIG (PN 12)',
+                  "14” to 24” – 150 psi (PN 10)",
+                ],
               },
               {
                 name: "Series 51/53 Large Diameter Resilient Seated",
                 href: "/products/delval/valves/butterfly/series-51-53-large-diameter-resilient-seated",
                 image: "series-51-53-large-dia-resilient-seated_zzryzz",
+                specs: [
+                  "Body Style:Series 51 – Wafer,Series 53 – U Section Wafer (lugs drilled not tapped)",
+                  "Body:CI, DI, CS",
+                  "Disc:Nylon coated Ductile Iron,Aroxy Ductile Iron,CF8M",
+                  "Seat:EPDM,Buna-N,FKM,Silicone",
+                  'Size Range:26" to 40“ (DN 650 to 1000)',
+                  "Pressure Rating:150 PSIG (PN 10)",
+                ],
               },
               {
                 name: "Series 56/57 Resilient seated for High pressure water",
                 href: "/products/delval/valves/butterfly/series-56-57-resilient-seated-for-high-pressure-water",
                 image: "series-56-57-resilient-seated-high-presure_uck2vq",
+                specs: [
+                  "Body Style:Series 56 - Wafer,Series 57 - Lug",
+                  "Body:CI, DI, CS, SS",
+                  "Disc:Nylon coated Ductile Iron, Aroxy Ductile Iron, CF8M, NAB",
+                  "Stem:410 SS, 17-4 PH, 316 SS",
+                  "Seat:EPDM, Buna-N, FKM",
+                  'Size Range:2" to 48“ (DN 50 to 1200)',
+                  'Pressure Rating:2" to 24" - 285 PSIG (PN 20)',
+                  '26" to 48" - 230 PSIG (PN 16)',
+                ],
               },
             ],
           },
@@ -1063,26 +1370,79 @@ export const productCategories: ProductCategory[] = [
                 name: "Series -64 Three Piece Ball Valve",
                 href: "/products/delval/valves/ball/series-64-three-piece-ball-valve",
                 image: "series-64-three-piece_v5ipwk",
+                specs: [
+                  "Body Type:Threaded / Socket Weld End",
+                  "Body:CS, SS",
+                  "Ball:SS",
+                  "Stem:SS ",
+                  "Seat:PTFE, RTFE",
+                  "Size Range:1/2” to 2”",
+                  "Pressure Rating:Class 400 to Class 800 (1000 psi to 2000 psi)",
+                  "Design Standard:BS EN 17292",
+                  "Testing Standard:API 598",
+                ],
               },
               {
                 name: "Series 65-72 Floating Ball",
                 href: "/products/delval/valves/ball/series-65-72-floating-ball",
                 image: "series-65-72-floating-ball_mf0wkc",
+                specs: [
+                  "Body Type:Flanged RF",
+                  "Body:CS, SS",
+                  "Ball:CF8M, CF8, CF3M, CF3",
+                  "Stem:316 SS, Duplex S31803, 17-4 PH",
+                  "Seat:PTFE, RTFE, PEEK, Delrin, Devlon, Nylon, Ultra",
+                  'Size Range:1/2" to 12“ (DN 15 to 300) varies by series',
+                  "Pressure Rating:Series 65/69 – Class 150",
+                  "Series 66/70 – Class 300,Series 67/71 – Class 600",
+                  "Series 68/72 – Class 900 ",
+                  "Design Standard:BS EN 17292",
+                  "Testing Standard:API 598",
+                ],
               },
               {
                 name: "Series 7/8 Trunnion Mounted Ball Valve",
                 href: "/products/delval/valves/ball/series-7-8-trunnion-mounted-ball-valve",
                 image: "series-7-8-trunnion-mounted-ball_oyph9v",
+                specs: [
+                  "Body Type:Flanged (RF, RTJ), Buttweld",
+                  "Body:CS, SS, Duplex SS",
+                  "Ball:CS + ENP, CF8M, CF3M, Duplex SS",
+                  "Stem:410 SS, 316 SS, 304 SS, XM-19, Duplex SS",
+                  "Seat:RTFE, PEEK, Devlon, Nylon, Viton",
+                  'Size Range:Series 7 - 2" to 14“ (DN 50 to 350)',
+                  "Series 8 - 16” to 24” (DN 400 to 600)",
+                  "Pressure Rating:Class 150 - 1500 Full and Reduced Bores",
+                ],
               },
               {
                 name: "Series 75/76 One Piece ",
                 href: "/products/delval/valves/ball/series-75-76-one-piece",
                 image: "series-75-76-one-piece_j34kbx",
+                specs: [
+                  "Body Type:Flanged RF",
+                  "Body:CS, SS",
+                  "Ball:F316",
+                  "Stem:316 SS",
+                  "Seat:PTFE, RTFE, Ultra, PEEK",
+                  "Size Range:1” to 4” (DN25 to 100)",
+                  "Series 8 - 16” to 24” (DN 400 to 600) ",
+                  "Pressure Rating:Series 75 – Class 150,Series 76 – Class 300",
+                ],
               },
               {
                 name: "Series T Two piece welded",
                 href: "/products/delval/valves/ball/series-t-two-piece-welded",
                 image: "series-t-two-piece-seal-welded_iuafrx",
+                specs: [
+                  "Body Type:Threaded",
+                  "Body:CS, SS",
+                  "Ball:SS",
+                  "Stem:SS",
+                  "Seat:RTFE, PEEK",
+                  "Size Range:1/4” to 2”",
+                  "Pressure Rating:2000 psi, 3000 psi, 6000 psi",
+                ],
               },
             ],
           },
@@ -1096,6 +1456,17 @@ export const productCategories: ProductCategory[] = [
                 name: "Series 4 Trio  triple offset valve",
                 href: "/products/delval/valves/triple-offset/series-4-trio-triple-offset-valve",
                 image: "series-4-trio-triple-offset_bfnnfh",
+                specs: [
+                  "Body Type:Wafer, Lug, Double Flanged, Buttweld",
+                  "Body:CS, SS",
+                  "Disc:WCB, CF8M, CF8",
+                  "Stem:316 SS, 410 SS, 17-4 PH, XM-19",
+                  "Seat:Stellite Gr.21",
+                  "Seal Ring:S31803+Graphite, XM 19+Graphite, Inconel 625+Graphite, Solid Metal Seat",
+                  'Size Range:Series 4A, 4B, 4C, 4W - 3" to 48“ (DN 80 to 1200)Series 4D, 4E, 4F, 4Y, 4G, 4H, 4J, 4K - 3" to 24“  (DN 80 to 600)',
+                  "Pressure Rating:Series 4A, 4B, 4C, 4W - Class 150 ",
+                  "Series 4D, 4E, 4F, 4Y - Class 300 ,Series 4G, 4H, 4J, 4K - Class 600",
+                ],
               },
             ],
           },
@@ -1109,16 +1480,38 @@ export const productCategories: ProductCategory[] = [
                 name: "Series 21 pneumatic rack & pinion",
                 href: "/products/delval/valves/actuators/series-21-pneumatic-rack-and-pinion",
                 image: "series-21-pnuematic-rack_lfvspx",
+                specs: [
+                  "Hard anodized, extruded aluminum body",
+                  "High strength alloy, ENP coated pinion gear",
+                  "SS end cap bolts",
+                  "Bi-directional adjustable external travel stops (± 5º in both open and closed directions)",
+                  "Unique patented insert design offers Double D, ISO square, round end keyed; can direct mount to many quarter turn valve designs",
+                  "Guide bar in pistons provide inherent blowout proof design",
+                ],
               },
               {
                 name: "Series 25 pneumatic scotch yoke",
                 href: "/products/delval/valves/actuators/series-25-pneumatic-scotch-yoke",
                 image: "series-25-pnuematic-scotch-yoke_ttrh0e",
+                specs: [
+                  "DA to SR conversion by changing cylinder and spring cartridge assembly, safe spring cartridge design for safe assembly and disassembly",
+                  "Rigid guidance and low friction with piston guide bands and quad seals",
+                  "Hollow design permits use of a universal adapter insert for direct mounting to quarter turn valves",
+                ],
               },
               {
                 name: "series 83 limit switch box",
                 href: "/products/delval/valves/actuators/series-83-limit-switch-box",
                 image: "series-83-limit-switch-box_qzswfk",
+                specs: [
+                  "Body Type:Limit Switch Box",
+                  "Body:Aluminum die cast powder coated body, polycarbonate dome",
+                  "Weatherproof:IP65 as standard / IP67 available ",
+                  "Conduit Entries:(2qty) ½” NPT as standard,M20x1.5 & ¾” NPT options available",
+                  "Mounting:Namur",
+                  "Temperature Range:Standard -20°C to 80°C (-4°F to 176°F)",
+                  "Switch Type:Honeywell SPDT Mech. switches as standard Other inductive & proximity switch options available",
+                ],
               },
             ],
           },
@@ -1238,15 +1631,14 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Dual Skirt Seal",
                 href: "/products/bmd/skirt-seal/dual/dual-skirt-seal",
-                image: "dual-skirt-seal_ecnzkl",
+                image: "dual-skirt-seal_ecnzkl",,
                 specs:[
                   "A: Ambient Temp upto 70°C",
 "H: HR Rubber sustain upto 140°C intermediate temp ",
 "F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
                 ]
               },
-            
-            ]
+            ],
           },
           {
             name: "Rear",
@@ -1303,10 +1695,10 @@ export const productCategories: ProductCategory[] = [
                 name: "Belt Tracker",
                 href: "/products/bmd/belt-tracker/belt-tracker-positioner/belt-tracker",
                 image: "belt-tracker_ifd2td",
-              }
-            ]
-          }
-        ]
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Air Storm",
@@ -1320,11 +1712,11 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Air Storm",
                 href: "/products/bmd/air-storm/air-storm-blaster/air-storm",
-                image: "air-storm_p4mzo3"
-              }
-            ]
-          }
-        ]
+                image: "air-storm_p4mzo3",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Dust Free Zone",
@@ -1338,14 +1730,14 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Dust Filter Bag",
                 href: "/products/bmd/dust-free-zone/dust/dust-filter-bag",
-                image: "DFZ1-1_ek6cic"
+                image: "DFZ1-1_ek6cic",
               },
               {
                 name: "Dust Curtain",
                 href: "/products/bmd/dust-free-zone/dust/dust-curtain",
-                image: "DFZ2_tyyaij"
-              }
-            ]
+                image: "DFZ2_tyyaij",
+              },
+            ],
           },
           {
             name: "Mild Steel Structure",
@@ -1355,13 +1747,13 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Mild Steel Structure",
                 href: "/products/bmd/dust-free-zone/mild-steel-structure/mild-steel-structure",
-                image: "DFZ3_uuz0qv"
-              }
-            ]
-          }
-        ]
-      }
-    ]
+                image: "DFZ3_uuz0qv",
+              },
+            ],
+          },
+        ],
+      },
+    ],
   },
   {
     name: "Symphony",
@@ -1381,27 +1773,59 @@ export const productCategories: ProductCategory[] = [
                 name: "Venti-cool 40",
                 href: "/products/symphony/coolers/venticool/venti-cool-40",
                 image: "Venticooler-40u-1_dmsoy0",
+                specs: [
+                  "Modular units suitable for any area. One unit can cool up to 2500 sq.ft. (232 sq.m).*",
+                  "Industrial Cooler with Ducting High quality air pre-filter to protect the cooling pad",
+                  "Industrial Air Cooler with Duct Weather resistant UV Stabilized high grade plastic body",
+                  "Industrial Air Coolers 3 kW, motor for powerful air delivery of 40,000 CMH",
+                  "Industrial Coolers Four side cooling pads for superior cooling",
+                  "Air Washer Cooler Easy installation and maintenance",
+                ],
               },
               {
                 name: "Venti-cool 25U",
                 href: "/products/symphony/coolers/venticool/venti-cool-25u",
                 image: "venti-cool-25u_ykcxcg",
+                specs: [
+                  "Modular units suitable for any area.One unit can cool up to 2500 sq.ft.*",
+                  "Cool Flow Dispenser for enhanced cooling",
+                  "Weather resistant UV Stabilized engineering plastic body",
+                  "1.5 kW motor for powerful air delivery of 25000 CMH",
+                  "Four side cooling pads for superior cooling",
+                  "Symphony accessories for easy and quick installation in a couple of hours",
+                ],
               },
               {
                 name: "Venti-cool 11U",
                 href: "/products/symphony/coolers/venticool/venti-cool-11u",
                 image: "venti-cool-11u_sd7pnv",
+                specs: [
+                  "Modular units suitable for any area. One unit can cool up to 700 sq.ft.*",
+                  "Industrial ducting cooler Cool Flow Dispenser for enhanced ventilation cooling",
+                  "Industrial air cooling system Weather resistant UV Stabilized high grade plastic body",
+                  "Air cooling ventilation system 0.45 kW, 2 speed motor for powerful air delivery of 11000 CMH",
+                  "Modular air cooling unit Three side cooling pads for superior ventilation cooling",
+                  "Industrial air ventilation Symphony accessories for easy and quick installation in a couple of hours",
+                ],
               },
               {
                 name: "Venti-cool 20U",
                 href: "/products/symphony/coolers/venticool/venti-cool-20u",
                 image: "venti-cool-20u_g5d2qa",
+                specs: [
+                  "Industrial Cooler modular units suitable for any area.One unit can cool up to 1200 sq.ft.*",
+                  "Supplier of Industrial air cooler Cool Flow Dispenser for enhanced cooling",
+                  "Industrial Evaporative Cooler  Weather resistant UV Stabilized engineering plastic body",
+                  "Supplier of industrial evaporative cooler 1.1 kW motor for powerful air delivery of 20000 CMH",
+                  "Supplier of industrial cooler Four side cooling pads for superior cooling",
+                  "Manufacturer of industrial coolers Symphony accessories for easy and quick installation in a couple of hours",
+                ],
               },
               {
                 name: "Industrial Ducting Cooler",
                 href: "/products/symphony/coolers/venticool/industrial-ducting-cooler",
-                image: "Products-05_kzqml1"
-              }
+                image: "Products-05_kzqml1",
+              },
             ],
           },
           {
@@ -1414,21 +1838,62 @@ export const productCategories: ProductCategory[] = [
                 name: "Movicool XXL",
                 href: "/products/symphony/coolers/movicool/movicool-xxl",
                 image: "movicool-xxl_zb5joc",
+                specs: [
+                  "20000 m³/hr air delivery",
+                  "4-side-High efficiency honeycomb pad for superior cooling",
+                  "Robust weather resistant body for long life",
+                  "Fully closable horizontal louvers",
+                  "Auto vertical swing",
+                  "Easily removable and cleanable cooling pads",
+                  "4- side dust filters for pure healthy air",
+                  "Cool flow dispenser for enhanced cooling",
+                  "Float valve for auto water filling",
+                  "Lockable heavy-duty wheels",
+                ],
               },
               {
                 name: "Movicool - DD125",
                 href: "/products/symphony/coolers/movicool/movicool-dd125",
                 image: "Movicool--DD125_dx7cob",
+                specs: [
+                  "Air cooler with two cooling units for uniform wide area cooling",
+                  "Powerful 20m air throw for faster air cooling",
+                  "3-side high efficiency honeycomb cooling pads for Superior cooling",
+                  "Robust weather resistant body for long life",
+                  "8500 + 8500 m³/hr* air delivery",
+                  "Fully closable horizontal louvers",
+                  "Auto Vertical Swing",
+                  "Low power consumption - 215 watts* X 2 only",
+                  "This air cooler has powerful 3 speed fan",
+                  "Easily removable and cleanable cooling pads.",
+                ],
               },
               {
                 name: "Movicool-XE100",
                 href: "/products/symphony/coolers/movicool/movicool-xl100",
                 image: "movicool-xe-100_zinnux",
+                specs: [
+                  "High-Performance Cooling: Symphony’s Movicool XE 100 offers powerful cooling for large spaces.",
+
+                  "Durable Weather-Resistant Body: This desert air cooler features a weather-resistant body.",
+                  "Low Power Consumption: Operates on 580W, using only 10% of the power consumed by an air conditioner of equivalent capacity.",
+                  "Powerful Air Throw: The air cooler offers a 21-meter air throw, perfect for large areas like gardens and open spaces.",
+                  "CFD Technology: This air cooler ensures an even airflow distribution across the entire room.",
+                  "Heavy-Duty Wheels: This air cooler has large, lockable wheels for easy mobility.",
+                ],
               },
               {
                 name: "Movicool-XE200",
                 href: "/products/symphony/coolers/movicool/movicool-xl200",
                 image: "movicool-xe-200_emr534",
+                specs: [
+                  "Powerful 21m Air Throw: Delivers strong airflow, making this air cooler ideal for large room cooling.",
+
+                  "Weather-Resistant Body: This desert air cooler features a durable body, ensuring longevity in all weather conditions.",
+                  "CFD Technology: This desert air cooler ensures uniform air distribution",
+                  "Heavy-Duty Wheels: This Symphony air cooler moves smoothly and stays secure when the wheels are locked.",
+                  "Indoor & Outdoor Use: Perfect for large gatherings, gardens, & terraces.",
+                ],
               },
             ],
           },
@@ -1561,9 +2026,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "M17",
                 href: "/products/tennant/sweeper-scrubbers/battery-powered/m17",
-                image: "image.tennant-ap.M-M17_gwsvtv"
-              }
-            ]
+                image: "image.tennant-ap.M-M17_gwsvtv",
+              },
+            ],
           },
           {
             name: "Ride On",
@@ -1579,11 +2044,11 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "M30",
                 href: "/products/tennant/sweeper-scrubbers/ride-on/m30",
-                image: "image.tennant-ap.M-M30_nxcxza"
+                image: "image.tennant-ap.M-M30_nxcxza",
               },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
       {
         name: "Burnishers & floor Cleaning",
@@ -1649,11 +2114,11 @@ export const productCategories: ProductCategory[] = [
                   "Head Size 27.2 in / 690 mm"
                 ]
               },
-            ]
-          }
-        ]
+            ],
+          },
+        ],
       },
-      
+
       {
         name: "Vacuum Cleaners",
         href: "/products/tennant/vaccum-cleaners",
@@ -1852,61 +2317,152 @@ export const productCategories: ProductCategory[] = [
                 name: "Adiabatic Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/adiabatic-cooling-towers",
                 image: "adiabatic-cooling-towers_sisfyf",
+                specs: [
+                  " Adiabatic products are air-cooled coolers or condensers with adiabatic pre-coolers. Before the fan draws the ambient air through the finned coil, the air is pre-cooled adiabatically when traversing a humidification pad.",
+                  "This evaporates the water in the air, thus boosting the cooling capacity.",
+
+                  "Low process temperaturesSaves more than 80% on annual water compared to cooling towersUp to 40% increased capacity compared to dry cooling (air temperatures approaching wet bulb temperature)Reduced energy consumption operational safety: no water recirculation, no stagnant water, no aerosol generation, no water carry-over.",
+                ],
               },
               {
                 name: "Round Shape cooling towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/round-shape-cooling-towers",
                 image: "round-shape-cooling-towers_rouup9",
+                specs: [
+                  "TE / TEFC, IP-55 Protected ‘F’ Class Insulated motor with extended shaft to assist outdoor applications",
+                  "Capacities 10TR to 1500TR , in single cell",
+                  "Water flow 5 m³/h to 1000 m³/h , in a single cell",
+                  "360 °C air intake area assist 100% cooling efficiency",
+                  "Delta T (Temperature drop) 4°C to 20°C, in single cell",
+                  "ABS Fills for high temperature applications (80 °C)",
+                ],
               },
               {
                 name: "Square Shape cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/square-shape-cooling-towers",
                 image: "square-shape-cooling-towers_mlquet",
+                specs: [
+                  "Square-shaped towers cool the recycled water.",
+
+                  "These towers blend easily with architectural surroundings, offering a unique aesthetic appearance.",
+
+                  "The tower design includes a static distribution setup located above the fill media.",
+
+                  "Hot water from the application is circulated to the distribution header.",
+
+                  "Water is dispersed over the fill media by multiple non-clog static nozzles fitted to the branch pipes of the main header.",
+
+                  "Water, when forced at 1 to 1.5 kg/cm², is atomized and sprayed over the fill media.",
+
+                  "A fan directly coupled to the motor draws air vertically across the fill media, removing heat from the water.",
+
+                  "Cold water is collected in the collection sump, which has an outlet connection to circulate it back to the application.",
+
+                  "Spray losses are minimized using adequate drift eliminators.",
+                ],
               },
               {
                 name: "Cross Flow Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/cross-flow-cooling-towers",
                 image: "cross-flow-cooling-towers_q9pl89",
+                specs: [
+                  "The tower design incorporates an FRP distribution basin located at the top of the tower.",
+
+                  "The basin contains a number of flower-type target nozzles.",
+
+                  "Water is dispersed uniformly over the fill media by gravity.",
+
+                  "Water flows vertically down through the honeycomb fills.",
+                  "A horizontally placed fan, directly coupled to the motor, draws air across the fill media.",
+
+                  "A small portion of water evaporates, which removes heat from the remaining water.",
+
+                  "The warm, moist air is drawn into the fan/motor setup and discharged through the fan deck to the atmosphere.",
+                  "The cooled water is collected in the cooling tower collection sump.",
+
+                  "From the sump, the cold water is re-circulated back to the application.",
+                ],
               },
               {
                 name: "Wooden Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/wooden-cooling-towers",
                 image: "wooden-cooling-towers_kvcxbd",
+                specs: [
+                  "This rugged war horse in our stables, incorporate multi blade, cast aluminum, adjustable pitch fan assembly driven by special T.E, IP-55 protected Geared Motor with low R.P.M and higher air discharge capacities. The tower structural and supporting sections are HDG Steel, fastened with SS fasteners, and suited for hot, harsh and humid atmospheric industrial conditions.",
+
+                  "This mechanism is called as induced draft cross flow cooling",
+                ],
               },
               {
                 name: "Modular Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/modular-cooling-towers",
                 image: "modular-cooling-towers_ydxluh",
+                specs: [
+                  "A modular cooling tower assembly is provided that comprises at least one cooling tower module having extendible legs capable of supporting the assembly when fully extended. When more than one cooling tower module is used in the assembly, adjacent modules are attached together at their respective frames. A single exit plenum chamber is placed over the joined modules and a single fan in the exit plenum chamber causes an air intake from an air entrance plenum chamber at the bottom of the modules upwardly past the fill sheets and out the exit plenum chamber and fan cowl. The cooled liquid falls into a common collection basin in which the extended legs of the modules are standing",
+                ],
               },
               {
                 name: "Natural Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/natural-cooling-towers",
                 image: "natural-cooling-towers_adx33u",
+                specs: [
+                  "Devoid of either the fan or the fill media these towers are guaranteed for 100% savings in power & maintenance down time. The special aero dynamic designed FRP / GI louvers minimize spillage and evaporation losses.",
+                  "The Hot Dipped Galvanized structural and S.S. fasteners increase the life periods of the towers.",
+                  "Their unique non clog nozzle atomizes water to fine mist state to ensue efficiencies of the towers and are easily maintained even during operations.",
+                  "In this process, water gets cooled and the air gets heated / saturated thereby caring away some sensible heat from water.",
+                ],
               },
               {
                 name: "Dry Cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/dry-cooling-towers",
                 image: "dry-cooling-towers_rj07g3",
+                specs: [
+                  "The fluid coils of international standards are designed and selected through software providing accurate data on thermal transfer rate based on which they are manufactured.",
+
+                  "The tower designed incorporates the shell and tube designed with copper tubing and aluminium foil fins.",
+
+                  "The water losses are 0.01% since, the circuits are of the closed loop type and the towers are most space saving / energy efficient once. They are best suited for applications such as Furnace coil water cooling, D/G Sets, Compressors.",
+
+                  "The fans are of aluminium die cast with adjustable pitch and are individually tested for different flow rates. They are all dynamically balanced. Since, the complete fan is of Aluminium Alloy / Plastic it does not corrode when used in out door applications.",
+
+                  "Dry cooling towers are in a single unit can be provided in capacities from 1000 kw to 1500 kw and they can be multiplexed to reach many thousand or kilowatts.",
+                ],
               },
               {
                 name: "Closed circuit cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/closed-circuit-cooling-towers",
                 image: "closed-circuit-cooling-towers_w2f2j1",
+                specs: [
+                  "We have one of the closed circuits cooling towers CTI certification from India as it first time. Closed circuit cooling towers serving most of the grind buildings at affordable cost and not only saves the water as well power consummation and foot prints.We are CTI certified cooling tower in south India. We are provided a terminal performance quality with 20 years. Counter flow and closed circuit cooling towers CTI certification now we have further more response to maintain the quality at bar. Mean while we have working carefully minimize the cost.",
+                ],
               },
               {
                 name: "Plate Heat Type cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/plate-heat-type-cooling-towers",
                 image: "plate-heat-type-cooling-towers_ithmss",
+                specs: [
+                  "The plate heat exchanger is made of 2 frames and a number of plates that depend on the volume to be exchanged. The plates have characteristic ridges that are necessary to create flow channels through which the fluid moves in perfectly opposing currents,minimizing the required surface area for an optimal heat exchanger. The frames are made of two pained carbon steels slabs. The internal plates have gaskets on the outer edge separating the plates from one another and are fixed tightly together by stay bolts,obtaining a perfect hold. This type of assembly permits having the fluid input and output on the same side of only one slab. This method allows method allows the dis assembly of the PHE for cleaning; taking down the plates from the free side without the need to disconnect any pipes.",
+                ],
               },
               {
                 name: "Shell & Tube Heat Exchangers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/shell-and-tube-heat-exchangers",
                 image: "shell-and-tube-heat-exchangers_q6idnz",
+                specs: [
+                  "Shell and Tube Heat ExchangersShell and Tube heat exchangers are suitable for heat transfer fluids,lubricating oil,power pack oil and other process coolants.Models available in wide range(4″ to 10″) shell diameter suitable for load 1500 Kcal/Hr to 75000 Kcal/hr.(2 Hp to 100Hp).",
+                ],
               },
               {
                 name: "Counter flow cooling Towers",
                 href: "/products/classik-cooling-towers/towers/cooling-towers/counter-flow-cooling-towers",
                 image: "counter-flow-cooling-towers_tiuyr2",
+                specs: [
+                  "Classik Cooling Towers offers a wide choice of models in space-efficient, counter flow design.",
+
+                  "Counter flow design cooling towers usually offer a smaller footprint than cross flow towers and allow maximum thermal performance out of each plan area. Counter flow towers also help minimize your pump head requirements.",
+
+                  "Classik Cooling Towers counter flow towers are available in various cell sizes and various combinations of components, in order to meet your specific application requirements and offer you the most effective value.",
+                ],
               },
             ],
           },
@@ -1937,14 +2493,14 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "SAC 5-50 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/pre-cleaner/sac-5-50-tph",
-                image: "phm_sac_lyzaj9"
+                image: "phm_sac_lyzaj9",
               },
               {
                 name: "SI 30-80 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/pre-cleaner/si-30-80-tph",
-                image: "phm_si_gwhssq"
-              }
-            ]
+                image: "phm_si_gwhssq",
+              },
+            ],
           },
           {
             name: "Drum Pre Cleaners",
@@ -1954,9 +2510,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "DP-630,950",
                 href: "/products/fowler-westrup/post-harvesting-machines/drum-pre-cleaners/dp-630-950",
-                image: "drum_nhi7ci"
-              }
-            ]
+                image: "drum_nhi7ci",
+              },
+            ],
           },
           {
             name: "Vegetable Seed Cleaners",
@@ -1966,9 +2522,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "GSU 0.5-1.0 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/vegetable-seed-cleaners/gsu-0-5-1-0-tph",
-                image: "gsu_walwtm"
-              }
-            ]
+                image: "gsu_walwtm",
+              },
+            ],
           },
           {
             name: "Fine Cleaners",
@@ -1983,9 +2539,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "UB, UB/4 and UB(50:50) for High Capacity",
                 href: "/products/fowler-westrup/post-harvesting-machines/fine-cleaners/ub-ub-4-and-ub50-50-for-high-capacity",
-                image: "ub_x3suze"
-              }
-            ]
+                image: "ub_x3suze",
+              },
+            ],
           },
           {
             name: "Modular Cleaners",
@@ -2001,9 +2557,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "CC up to 200 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/modular-cleaners/cc-up-to-200-tph",
-                image: "mc_cc_vusvey"
-              }
-            ]
+                image: "mc_cc_vusvey",
+              },
+            ],
           },
           {
             name: "Gravity Seperators",
@@ -2019,9 +2575,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Voyager GVX-1050 up to 4 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/gravity-seperators/voyager-gvx-1050-up-to-4-tph",
-                image: "voyager_uyoobf"
-              }
-            ]
+                image: "voyager_uyoobf",
+              },
+            ],
           },
           {
             name: "Destoners",
@@ -2037,9 +2593,9 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "MaxiCap DS up to 20 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/destoners/maxicap-ds-up-to-20-tph",
-                image: "ds_maxicap_i82l9f"
-              }
-            ]
+                image: "ds_maxicap_i82l9f",
+              },
+            ],
           },
           {
             name: "Indented Cylinders",
@@ -2051,8 +2607,8 @@ export const productCategories: ProductCategory[] = [
                 name: "TR up to 12 TPH",
                 href: "/products/fowler-westrup/post-harvesting-machines/indented-cylinders/tr-up-to-12-tph",
                 image: "is_tr_biksnu",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Spiral Seperators",
@@ -2064,8 +2620,8 @@ export const productCategories: ProductCategory[] = [
                 name: "HT-1,2,4,6,8",
                 href: "/products/fowler-westrup/post-harvesting-machines/spiral-seperators/ht-1-2-4-6-8",
                 image: "ss_ht_uoazm4",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Lab Machines",
@@ -2081,16 +2637,16 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Lab Gravity Seperator",
                 href: "/products/fowler-westrup/post-harvesting-machines/lab-machines/lab-gravity-seperator",
-                image: "lab_gs_zgsuuu"
+                image: "lab_gs_zgsuuu",
               },
               {
                 name: "Lab Brushing Machine",
                 href: "/products/fowler-westrup/post-harvesting-machines/lab-machines/lab-brushing-machine",
-                image: "lab_bm_bho6ck"
-              }
-            ]
-          }
-        ]
+                image: "lab_bm_bho6ck",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Colour Sorter",
@@ -2099,7 +2655,7 @@ export const productCategories: ProductCategory[] = [
           {
             name: "TRU- PRIME SERIES",
             href: "/products/fowler-westrup/colour-sorter/tru-prime-series",
-            image: "color-sorter-tru-192-prime_x0r76y",            
+            image: "color-sorter-tru-192-prime_x0r76y",
             items: [
               {
                 name: "TRU-192 PRIME",
@@ -2109,14 +2665,14 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "TRU-320 R PRIME",
                 href: "/products/fowler-westrup/colour-sorter/tru-prime-series/tru-320-r-prime",
-                image: "color-sorter-tru-320-r-prime_fyimxw"
+                image: "color-sorter-tru-320-r-prime_fyimxw",
               },
               {
                 name: "TRU-448 PRIME",
                 href: "/products/fowler-westrup/colour-sorter/tru-prime-series/tru-448-prime",
-                image: "color-sorter-tru-448-prime_ofvcs4"
-              }
-            ]
+                image: "color-sorter-tru-448-prime_ofvcs4",
+              },
+            ],
           },
           {
             name: "TRU - CHAMP SERIES",
@@ -2132,11 +2688,11 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "TRU-G 60 CHAMP",
                 href: "/products/fowler-westrup/colour-sorter/tru-champ-series/tru-g-60-champ",
-                image: "color-sorter-tru-g-60-champ_piefcc"
-              }
-            ]
-          }
-        ]
+                image: "color-sorter-tru-g-60-champ_piefcc",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Rice Milling Machinery",
@@ -2152,8 +2708,8 @@ export const productCategories: ProductCategory[] = [
                 name: "SAB",
                 href: "/products/fowler-westrup/rice-milling-machinery/pre-cleaner/sab",
                 image: "phm_sab_majmlm",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Destoner",
@@ -2165,8 +2721,8 @@ export const productCategories: ProductCategory[] = [
                 name: "DSP",
                 href: "/products/fowler-westrup/rice-milling-machinery/destoner/dsp",
                 image: "rm_destoner_csp_mn29va",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Paddy Husker",
@@ -2177,8 +2733,8 @@ export const productCategories: ProductCategory[] = [
                 name: "YSA - 100 Closed Circuit Type",
                 href: "/products/fowler-westrup/rice-milling-machinery/paddy-husker/ysa-100-closed-circuit-type",
                 image: "rm_paddyhusker_nqm8pt",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Paddy Seperator",
@@ -2190,8 +2746,8 @@ export const productCategories: ProductCategory[] = [
                 name: "SE-500",
                 href: "/products/fowler-westrup/rice-milling-machinery/paddy-seperator/se-500",
                 image: "rm_paddyseperator_cfkwn9",
-              }
-            ]
+              },
+            ],
           },
           {
             name: "Abraisive Whiitener",
@@ -2203,10 +2759,10 @@ export const productCategories: ProductCategory[] = [
                 name: "XPA-25",
                 href: "/products/fowler-westrup/rice-milling-machinery/abraisive-whitener/xpa-25",
                 image: "rm_abressive_nzldix",
-              }
-            ]
+              },
+            ],
           },
-        ]
+        ],
       },
       {
         name: "Silo systems",
@@ -2214,7 +2770,7 @@ export const productCategories: ProductCategory[] = [
         subcategories: [
           {
             name: "Galvanized Silo systems",
-            href: "/products/fowler-westrup/silo-systems/galvanized-silo-systems",  
+            href: "/products/fowler-westrup/silo-systems/galvanized-silo-systems",
             image: "gs_flat_uvlvce",
 
             items: [
@@ -2226,11 +2782,11 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Hopper Bottom Silo",
                 href: "/products/fowler-westrup/silo-systems/galvanized-silo-systems/hopper-bottom-silo",
-                image: "gs_hopper_hifc92"
-              }
-            ]
-          }
-        ]
+                image: "gs_hopper_hifc92",
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Filtration Systems",
@@ -2246,15 +2802,13 @@ export const productCategories: ProductCategory[] = [
                 name: "Lube Oil Filtration Machine",
                 href: "/products/fowler-westrup/filtration-systems/oil-filtration/lube-oil-filtration-machine",
                 image: "lubeoilfiltration_lltfug",
-              }
-            ]
-          }
-        ]
-      }
-    ]
-  }
- 
-
+              },
+            ],
+          },
+        ],
+      },
+    ],
+  },
 ];
 export type ProductCategory = {
   name: string;
