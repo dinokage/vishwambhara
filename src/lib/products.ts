@@ -24,14 +24,7 @@ export const productCategories: ProductCategory[] = [
                 specs:["Capacity FAD l/s:1.02 l/s - 2.53 l/s",
 
                 ]
-                
-                specs: [
-                  "Capacity FAD l/s:1.02 l/s - 2.53 l/s",
-                  "Capacity FAD:3.6 m³/h - 9.1 m³/h",
-                  "Working pressure:10 bar(e) - 10 bar(e)",
-                  "Installed motor power:0.55 kW - 1.5 kW",
-                  "Capacity FAD m³/min:0.06 m³/min - 0.15 m³/min"
-                 ]
+              
               },
               {
                 name: "LF oil-free aluminum piston compressors",
@@ -1108,9 +1101,7 @@ export const productCategories: ProductCategory[] = [
                 href: "/products/idex-pumps/pumps/eodd-pumps/2-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
                 specs:["The 2 Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2 port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments."]
-                specs: [
-                  'The 2" Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2" port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments.',
-                ],
+  
               },
               {
                 name: "3” EODD PUMP PERFORMANCE",
@@ -1631,7 +1622,7 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Dual Skirt Seal",
                 href: "/products/bmd/skirt-seal/dual/dual-skirt-seal",
-                image: "dual-skirt-seal_ecnzkl",,
+                image: "dual-skirt-seal_ecnzkl",
                 specs:[
                   "A: Ambient Temp upto 70°C",
 "H: HR Rubber sustain upto 140°C intermediate temp ",
@@ -2286,7 +2277,7 @@ export const productCategories: ProductCategory[] = [
                 href: "/products/tennant/sweepers/ride-on/s16",
                 image: "image.tennant-ap.M-S16H_ezqq8u",
                 specs:[
-                  "CLEANING PATH 46 IN / 1, 170 MM (SINGLE SIDE BRUSH), 60 IN / 1, 520 MM (DUAL SIDE BRUSH)"
+                  "CLEANING PATH 46 IN / 1, 170 MM (SINGLE SIDE BRUSH), 60 IN / 1, 520 MM (DUAL SIDE BRUSH)" ,
                   "HOPPER CAPACITY 5.3 CUBIC FT / 150 L",
 "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 111, 320 SQ FT / 10, 340 SQ M (SINGLE SIDE BRUSH), UP TO 145, 200 SQ FT / 13, 490 SQ M (DUAL SIDE BRUSH)"
                 ]
