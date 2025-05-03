@@ -21,21 +21,49 @@ export const productCategories: ProductCategory[] = [
                 name: "LFx compact oil-free piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/lfx-compact",
                 image: "lfx-compact-oil-free-_piston-compressors_zmepxq",
+                specs: [
+                  "Capacity FAD l/s:1.02 l/s - 2.53 l/s",
+                  "Capacity FAD:3.6 m³/h - 9.1 m³/h",
+                  "Working pressure:10 bar(e) - 10 bar(e)",
+                  "Installed motor power:0.55 kW - 1.5 kW",
+                  "Capacity FAD m³/min:0.06 m³/min - 0.15 m³/min"
+                 ]
               },
               {
                 name: "LF oil-free aluminum piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/lf-aluminium",
                 image: "lf-oil-free-aluminum-piston-compressors_ggybji",
+                specs: [
+                  "Capacity FAD l/s:3.1 l/s - 15.5 l/s",
+                  "Capacity FAD:11.16 m³/h - 55.8 m³/h",
+                  "Working pressure:10 bar(e) - 10 bar(e)",
+                  "Installed motor power:1.5 kW - 7.5 kW",
+                  "Capacity FAD m³/min:0.19 m³/min - 0.93 m³/min"
+                ]
               },
               {
                 name: "LZ premium oil-free compressor",
                 href: "/products/atlas-copco/air-compressors/oil-free/lz-premium",
                 image: "lz-premium-oil-free-compressor_mq7cqm",
+                specs:[
+                  "Capacity FAD l/s:11 l/s - 31 l/s",
+                  "Capacity FAD:39.6 m³/h - 111.45 m³/h",
+                  "Working pressure:4 bar(e) - 10 bar(e)",
+                  "Installed motor power: 5.5 kW - 15 kW",
+                  "Capacity FAD m³/min:0.66 m³/min - 1.86 m³/min"
+                ]
               },
               {
                 name: "SF and SF+ oil-free scroll compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/sf-scroll",
                 image: "sf-and-sf_oil-free_-_scroll-compressors_mvcspd",
+                specs:[
+                  "Capacity FAD l/s:1.9 l/s - 40.8 l/s",
+                  "Capacity FAD:6.8 m³/h - 146.9 m³/h",
+                  "Working pressure:8 bar(e) - 10 bar(e)",
+                  "Installed motor power: 1.5 kW - 22 kW",
+                  "Capacity FAD m³/min:0.11 m³/min - 2.45 m³/min"
+                ]
               },
               {
                 name: "Reciprocating piston compressors HX&HN-15",
@@ -46,48 +74,111 @@ export const productCategories: ProductCategory[] = [
                 name: "HX&HN-15 oil-free high pressure reciprocating piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/hn-15-high-pressure",
                 image: "reciprocating-piston-compressors-hx_hn-15_dg0uw5",
+                specs:[
+                  "Capacity FAD l/s:83 l/s - 322 l/s",
+                  "Capacity FAD:300 m³/h - 1,160 m³/h",
+                  "Working pressure:10 bar(e) - 15 bar(e)",
+                  "Installed motor power: 45 kW - 160 kW",
+                  "Capacity FAD m³/min:0 m³/min - 0 m³/min"
+                ]
               },
               {
                 name: "P high pressure oil-free reciprocating piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/p-high-pressure",
                 image:
                   "p-_high-_pressure-oil-free-reciprocating-piston-_compressors_q4yuo8",
+                  specs:[
+                    "Capacity FAD l/s:45 l/s - 217 l/s",
+                    "Capacity FAD:162 m³/h - 781 m³/h",
+                    "Working pressure:25 bar(e) - 42 bar(e)",
+                    "Installed motor power: 37 kW - 160 kW",
+                    "Capacity FAD m³/min:0 m³/min - 0 m³/min"
+                  ]
               },
               {
                 name: "ZE&ZA (VSD) low pressure oil-free screw compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/ze-za",
                 image:
                   "ze_za_vsd_low-pressure-oil-free-screw-compressors_yikixm",
+                  specs:[
+                    "Capacity FAD l/s:66 l/s - 2,086 l/s",
+                    "Capacity FAD:239 m³/h - 7,510 m³/h",
+                    "Working pressure:1 bar(e) - 4 bar(e)",
+                    "Installed motor power: 30 kW - 522 kW",
+                    "Capacity FAD m³/min:0 m³/min - 0 m³/min"
+                  ]
               },
               {
                 name: "ZR & ZT (VSD) oil-free rotary tooth compressor",
                 href: "/products/atlas-copco/air-compressors/oil-free/zr-zt",
                 image: "zr_zt_vsd_oil-free-rotary-tooth-compressor_jvucal",
+                specs:[
+                  "Capacity FAD l/s:34 l/s - 150 l/s",
+                  "Capacity FAD:120 m³/h - 540 m³/h",
+                  "Working pressure:4 bar(e) - 10 bar(e)",
+                  "Installed motor power: 15 kW - 55 kW",
+                  "Capacity FAD m³/min:2 m³/min - 9 m³/min"
+                ]
               },
               {
                 name: "ZR & ZT (VSD) oil-free screw compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/zr-zt-screw",
                 image: "zr_zt_vsd_oil-free_screw-compressors_phamcq",
+                specs:[
+                  "Capacity FAD l/s:20 l/s - 2,506 l/s",
+                  "Capacity FAD:71 m³/h - 9,022 m³/h",
+                  "Working pressure:3.5 bar(e) - 13 bar(e)",
+                  "Installed motor power: 15 kW - 900 kW",
+                  "Capacity FAD m³/min:1 m³/min - 150 m³/min"
+                ]
               },
               {
                 name: "Oil-free air centrifugal compressor ZH and ZH+",
                 href: "/products/atlas-copco/air-compressors/oil-free/zh-zh-plus",
                 image: "Oil-free_air_centrifugal_compressor_ZH_and_ZH_hdgwrb",
+                specs:[
+                  "Capacity FAD l/s:1,272 l/s - 9,790 l/s",
+                  "Capacity FAD:4,579 m³/h - 35,244 m³/h",
+                  "Working pressure:2.5 bar(e) - 13 bar(e)",
+                  "Installed motor power:355 kW - 3,150 kW",
+                  "Capacity FAD m³/min:76 m³/min - 587 m³/min"
+                ]
               },
               {
                 name: "PET bottle compressor ZP air-cooled",
                 href: "/products/atlas-copco/air-compressors/oil-free/zp-air-cooled",
                 image: "pet-bottle-compressor-z-air-cooled_kk4uvv",
+                specs:[
+                  "Capacity FAD l/s:86 l/s - 231 l/s",
+                  "Capacity FAD:310 m³/h - 837 m³/h",
+                  "Working pressure:40 bar(e) - 40 bar(e)",
+                  "Installed motor power:55 kW - 132 kW",
+                  "Capacity FAD m³/min:5 m³/min - 12 m³/min"
+                ]
               },
               {
                 name: "ZHL single-stage centrifugal compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/zhl-single-stage",
                 image: "zhl-single-stage-centrifugal-compressors_uxkgik",
+                specs :[
+                  "Capacity FAD l/s:1,944 l/s - 10,833 l/s",
+                  "Capacity FAD:7,000 m³/h - 39,000 m³/h",
+                  "Working pressure:0.8 bar(e) - 2 bar(e)",
+                  "Installed motor power:355 kW - 1,400 kW",
+                  "Capacity FAD m³/min:115 m³/min - 650 m³/min"
+                ]
               },
               {
                 name: "Oil-free booster air compressor ZD (VSD)",
                 href: "/products/atlas-copco/air-compressors/oil-free/zd-vsd",
                 image: "oil-free-booster-air-compressor-zd_vsd_ephryz",
+                specs:[
+                  "Capacity FAD l/s:175 l/s - 1,127 l/s",
+                  "Capacity FAD:633 m³/h - 4,057 m³/h",
+                  "Working pressure:25 bar(e) - 42 bar(e)",
+                  "Installed motor power:155 kW - 815 kW",
+                  "Capacity FAD m³/min:11 m³/min - 68 m³/min"
+                ]
               },
             ],
           },
@@ -103,17 +194,28 @@ export const productCategories: ProductCategory[] = [
                 name: "Industrial Piston Compressor - Low Pressure <15 bar",
                 href: "/products/atlas-copco/air-compressors/piston/low-pressure",
                 image:"industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
+                 specs:[
+                  " Your 2 to 10 bar solution for the industrial industry, Atlas Copco's range of industrial low pressure pistons offers you the powerful combination of reliability, flexibility and low operating costs,  With our wide variation of oil injected an oil-free pistons you will find a solution for every application with intermediate air needs. The range includes products from 2 to 10 bar, 0.7 to 20 hp, offering a solution for all your low pressure needs. "
+                 ]
               },
               {
                 name: "Industrial Piston Compressor - High Pressure ≥15 bar",
                 href: "/products/atlas-copco/air-compressors/piston/high-pressure",
                 image:
                   "industrial_piston_compressor_booster_-_high_pressure_15_bar_jgqbo2",
+
+                specs:[
+                  "High-pressure air and industrial gas applications require strong, dependable compression. Atlas Copco offers various solutions concerning high pressure from 15 up to 300 bar, 3 to 40 hp. The range consists of compressors until 30 bar and boosters until 40 or even 300 bar which can offer the ideal solution if you need to reach higher pressures."
+                ]
+
               },
               {
                 name: "Professional piston compressor",
                 href: "/products/atlas-copco/air-compressors/piston/professional-piston",
                 image: "professional_-_piston_-_compressor_bocd56",
+                specs:[
+                  "Our piston air compressor range is designed to deliver a reliable source of compressed air for every user. Our portfolio of reciprocating piston compressors ranges from 0.6 kW to 15 kW; small belt driven & direct driven, handyman compressors to larger professional and semi-industrial designed aluminium and cast iron, piston products."
+                ]
               },
             ],
           },
@@ -136,11 +238,23 @@ export const productCategories: ProductCategory[] = [
                 name: "BD+CD+XD+ twin tower desiccant air dryers",
                 href: "/products/atlas-copco/air-treatment/desiccant/bd-cd-xd",
                 image: "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
+                specs:[
+                  'Energy-efficient compressed air dryer systems. Ideal for high air demands, constant use and critical processes. With advanced monitoring and control.  BD+ and CD+ are designed to work with oil-lubricated and oil-free air compressors. XD+ is designed to specifically work with oil-free air compressors.',
+
+'BD+ heated blower purge desiccant air dryers use a combination of heated air from an external blower, and only a minimal amount of compressed air. BD+ desiccant air dryers are also available in a zero purge variant.',
+
+'CD+ heatless desiccant air dryers are the simplest and only use only compressed air as a purge, minimizing electrical connections.',
+
+'XD+ with zero purge cooling uses the heat of compression recovered from the compressor for the regeneration of the desiccant. The XD+ dryer does not consume any compressed air during the heating or cooling process.'
+                ]
               },
               {
                 name: "CD+ with Cerades",
                 href: "/products/atlas-copco/air-treatment/desiccant/cd-cerades",
                 image: "cd_with_-_cerades_ia9vnp",
+                specs:[
+                  "he CD 5⁺-335⁺ is the first dryer to use the revolutionary Cerades™ desiccant developed and patented by Atlas Copco."
+                ]
               },
               {
                 name: "MDG & MD & ND rotary drum dryers",
