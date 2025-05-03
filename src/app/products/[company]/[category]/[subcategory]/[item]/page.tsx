@@ -76,10 +76,11 @@ export default function ProductItemPage({
               Designed for professionals who demand the best.
             </p>
             <ul className="list-disc pl-5 text-gray-700">
-              <li>High-quality construction</li>
-              <li>Energy efficient design</li>
-              <li>Easy maintenance</li>
-              <li>Reliable performance</li>
+              {
+                item.specs?.map( (spec, index) => (
+                  <li key={index}>{spec}</li>
+                ))
+              }
             </ul>
           </div>
           

@@ -1896,4 +1896,5 @@ export type ProductCategory = {
   subcategories?: ProductCategory[];
   items?: ProductCategory[];
   image?: string;
+  specs?: string[];
 };
