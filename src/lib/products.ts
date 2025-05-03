@@ -21,6 +21,10 @@ export const productCategories: ProductCategory[] = [
                 name: "LFx compact oil-free piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/lfx-compact",
                 image: "lfx-compact-oil-free-_piston-compressors_zmepxq",
+                specs:["Capacity FAD l/s:1.02 l/s - 2.53 l/s",
+
+                ]
+                
                 specs: [
                   "Capacity FAD l/s:1.02 l/s - 2.53 l/s",
                   "Capacity FAD:3.6 m³/h - 9.1 m³/h",
@@ -871,6 +875,7 @@ export const productCategories: ProductCategory[] = [
                 name: "2” EODD PUMP PERFORMANCE",
                 href: "/products/idex-pumps/pumps/eodd-pumps/2-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
+                specs:["The 2 Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2 port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments."]
               },
               {
                 name: "3” EODD PUMP PERFORMANCE",
@@ -908,6 +913,19 @@ export const productCategories: ProductCategory[] = [
                 name: "NK Series NK-C (closed-couple) ",
                 href: "/products/alfa-pumps/non-metallic-pumps/nk-series/nk-series-nk-c-close-coupled",
                 image: "NK-Series-1-1-768x768_ea92fx",
+                specs:[
+                  "DUTY CONDITIONS",
+                  "Capacity (Q): up to 1250 m3/hr",
+                  "Head (H): up to 100 m",
+                  "Opt. temperature: -30 to 125°C",
+                  "Opt. pressure (p): up to 10 bar",
+                  "Discharge size: DN 25 to DN 250",
+
+                  "MOC APPLICATION",
+                  "PP 0 to 90°C",
+                  "PVDF -20 to 125°C",
+                  "PE-UHMW -30 to 95°C"
+                ]
               },
             ],
           },
@@ -921,11 +939,38 @@ export const productCategories: ProductCategory[] = [
                 name: "NKP Series NKP - C (CLOSE - COUPLED) ",
                 href: "/products/alfa-pumps/non-metallic-pumps/nkp-series/nkp-series-nkp-c",
                 image: "NKP-Series-1-1-1024x1024_ioixu7",
+                specs:[
+                  "Capacity (Q): up to 3500 m3/hr",
+                  "Head (H): up to 100 m",
+                  "Opt. temperature: -30 to 170°C",
+                  "Opt. pressure (p): up to 16 bar",
+                  "Discharge size: DN 25 to DN 400",
+
+                  "MOC APPLICATION",
+                  "PVDF -20 to 125°C",
+                  "PFA -30 to 170°C",
+                  "PE-UHMW -30 to 95°C",
+                  "PP 90°C"
+
+               ]
               },
               {
                 name: "NKP Series (ATEX) ATEX 2014/34/EU",
                 href: "/products/alfa-pumps/non-metallic-pumps/nkp-series/nkp-series-atex-2014-34-eu",
                 image: "NKP-Series-ATEX-1-1-1024x1024_wgrquh",
+                specs:[
+                  "Capacity (Q): up to 200 m3/hr",
+                  "Head (H): up to 100 m",
+                  "Opt. temperature: -30 to 170°C",
+                  "Opt. pressure (p): up to 16 bar",
+                  "Discharge size: DN 25 to DN 65"    ,
+                  
+                  "MOC APPLICATION",
+                  "PVDF -20 to 125°C",
+                  "PFA -30 to 170°C",
+                  "PE-UHMW -30 to 95°C",
+                  "PP 90°C"
+                ]
               },
             ],
           },
@@ -939,6 +984,21 @@ export const productCategories: ProductCategory[] = [
                 name: "TNP Series CANTILEVER TYPE VERTICAL",
                 href: "/products/alfa-pumps/non-metallic-pumps/tnp-series/tnp-series-cantilever-type-vertical",
                 image: "TNP-Series-1-1-1024x1024_ddhzqi",
+                specs:[
+                  "DUTY CONDITIONS",                
+                  "Capacity (Q): up to 200 m3/hr",
+                  "Head (H): up to 60 m",
+                  "Opt. temperature: -30 to 125°C",
+                  "Opt. pressure (p): up to 6 bar",
+                  "Discharge size: DN 25 to DN 65",
+
+                  "MOC APPLICATION",
+                  "PP 0 to 90°C",
+                  "PVDF -20 to 125°C",
+                  "PE-UHMW -30 to 95°C" 
+
+
+                  ]
               },
             ],
           },
@@ -1083,12 +1143,40 @@ export const productCategories: ProductCategory[] = [
             {
               name: "Primary Scraper HD",
               href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-hd",
-              image: "primary-belt-scraper-hd_koyfbp"
+              image: "primary-belt-scraper-hd_koyfbp",
+              specs:[
+                "BELT SCRAPER TYPE",
+                "PBS: PRIMARY BELT SCRAPER",
+                "HD: HEAVY DUTY",
+                "MAINFRAME & BLADE",
+                "ASM: ASSEMBLY",
+              "SPR: BLADE & LOCK PINS",
+"OPERATING CONDITION",
+"AMB: AMBIENT",
+"HRT: HEAT RESISTANT",
+
+"BELT WIDTH (mm):600 - 2400mm",
+"BLADE COVERAGE (mm): 500 - 2250mm"
+              ]
             },
             {
               name: "Primary Scraper SHD",
               href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-shd",
-              image: "primary-belt-scraper-shd_zqkcpi"
+              image: "primary-belt-scraper-shd_zqkcpi",
+              specs:[
+                "BELT SCRAPER TYPE",
+"PBS: PRIMARY BELT SCRAPER",
+"SHD: SUPER HEAVY DUTY",
+"MAINFRAME & BLADE",
+"ASM: ASSEMBLY",
+"SPR: BLADE & LOCK PINS",
+"OPERATING CONDITION",
+"AMB: AMBIENT",
+"HRT: HEAT RESISTAN",
+ 
+"BELT WIDTH (mm):600 - 2400mm",
+"BLADE COVERAGE (mm): 500 - 2250mm"
+              ]
             },
           ]
           },
@@ -1100,12 +1188,39 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Secondary Scraper HD",
                 href: "/products/bmd/belt-scraper/secondary-scraper/secondary-scraper-hd",
-                image: "secondary-belt-scraper-sd_qyit75"
+                image: "secondary-belt-scraper-sd_qyit75",
+                specs:[
+                  "BELT SCRAPER TYPE",
+"SBS: SECONDARY BELT SCRAPER",
+"HD: HEAVY DUTY",
+"MAINFRAME & BLADE",
+"ASM: ASSEMBLY",
+"SPR: BLADE & LOCK PINS",
+"OPERATING CONDITION",
+"AMB: AMBIENT",
+"HRT: HEAT RESISTANT",
+
+"BELT WIDTH (mm):600 - 2400mm",
+"BLADE COVERAGE (mm): 500 - 2250mm"
+                ]
               },
               {
                 name: "Secondary Scraper SHD",
                 href: "/products/bmd/belt-scraper/secondary-scraper/secondary-scraper-shd",
-                image: "secondary-belt-scraper-hd-_-hd-hybrid_idtaqv"
+                image: "secondary-belt-scraper-hd-_-hd-hybrid_idtaqv",
+                specs:[
+                  "BELT SCRAPER TYPE",
+"SBS: SECONDARY BELT SCRAPER",
+"SHD: SUPER HEAVY DUTY",
+"MAINFRAME & BLADE",
+"ASM: ASSEMBLY",
+"SPR: BLADE & LOCK PINS",
+"OPERATING CONDITION",
+"AMB: AMBIEN",
+"HRT: HEAT RESISTANT",
+"BELT WIDTH (mm):600 - 2400mm",
+"BLADE COVERAGE (mm): 500 - 2250mm"
+                ]
               }
             ]
           }
@@ -1123,7 +1238,12 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Dual Skirt Seal",
                 href: "/products/bmd/skirt-seal/dual/dual-skirt-seal",
-                image: "dual-skirt-seal_ecnzkl"
+                image: "dual-skirt-seal_ecnzkl",
+                specs:[
+                  "A: Ambient Temp upto 70°C",
+"H: HR Rubber sustain upto 140°C intermediate temp ",
+"F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
+                ]
               },
             
             ]
@@ -1138,6 +1258,14 @@ export const productCategories: ProductCategory[] = [
                 name: "Rear Skirt Seal",
                 href: "/products/bmd/skirt-seal/rear/rear-skirt-seal",
                 image: "rear-skirt-seal_e5w0gl",
+                specs:[
+                  
+
+"OPERATING CONDITIONS ",
+"A: Ambient Temp upto 70°C",
+"H: HR Rubber sustain upto 140°C intermediate temp ",
+"F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
+                ]
               }
             ]
           },
@@ -1151,6 +1279,11 @@ export const productCategories: ProductCategory[] = [
                 name: "Self Adjusted Skirt Seal",
                 href: "/products/bmd/skirt-seal/self-adjusted/self-adjusted-skirt-seal",
                 image: "self-adjusted-skirt-seal_k5rg2h",
+                specs:[
+                  "A: Ambient Temp upto 70°C",
+                  "H: HR Rubber sustain upto 140°C intermediate temp ",
+                  "F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
+                ]
               }
             ]
           }
@@ -1322,26 +1455,51 @@ export const productCategories: ProductCategory[] = [
                 name: "T300",
                 href: "/products/tennant/scrubbers/walk-behind/t300",
                 image: "image.tennant-ap.M-T300_cdyyeb",
+                specs:[
+                  "CLEANING PATH: 17 IN / 430 MM, 20 IN / 500 MM, 24 IN / 600 MM",
+                  "SOLUTION TANK CAPACITY: 11 GAL / 42 L",
+                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG"
+                ]
               },
               {
                 name: "T300e",
                 href: "/products/tennant/scrubbers/walk-behind/t300e",
                 image: "image.tennant-ap.M-T300E_mmr1ej",
+                specs:[
+                  "CLEANING PATH: 17 IN / 430 MM, 20 IN / 500 MM, 24 IN / 600 MM",
+                  "SOLUTION TANK CAPACITY: 11 GAL / 42 L",
+                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG"
+                ]
               },
               {
                 name: "i-mpop XL Plus",
                 href: "/products/tennant/scrubbers/walk-behind/i-mpop-xl-plus",
                 image: "image.tennant-ap.1267980_jc8cmf",
+                specs:[
+                  "CLEANING PATH :14.5 IN / 368 MM",
+                  "SOLUTION TANK CAPACITY: .79 GAL / 3L",
+                  "MAIN DOWN PRESSURE: UP TO 28.6 LB / 13 KG"
+                ]
               },
               {
                 name: "T1",
                 href: "/products/tennant/scrubbers/walk-behind/t1",
                 image: "image.tennant-ap.9008639_nagqcd",
+                specs:[
+                  "CLEANING PATH: 15 IN / 380 MM",
+                  "SOLUTION TANK CAPACITY: 3 GAL / 11 L",
+                  "MAIN DOWN PRESSURE: UP TO 33 LB / 15 KG"
+                ]
               },
               {
                 name: "T600",
                 href: "image.tennant-ap.M-T600_tlq7as",
                 image: "image.tennant-ap.M-T600_tlq7as",
+                specs:[
+                  "CLEANING PATH: 28 IN / 700 MM, 32 IN / 800 MM, 36 IN / 900 MM",
+                  "SOLUTION TANK CAPACITY: 32 GAL / 121 L",
+                  "MAIN DOWN PRESSURE: UP TO 300 LB / 136 KG (DISK), UP TO 90 LB / 41 KG (CYLINDRICAL), UP TO 169.7 IN / 77 KG (ORBITAL)"
+                ]
               },
             ],
           },
@@ -1355,21 +1513,37 @@ export const productCategories: ProductCategory[] = [
                 name: "T560",
                 href: "/products/tennant/scrubbers/ride-on/t560",
                 image: "image.tennant-ap.STN8001001E01_ajffzn",
+                specs:[
+                  "CLEANING PATH : 27.6 IN / 700 MM",
+                  "SOLUTION TANK CAPACITY: 18.5 GAL / 70 L"
+                ]
               },
               {
                 name: "T16",
                 href: "/products/tennant/scrubbers/ride-on/t16",
                 image: "image.tennant-ap.M-T16_uwpwwx",
+                specs:[
+                  "CLEANING PATH :36 IN / 910 MM, 45 IN / 1,145 MM, 46 IN / 1,170 MM",
+                  "SOLUTION TANK CAPACITY: 50 GAL / 190 L (STANDARD), 75 GAL / 280 L (WITH ES) MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG"
+                ]
               },
               {
                 name: "T7",
                 href: "/products/tennant/scrubbers/ride-on/t7",
-                image: "image.tennant-ap.M-T7_ykkq33"
+                image: "image.tennant-ap.M-T7_ykkq33",
+                specs:[
+                  "CLEANING PATH: 26 IN / 660 MM, 28 IN / 710 MM, 32 IN / 810 MM",
+                  "SOLUTION TANK CAPACITY: 29 GAL / 110 L MAIN DOWN PRESSURE : UP TO 160 LB / 73 KG (DISK), UP TO 120 LB / 54 KG (CYLINDRICAL)"
+                ]
               },
               {
                 name: "T12",
                 href: "/products/tennant/scrubbers/ride-on/t12",
-                image: "image.tennant-ap.M-T12_vtniqa"
+                image: "image.tennant-ap.M-T12_vtniqa",
+                specs:[
+                  "CLEANING PATH: 32 IN / 800 MM, 41 IN / 1,040 MM",
+                  "SOLUTION TANK CAPACITY: 35 GAL / 132 L MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG"
+                ]
               },
             ],
           },
@@ -1425,6 +1599,10 @@ export const productCategories: ProductCategory[] = [
                 name: "B10",
                 href: "/products/tennant/burnishers-floor-cleaning/rider/b10",
                 image: "image.tennant-ap.M-B10_gfdzzh",
+                specs:[
+                  "Sound Level As low as 69 dBA",
+                  "Head Size 24 in / 610 mm, 27.2 in / 690 mm"
+                ]
               }
             ]
           },
@@ -1438,21 +1616,38 @@ export const productCategories: ProductCategory[] = [
                 name: "BR-1600-NDC",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
                 image: "image.tennant-ap.9007347_czhi35",
+                specs:[
+                  "Sound Level As low as 70 dBA",
+                  "Head Size 20 in / 510 mm"
+                ]
               },
               {
                 name: "BR-2000-DC",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-2000-dc",
-                image: "image.tennant-ap.9007349_pzpxm5"
+                image: "image.tennant-ap.9007349_pzpxm5",
+                specs:[
+                  "Sound Level As low as 66 dBA",
+                  "Head Size 20 in / 510 mm"
+                ]
               },
               {
                 name: "B5",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b5",
-                image: "image.tennant-ap.M-B5_vuo3op"
+                image: "image.tennant-ap.M-B5_vuo3op",
+                specs:[
+                  "Sound Level As low as 64 dBA",
+                  "Head Size 20 in / 510 mm",
+                  "Pad RPMs Up to 2100 rpm"
+                ]
               },
               {
                 name: "B7",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b7",
-                image: "image.tennant-ap.M-B7_mcn1cn"
+                image: "image.tennant-ap.M-B7_mcn1cn",
+                specs:[
+                  "Sound Level As low as 63 dBA",
+                  "Head Size 27.2 in / 690 mm"
+                ]
               },
             ]
           }
@@ -1473,11 +1668,19 @@ export const productCategories: ProductCategory[] = [
                 name: "V-CAN-16",
                 href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-16",
                 image: "image.tennant-ap.1252618_lrgyqi",
+                specs:[
+                  "Sound Level As low as 62 dBA",
+                  "Power Cord Length 41 ft / 12 m"
+                ]
               },
               {
                 name: "V-CAN-10",
                 href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-10",
                 image: "image.tennant-ap.1244292_ulvtkd",
+                specs:[
+                  "Sound Level As low as 68 dBA",
+                  "Power Cord Length 26 ft / 8 m"
+                ]
               },
             ],
           },
@@ -1491,16 +1694,28 @@ export const productCategories: ProductCategory[] = [
                 name: "V-WD-62",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-62",
                 image: "image.tennant-ap.1244337_sxvxqu",
+                specs:[
+                  "Sound Level As low as 74 dBA",
+                  "Power Cord Length 27.9 ft / 8.5 m"
+                ]
               },
               {
                 name: "V-WD-72",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-72",
                 image: "image.tennant-ap.1244342_nycbgm",
+                specs:[
+                  "SOUND LEVEL AS LOW AS 76 DBA",
+                  "POWER CORD LENGTH 27.9 FT / 8.5 M"
+                ]
               },
               {
                 name: "V-WD-27",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-27",
                 image: "image.tennant-ap.1244332_klk8vn",
+                specs:[
+                  "SOUND LEVEL AS LOW AS 70 DBA",
+                  "POWER CORD LENGTH 27.9 FT / 8.5 M"
+                ]
               },
             ],
           },
@@ -1514,11 +1729,20 @@ export const productCategories: ProductCategory[] = [
                 name: "V-BP-7",
                 href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-7",
                 image: "image.tennant-ap.1233392_xhluxz",
+                specs:[
+                  "SOUND LEVEL AS LOW AS 69 DBA",
+                  "POWER CORD LENGTH 49.2 FT / 15 M"
+                ]
               },
               {
                 name: "V-BP-6",
                 href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-6",
                 image: "image.tennant-ap.1215364_te2kk8",
+                specs:[
+                  "CLEANING PATH: 14 IN / 355 MM (STANDARD TELESCOPING KIT AND BASE KIT), 18 IN / 457 MM (PREMIUM SIDEWINDER KIT)",
+                  "SOUND LEVEL :AS LOW AS 67 DBA",
+                  "POWER CORD LENGTH: 50 FT / 15 M"
+                ]
               },
             ],
           },
@@ -1538,16 +1762,31 @@ export const productCategories: ProductCategory[] = [
                 name: "S6",
                 href: "/products/tennant/sweepers/walk-behind/s6",
                 image: "image.tennant-ap.1251268_glpavh",
+                specs:[
+                  "CLEANING PATH 25 IN / 635 MM",
+                  "HOPPER CAPACITY 1.25 CUBIC FT / 35L",
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 18,750 SQ FT / 1,742 SQ M"
+                ]
               },
               {
                 name: "S10",
                 href: "/products/tennant/sweepers/walk-behind/s10",
                 image: "image.tennant-ap.M-S10_jrng0h",
+                specs:[
+                  "CLEANING PATH 34 IN / 860 MM",
+                  "HOPPER CAPACITY 2.8 CUBIC FT / 79 L",
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 43,300 SQ FT / 4,000 SQ M"
+                ]
               },
               {
                 name: "S7",
                 href: "/products/tennant/sweepers/walk-behind/s7",
                 image: "image.tennant-ap.1251273_eqsihc",
+                specs:[
+                  "CLEANING PATH 28 IN / 700 MM",
+                  "HOPPER CAPACITY 1.6 CUBIC FT / 45 L",
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,000 SQ FT / 2,601 SQ M"
+                ]
               },
             ],
           },
@@ -1561,16 +1800,31 @@ export const productCategories: ProductCategory[] = [
                 name: "s30",
                 href: "/products/tennant/sweepers/ride-on/s30",
                 image: "image.tennant-ap.M-S30_ktvut8",
+                specs:[
+                  "CLEANING PATH 62.5 IN / 1,588 MM, 80 IN / 2,032 MM",
+                  "HOPPER CAPACITY 14.0 CUBIC FT / 395 L",
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,1600 SQ FT / 26,010 SQ M"
+                ]
               },
               {
                 name: "6100",
                 href: "/products/tennant/sweepers/ride-on/6100",
                 image: "image.tennant-ap.M-6100_gfncxj",
+                specs:[
+                  "CLEANING PATH 30 IN / 760 MM, 38 IN / 970 MM",
+                  "HOPPER CAPACITY 3 FT³ / 85 L",
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 83,600 SQ FT / 7,720 SQ M"
+                ]
               },
               {
                 name: "S16",
                 href: "/products/tennant/sweepers/ride-on/s16",
                 image: "image.tennant-ap.M-S16H_ezqq8u",
+                specs:[
+                  "CLEANING PATH 46 IN / 1, 170 MM (SINGLE SIDE BRUSH), 60 IN / 1, 520 MM (DUAL SIDE BRUSH)"
+                  "HOPPER CAPACITY 5.3 CUBIC FT / 150 L",
+"ESTIMATED COVERAGE/PRODUCTIVITY UP TO 111, 320 SQ FT / 10, 340 SQ M (SINGLE SIDE BRUSH), UP TO 145, 200 SQ FT / 13, 490 SQ M (DUAL SIDE BRUSH)"
+                ]
               },
             ],
           },
