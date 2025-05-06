@@ -1260,7 +1260,7 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Pulsa 7440",
                 href: "/products/idex-pumps/pumps/metering-and-dosing/pulsa-7440",
-                image: "Pulsa_image_ek5dyh",
+                image: "pulsa-7440_djvz6v",
                 specs: [
                   "Pump Design – Hydraulically actuated diaphragm design complying to API-675 3rd edition.",
                   "Flows and Pressures – 9.5 to 9100 LPH with a simplex & Pressures to 345 Bar",
