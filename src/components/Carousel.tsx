@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
@@ -55,176 +55,64 @@ const carouselItems = [
 
 export default function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0)
-  const [isAnimating, setIsAnimating] = useState(false)
-  const [direction, setDirection] = useState<'left' | 'right'>('right')
-  const [isPaused, setIsPaused] = useState(false)
-  const [contentVisible, setContentVisible] = useState(true)
-  const touchStartX = useRef(0)
   
-  // Auto-rotate slides
+  // Basic auto-rotation with fixed interval
   useEffect(() => {
-    if (isPaused) return
-    
     const interval = setInterval(() => {
-      changeSlide('right')
-    }, 3000)
+      setCurrentIndex((prevIndex) => 
+        prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
+      )
+    }, 5000) // 5 seconds per slide
     
     return () => clearInterval(interval)
-  }, [currentIndex, isPaused])
+  }, [])
   
-  // Handle slide change with animation
-  const changeSlide = (dir: 'left' | 'right') => {
-    if (isAnimating) return
-    
-    setIsAnimating(true)
-    setDirection(dir)
-    setContentVisible(false) // Hide content during transition
-    
-    setTimeout(() => {
-      if (dir === 'right') {
-        setCurrentIndex((prevIndex) => 
-          prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
-        )
-      } else {
-        setCurrentIndex((prevIndex) => 
-          prevIndex === 0 ? carouselItems.length - 1 : prevIndex - 1
-        )
-      }
-      
-      // Show content after slide change
-      setTimeout(() => {
-        setContentVisible(true)
-        setIsAnimating(false)
-      }, 100)
-    }, 300) // Match this to your transition duration
-  }
-  
-  // Handle next/prev actions
+  // Simple click handlers for navigation
   const goToNextSlide = () => {
-    changeSlide('right')
-    // setIsPaused(true)
-    // setTimeout(() => setIsPaused(false), 3000)
+    setCurrentIndex((prevIndex) => 
+      prevIndex === carouselItems.length - 1 ? 0 : prevIndex + 1
+    )
   }
   
   const goToPrevSlide = () => {
-    changeSlide('left')
-    // setIsPaused(true)
-    // setTimeout(() => setIsPaused(false), 3000)
-  }
-  
-  const goToSlide = (index: number) => {
-    if (index === currentIndex) return
-    
-    setIsAnimating(true)
-    setDirection(index > currentIndex ? 'right' : 'left')
-    setContentVisible(false)
-    
-    setTimeout(() => {
-      setCurrentIndex(index)
-      
-      setTimeout(() => {
-        setContentVisible(true)
-        setIsAnimating(false)
-      }, 100)
-    }, 300)
-    
-    // setIsPaused(true)
-    // setTimeout(() => setIsPaused(false), 3000)
-  }
-  
-  // Touch handlers for swipe
-  const handleTouchStart = (e: React.TouchEvent) => {
-    touchStartX.current = e.touches[0].clientX
-  }
-  
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    const touchEndX = e.changedTouches[0].clientX
-    const diff = touchStartX.current - touchEndX
-    
-    // Swipe detection with threshold
-    if (Math.abs(diff) > 50) {
-      if (diff > 0) {
-        // Swipe left, go to next slide
-        goToNextSlide()
-      } else {
-        // Swipe right, go to previous slide
-        goToPrevSlide()
-      }
-    }
+    setCurrentIndex((prevIndex) => 
+      prevIndex === 0 ? carouselItems.length - 1 : prevIndex - 1
+    )
   }
   
   // Current slide
   const currentSlide = carouselItems[currentIndex]
   
-  // Calculate previous and next indices for preloading
-  const prevIndex = currentIndex === 0 ? carouselItems.length - 1 : currentIndex - 1
-  const nextIndex = currentIndex === carouselItems.length - 1 ? 0 : currentIndex + 1
-  
   return (
-    <div 
-      className="relative h-[70vh] overflow-hidden bg-gray-100" 
-      onTouchStart={handleTouchStart}
-      onTouchEnd={handleTouchEnd}
-    >
-      {/* Preload adjacent images */}
-      <div className="hidden">
-        <Image src={carouselItems[prevIndex].src} alt="Preload" width={1} height={1} />
-        <Image src={carouselItems[nextIndex].src} alt="Preload" width={1} height={1} />
-      </div>
-      
+    <div className="relative h-[70vh] overflow-hidden bg-gray-100">
       {/* Image container */}
       <div className="absolute inset-0 w-full h-full">
-        {/* Main slide with animation */}
-        <div 
-          className={`absolute inset-0 transition-transform duration-500 ease-in-out transform ${
-            isAnimating && direction === 'right' ? '-translate-x-full' : 
-            isAnimating && direction === 'left' ? 'translate-x-full' : 'translate-x-0'
-          }`}
-        >
-          <Image
-            src={currentSlide.src}
-            alt={currentSlide.alt}
-            fill
-            className="object-cover"
-            priority
-          />
-          <div className="absolute inset-0 bg-black/40"></div>
-        </div>
-        
-        {/* Next/Prev slide (for animation) */}
-        {isAnimating && (
-          <div 
-            className={`absolute inset-0 transition-transform duration-500 ease-in-out transform ${
-              direction === 'right' ? 'translate-x-full' : '-translate-x-full'
-            } ${isAnimating ? 'translate-x-0' : ''}`}
-          >
-            <Image
-              src={direction === 'right' ? carouselItems[nextIndex].src : carouselItems[prevIndex].src}
-              alt="Next slide"
-              fill
-              className="object-cover"
-            />
-            <div className="absolute inset-0 bg-black/40"></div>
-          </div>
-        )}
+        <Image
+          src={currentSlide.src}
+          alt={currentSlide.alt}
+          fill
+          className="object-cover transition-opacity duration-500"
+          priority
+        />
+        <div className="absolute inset-0 bg-black/40"></div>
       </div>
       
-      {/* Content overlay - with CSS transitions instead of Headless UI */}
+      {/* Content overlay */}
       <div className="relative z-10 flex flex-col items-center justify-center h-full text-center text-white px-4">
-        <div className={`transition-opacity duration-500 ${contentVisible ? 'opacity-100' : 'opacity-0'}`}>
-          <h2 className={`text-4xl md:text-5xl font-bold mb-3 max-w-3xl text-shadow ${contentVisible ? 'animate-fade-up' : ''}`}>
-            {currentSlide.title}
-          </h2>
-          <p className={`text-xl md:text-2xl mb-8 max-w-2xl text-shadow ${contentVisible ? 'animate-fade-up animate-delay-100' : ''}`}>
+        <h2 className="text-4xl md:text-5xl font-bold mb-3 max-w-3xl text-shadow">
+          {currentSlide.title}
+        </h2>
+        {currentSlide.subtitle && (
+          <p className="text-xl md:text-2xl mb-8 max-w-2xl text-shadow">
             {currentSlide.subtitle}
           </p>
-          <Link 
-            href={currentSlide.link}
-            className={`px-6 py-3 bg-[#29567A] hover:bg-[#00aeef] text-white font-medium rounded-md transition-colors ${contentVisible ? 'animate-fade-up animate-delay-200' : ''}`}
-          >
-            {currentSlide.cta}
-          </Link>
-        </div>
+        )}
+        <Link 
+          href={currentSlide.link}
+          className="px-6 py-3 bg-[#29567A] hover:bg-[#00aeef] text-white font-medium rounded-md transition-colors"
+        >
+          {currentSlide.cta}
+        </Link>
       </div>
       
       {/* Navigation arrows */}
@@ -253,7 +141,7 @@ export default function Carousel() {
         {carouselItems.map((_, index) => (
           <button
             key={index}
-            onClick={() => goToSlide(index)}
+            onClick={() => setCurrentIndex(index)}
             className={`h-3 rounded-full transition-all duration-300 ${
               index === currentIndex ? 'bg-white w-8' : 'bg-white/50 w-3 hover:bg-white/80'
             }`}
@@ -262,51 +150,10 @@ export default function Carousel() {
         ))}
       </div>
       
-      {/* Play/Pause button */}
-      <button 
-        className="absolute bottom-6 right-6 z-10 bg-black/50 hover:bg-black/70 text-white p-2 rounded-full transition-all"
-        onClick={() => setIsPaused(!isPaused)}
-        aria-label={isPaused ? "Play slideshow" : "Pause slideshow"}
-      >
-        {isPaused ? (
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <polygon points="5 3 19 12 5 21 5 3"></polygon>
-          </svg>
-        ) : (
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-            <rect x="6" y="4" width="4" height="16"></rect>
-            <rect x="14" y="4" width="4" height="16"></rect>
-          </svg>
-        )}
-      </button>
-      
-      {/* CSS styles for animations */}
+      {/* Basic text shadow styling */}
       <style jsx global>{`
         .text-shadow {
           text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
-        }
-        
-        @keyframes fadeUp {
-          from {
-            opacity: 0;
-            transform: translateY(20px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .animate-fade-up {
-          animation: fadeUp 0.8s ease-out forwards;
-        }
-        
-        .animate-delay-100 {
-          animation-delay: 0.1s;
-        }
-        
-        .animate-delay-200 {
-          animation-delay: 0.2s;
         }
       `}</style>
     </div>

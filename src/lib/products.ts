@@ -21,10 +21,7 @@ export const productCategories: ProductCategory[] = [
                 name: "LFx compact oil-free piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/lfx-compact",
                 image: "lfx-compact-oil-free-_piston-compressors_zmepxq",
-                specs:["Capacity FAD l/s:1.02 l/s - 2.53 l/s",
-
-                ]
-              
+                specs: ["Capacity FAD l/s:1.02 l/s - 2.53 l/s"],
               },
               {
                 name: "LF oil-free aluminum piston compressors",
@@ -35,32 +32,32 @@ export const productCategories: ProductCategory[] = [
                   "Capacity FAD:11.16 m³/h - 55.8 m³/h",
                   "Working pressure:10 bar(e) - 10 bar(e)",
                   "Installed motor power:1.5 kW - 7.5 kW",
-                  "Capacity FAD m³/min:0.19 m³/min - 0.93 m³/min"
-                ]
+                  "Capacity FAD m³/min:0.19 m³/min - 0.93 m³/min",
+                ],
               },
               {
                 name: "LZ premium oil-free compressor",
                 href: "/products/atlas-copco/air-compressors/oil-free/lz-premium",
                 image: "lz-premium-oil-free-compressor_mq7cqm",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:11 l/s - 31 l/s",
                   "Capacity FAD:39.6 m³/h - 111.45 m³/h",
                   "Working pressure:4 bar(e) - 10 bar(e)",
                   "Installed motor power: 5.5 kW - 15 kW",
-                  "Capacity FAD m³/min:0.66 m³/min - 1.86 m³/min"
-                ]
+                  "Capacity FAD m³/min:0.66 m³/min - 1.86 m³/min",
+                ],
               },
               {
                 name: "SF and SF+ oil-free scroll compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/sf-scroll",
                 image: "sf-and-sf_oil-free_-_scroll-compressors_mvcspd",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:1.9 l/s - 40.8 l/s",
                   "Capacity FAD:6.8 m³/h - 146.9 m³/h",
                   "Working pressure:8 bar(e) - 10 bar(e)",
                   "Installed motor power: 1.5 kW - 22 kW",
-                  "Capacity FAD m³/min:0.11 m³/min - 2.45 m³/min"
-                ]
+                  "Capacity FAD m³/min:0.11 m³/min - 2.45 m³/min",
+                ],
               },
               {
                 name: "Reciprocating piston compressors HX&HN-15",
@@ -71,111 +68,111 @@ export const productCategories: ProductCategory[] = [
                 name: "HX&HN-15 oil-free high pressure reciprocating piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/hn-15-high-pressure",
                 image: "reciprocating-piston-compressors-hx_hn-15_dg0uw5",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:83 l/s - 322 l/s",
                   "Capacity FAD:300 m³/h - 1,160 m³/h",
                   "Working pressure:10 bar(e) - 15 bar(e)",
                   "Installed motor power: 45 kW - 160 kW",
-                  "Capacity FAD m³/min:0 m³/min - 0 m³/min"
-                ]
+                  "Capacity FAD m³/min:0 m³/min - 0 m³/min",
+                ],
               },
               {
                 name: "P high pressure oil-free reciprocating piston compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/p-high-pressure",
                 image:
                   "p-_high-_pressure-oil-free-reciprocating-piston-_compressors_q4yuo8",
-                  specs:[
-                    "Capacity FAD l/s:45 l/s - 217 l/s",
-                    "Capacity FAD:162 m³/h - 781 m³/h",
-                    "Working pressure:25 bar(e) - 42 bar(e)",
-                    "Installed motor power: 37 kW - 160 kW",
-                    "Capacity FAD m³/min:0 m³/min - 0 m³/min"
-                  ]
+                specs: [
+                  "Capacity FAD l/s:45 l/s - 217 l/s",
+                  "Capacity FAD:162 m³/h - 781 m³/h",
+                  "Working pressure:25 bar(e) - 42 bar(e)",
+                  "Installed motor power: 37 kW - 160 kW",
+                  "Capacity FAD m³/min:0 m³/min - 0 m³/min",
+                ],
               },
               {
                 name: "ZE&ZA (VSD) low pressure oil-free screw compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/ze-za",
                 image:
                   "ze_za_vsd_low-pressure-oil-free-screw-compressors_yikixm",
-                  specs:[
-                    "Capacity FAD l/s:66 l/s - 2,086 l/s",
-                    "Capacity FAD:239 m³/h - 7,510 m³/h",
-                    "Working pressure:1 bar(e) - 4 bar(e)",
-                    "Installed motor power: 30 kW - 522 kW",
-                    "Capacity FAD m³/min:0 m³/min - 0 m³/min"
-                  ]
+                specs: [
+                  "Capacity FAD l/s:66 l/s - 2,086 l/s",
+                  "Capacity FAD:239 m³/h - 7,510 m³/h",
+                  "Working pressure:1 bar(e) - 4 bar(e)",
+                  "Installed motor power: 30 kW - 522 kW",
+                  "Capacity FAD m³/min:0 m³/min - 0 m³/min",
+                ],
               },
               {
                 name: "ZR & ZT (VSD) oil-free rotary tooth compressor",
                 href: "/products/atlas-copco/air-compressors/oil-free/zr-zt",
                 image: "zr_zt_vsd_oil-free-rotary-tooth-compressor_jvucal",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:34 l/s - 150 l/s",
                   "Capacity FAD:120 m³/h - 540 m³/h",
                   "Working pressure:4 bar(e) - 10 bar(e)",
                   "Installed motor power: 15 kW - 55 kW",
-                  "Capacity FAD m³/min:2 m³/min - 9 m³/min"
-                ]
+                  "Capacity FAD m³/min:2 m³/min - 9 m³/min",
+                ],
               },
               {
                 name: "ZR & ZT (VSD) oil-free screw compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/zr-zt-screw",
                 image: "zr_zt_vsd_oil-free_screw-compressors_phamcq",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:20 l/s - 2,506 l/s",
                   "Capacity FAD:71 m³/h - 9,022 m³/h",
                   "Working pressure:3.5 bar(e) - 13 bar(e)",
                   "Installed motor power: 15 kW - 900 kW",
-                  "Capacity FAD m³/min:1 m³/min - 150 m³/min"
-                ]
+                  "Capacity FAD m³/min:1 m³/min - 150 m³/min",
+                ],
               },
               {
                 name: "Oil-free air centrifugal compressor ZH and ZH+",
                 href: "/products/atlas-copco/air-compressors/oil-free/zh-zh-plus",
                 image: "Oil-free_air_centrifugal_compressor_ZH_and_ZH_hdgwrb",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:1,272 l/s - 9,790 l/s",
                   "Capacity FAD:4,579 m³/h - 35,244 m³/h",
                   "Working pressure:2.5 bar(e) - 13 bar(e)",
                   "Installed motor power:355 kW - 3,150 kW",
-                  "Capacity FAD m³/min:76 m³/min - 587 m³/min"
-                ]
+                  "Capacity FAD m³/min:76 m³/min - 587 m³/min",
+                ],
               },
               {
                 name: "PET bottle compressor ZP air-cooled",
                 href: "/products/atlas-copco/air-compressors/oil-free/zp-air-cooled",
                 image: "pet-bottle-compressor-z-air-cooled_kk4uvv",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:86 l/s - 231 l/s",
                   "Capacity FAD:310 m³/h - 837 m³/h",
                   "Working pressure:40 bar(e) - 40 bar(e)",
                   "Installed motor power:55 kW - 132 kW",
-                  "Capacity FAD m³/min:5 m³/min - 12 m³/min"
-                ]
+                  "Capacity FAD m³/min:5 m³/min - 12 m³/min",
+                ],
               },
               {
                 name: "ZHL single-stage centrifugal compressors",
                 href: "/products/atlas-copco/air-compressors/oil-free/zhl-single-stage",
                 image: "zhl-single-stage-centrifugal-compressors_uxkgik",
-                specs :[
+                specs: [
                   "Capacity FAD l/s:1,944 l/s - 10,833 l/s",
                   "Capacity FAD:7,000 m³/h - 39,000 m³/h",
                   "Working pressure:0.8 bar(e) - 2 bar(e)",
                   "Installed motor power:355 kW - 1,400 kW",
-                  "Capacity FAD m³/min:115 m³/min - 650 m³/min"
-                ]
+                  "Capacity FAD m³/min:115 m³/min - 650 m³/min",
+                ],
               },
               {
                 name: "Oil-free booster air compressor ZD (VSD)",
                 href: "/products/atlas-copco/air-compressors/oil-free/zd-vsd",
                 image: "oil-free-booster-air-compressor-zd_vsd_ephryz",
-                specs:[
+                specs: [
                   "Capacity FAD l/s:175 l/s - 1,127 l/s",
                   "Capacity FAD:633 m³/h - 4,057 m³/h",
                   "Working pressure:25 bar(e) - 42 bar(e)",
                   "Installed motor power:155 kW - 815 kW",
-                  "Capacity FAD m³/min:11 m³/min - 68 m³/min"
-                ]
+                  "Capacity FAD m³/min:11 m³/min - 68 m³/min",
+                ],
               },
             ],
           },
@@ -190,10 +187,11 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "Industrial Piston Compressor - Low Pressure <15 bar",
                 href: "/products/atlas-copco/air-compressors/piston/low-pressure",
-                image:"industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
-                 specs:[
-                  " Your 2 to 10 bar solution for the industrial industry, Atlas Copco's range of industrial low pressure pistons offers you the powerful combination of reliability, flexibility and low operating costs,  With our wide variation of oil injected an oil-free pistons you will find a solution for every application with intermediate air needs. The range includes products from 2 to 10 bar, 0.7 to 20 hp, offering a solution for all your low pressure needs. "
-                 ]
+                image:
+                  "industrial_piston_compressor_booster_-_low_pressure_15_bar_qzwjaf",
+                specs: [
+                  " Your 2 to 10 bar solution for the industrial industry, Atlas Copco's range of industrial low pressure pistons offers you the powerful combination of reliability, flexibility and low operating costs,  With our wide variation of oil injected an oil-free pistons you will find a solution for every application with intermediate air needs. The range includes products from 2 to 10 bar, 0.7 to 20 hp, offering a solution for all your low pressure needs. ",
+                ],
               },
               {
                 name: "Industrial Piston Compressor - High Pressure ≥15 bar",
@@ -201,18 +199,17 @@ export const productCategories: ProductCategory[] = [
                 image:
                   "industrial_piston_compressor_booster_-_high_pressure_15_bar_jgqbo2",
 
-                specs:[
-                  "High-pressure air and industrial gas applications require strong, dependable compression. Atlas Copco offers various solutions concerning high pressure from 15 up to 300 bar, 3 to 40 hp. The range consists of compressors until 30 bar and boosters until 40 or even 300 bar which can offer the ideal solution if you need to reach higher pressures."
-                ]
-
+                specs: [
+                  "High-pressure air and industrial gas applications require strong, dependable compression. Atlas Copco offers various solutions concerning high pressure from 15 up to 300 bar, 3 to 40 hp. The range consists of compressors until 30 bar and boosters until 40 or even 300 bar which can offer the ideal solution if you need to reach higher pressures.",
+                ],
               },
               {
                 name: "Professional piston compressor",
                 href: "/products/atlas-copco/air-compressors/piston/professional-piston",
                 image: "professional_-_piston_-_compressor_bocd56",
-                specs:[
-                  "Our piston air compressor range is designed to deliver a reliable source of compressed air for every user. Our portfolio of reciprocating piston compressors ranges from 0.6 kW to 15 kW; small belt driven & direct driven, handyman compressors to larger professional and semi-industrial designed aluminium and cast iron, piston products."
-                ]
+                specs: [
+                  "Our piston air compressor range is designed to deliver a reliable source of compressed air for every user. Our portfolio of reciprocating piston compressors ranges from 0.6 kW to 15 kW; small belt driven & direct driven, handyman compressors to larger professional and semi-industrial designed aluminium and cast iron, piston products.",
+                ],
               },
             ],
           },
@@ -234,24 +231,25 @@ export const productCategories: ProductCategory[] = [
               {
                 name: "BD+CD+XD+ twin tower desiccant air dryers",
                 href: "/products/atlas-copco/air-treatment/desiccant/bd-cd-xd",
-                image: "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
-                specs:[
-                  'Energy-efficient compressed air dryer systems. Ideal for high air demands, constant use and critical processes. With advanced monitoring and control.  BD+ and CD+ are designed to work with oil-lubricated and oil-free air compressors. XD+ is designed to specifically work with oil-free air compressors.',
+                image:
+                  "bd_cd_xd_twin_-_tower_-_desiccant_-_air_-_dryers_iy3llz",
+                specs: [
+                  "Energy-efficient compressed air dryer systems. Ideal for high air demands, constant use and critical processes. With advanced monitoring and control.  BD+ and CD+ are designed to work with oil-lubricated and oil-free air compressors. XD+ is designed to specifically work with oil-free air compressors.",
 
-'BD+ heated blower purge desiccant air dryers use a combination of heated air from an external blower, and only a minimal amount of compressed air. BD+ desiccant air dryers are also available in a zero purge variant.',
+                  "BD+ heated blower purge desiccant air dryers use a combination of heated air from an external blower, and only a minimal amount of compressed air. BD+ desiccant air dryers are also available in a zero purge variant.",
 
-'CD+ heatless desiccant air dryers are the simplest and only use only compressed air as a purge, minimizing electrical connections.',
+                  "CD+ heatless desiccant air dryers are the simplest and only use only compressed air as a purge, minimizing electrical connections.",
 
-'XD+ with zero purge cooling uses the heat of compression recovered from the compressor for the regeneration of the desiccant. The XD+ dryer does not consume any compressed air during the heating or cooling process.'
-                ]
+                  "XD+ with zero purge cooling uses the heat of compression recovered from the compressor for the regeneration of the desiccant. The XD+ dryer does not consume any compressed air during the heating or cooling process.",
+                ],
               },
               {
                 name: "CD+ with Cerades",
                 href: "/products/atlas-copco/air-treatment/desiccant/cd-cerades",
                 image: "cd_with_-_cerades_ia9vnp",
-                specs:[
-                  "he CD 5⁺-335⁺ is the first dryer to use the revolutionary Cerades™ desiccant developed and patented by Atlas Copco."
-                ]
+                specs: [
+                  "he CD 5⁺-335⁺ is the first dryer to use the revolutionary Cerades™ desiccant developed and patented by Atlas Copco.",
+                ],
               },
               {
                 name: "MDG & MD & ND rotary drum dryers",
@@ -699,30 +697,30 @@ export const productCategories: ProductCategory[] = [
                 href: "/products/sew/inverter-technology/control-cabinet/movidrive-mdx61b",
                 image:
                   "MoviDrive_Inverter_MDX61B_230V_Three_Phase_1.5_to_30_kw_feiawm",
-                  specs: [
-                    'Flexible, compact and intelligent: our MOVIDRIVE® B drive inverters. They save space in the control cabinet and are equipped with integrated positioning and sequence control as standard.',
+                specs: [
+                  "Flexible, compact and intelligent: our MOVIDRIVE® B drive inverters. They save space in the control cabinet and are equipped with integrated positioning and sequence control as standard.",
 
-'Features:',
-'Configurable inverter adapted to your application',
-'Broad voltage and power range',
-'Flexible application with synchronous and asynchronous motors',
-'Safe Torque Off (STO) EN ISO 13849-1 PL d',
-'Modular design, incl. a wide range of options',
+                  "Features:",
+                  "Configurable inverter adapted to your application",
+                  "Broad voltage and power range",
+                  "Flexible application with synchronous and asynchronous motors",
+                  "Safe Torque Off (STO) EN ISO 13849-1 PL d",
+                  "Modular design, incl. a wide range of options",
 
-'Area of Application:',
-'MOVIDRIVE® B is used in the following industries:',
+                  "Area of Application:",
+                  "MOVIDRIVE® B is used in the following industries:",
 
-'Automotive industry',
-'Food and beverage industry',
-'Transport and logistics',
-'MOVIDRIVE® B is used in the following applications:',
+                  "Automotive industry",
+                  "Food and beverage industry",
+                  "Transport and logistics",
+                  "MOVIDRIVE® B is used in the following applications:",
 
-'Warehousing systems',
-'Feeding systems',
-'Hoists',
-'Synchronized applications',
-'Gantries'
-                  ]
+                  "Warehousing systems",
+                  "Feeding systems",
+                  "Hoists",
+                  "Synchronized applications",
+                  "Gantries",
+                ],
               },
             ],
           },
@@ -1091,6 +1089,38 @@ export const productCategories: ProductCategory[] = [
         href: "/products/idex-pumps/pumps",
         subcategories: [
           {
+            name: "Sandpipers",
+            href: "/products/idex-pumps/sandpipers",
+            image: "Evolution-Series-Pump_1_upqdp0",
+            items: [
+              {
+                name: "Standard Duty metallic pump",
+                href: "/products/idex-pumps/sandpipers/standard-duty-metallic",
+                image: "Evolution-Series-Pump_1_upqdp0",
+              },
+              {
+                name: "Standard Duty non-metallic pump",
+                href: "/products/idex-pumps/sandpipers/standard-duty-non-metallic",
+                image: "S1F-non-metallic-containment_abxfuh",
+              },
+              {
+                name: "Heavy Duty Flap Valve pumps",
+                href: "/products/idex-pumps/sandpipers/heavy-duty-flap-valve",
+                image: "download_s0u2n8",
+              },
+              {
+                name: "Containment duty pump",
+                href: "/products/idex-pumps/sandpipers/containment-duty",
+                image: "download_drcfim",
+              },
+              {
+                name: "Heavy Duty ball Valve pumps",
+                href: "/products/idex-pumps/sandpipers/heavy-duty-ball-valve",
+                image: "heavy-duty-ball-valve-pump-074_yqd2of",
+              },
+            ],
+          },
+          {
             name: "EODD Pumps",
             href: "/products/idex-pumps/pumps/eodd-pumps",
             image: "vertical-eodd-pump_p6wv05",
@@ -1100,8 +1130,9 @@ export const productCategories: ProductCategory[] = [
                 name: "2” EODD PUMP PERFORMANCE",
                 href: "/products/idex-pumps/pumps/eodd-pumps/2-inch-performance",
                 image: "vertical-eodd-pump_p6wv05",
-                specs:["The 2 Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2 port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments."]
-  
+                specs: [
+                  "The 2 Cognito Electric-Operated Double Diaphragm (EODD) Pump is a compact yet powerful solution designed for industrial applications requiring precision and efficiency. With a 2 port size, it offers optimal flow rates while maintaining the rugged durability needed for tough environments.",
+                ],
               },
               {
                 name: "3” EODD PUMP PERFORMANCE",
@@ -1120,6 +1151,40 @@ export const productCategories: ProductCategory[] = [
                   "Built with the durability to withstand extreme conditions, this robust pump offers efficient, sealless operation, ensuring reliable performance while minimizing downtime.",
                   'Its 4" inlet and outlet configuration supports high-flow capabilities, making it ideal for heavy-duty applications.',
                 ],
+              },
+            ],
+          },
+          {
+            name: "Internal/External Gear Pumps",
+            href: "/products/idex-pumps/internal-external-gear-pumps",
+            image: "ss_ajpalx",
+            items: [
+              {
+                name: "Gearpumps",
+                href: "/products/idex-pumps/internal-external-gear-pumps/gear-pumps",
+                image: "ss_ajpalx",
+              },
+            ],
+          },
+          {
+            name: "Metering and Dosing",
+            href: "/products/idex-pumps/metering-and-dosing",
+            image: "pulsapro-img_iibxzd",
+            items: [
+              {
+                name: "PulsaPro7120",
+                href: "/products/idex-pumps/metering-and-dosing/pulsapro7120",
+                image: "pulsapro-img_iibxzd",
+              },
+              {
+                name: "Pulsa 7440",
+                href: "/products/idex-pumps/metering-and-dosing/pulsa-7440",
+                image: "Pulsa_image_ek5dyh",
+              },
+              {
+                name: "Pulsa Pro 680",
+                href: "/products/idex-pumps/metering-and-dosing/pulsa-pro-680",
+                image: "Pulsafeeder-Pro_smsly1",
               },
             ],
           },
@@ -1147,7 +1212,7 @@ export const productCategories: ProductCategory[] = [
                 name: "NK Series NK-C (closed-couple) ",
                 href: "/products/alfa-pumps/non-metallic-pumps/nk-series/nk-series-nk-c-close-coupled",
                 image: "NK-Series-1-1-768x768_ea92fx",
-                specs:[
+                specs: [
                   "DUTY CONDITIONS",
                   "Capacity (Q): up to 1250 m3/hr",
                   "Head (H): up to 100 m",
@@ -1158,8 +1223,8 @@ export const productCategories: ProductCategory[] = [
                   "MOC APPLICATION",
                   "PP 0 to 90°C",
                   "PVDF -20 to 125°C",
-                  "PE-UHMW -30 to 95°C"
-                ]
+                  "PE-UHMW -30 to 95°C",
+                ],
               },
             ],
           },
@@ -1173,7 +1238,7 @@ export const productCategories: ProductCategory[] = [
                 name: "NKP Series NKP - C (CLOSE - COUPLED) ",
                 href: "/products/alfa-pumps/non-metallic-pumps/nkp-series/nkp-series-nkp-c",
                 image: "NKP-Series-1-1-1024x1024_ioixu7",
-                specs:[
+                specs: [
                   "Capacity (Q): up to 3500 m3/hr",
                   "Head (H): up to 100 m",
                   "Opt. temperature: -30 to 170°C",
@@ -1184,27 +1249,26 @@ export const productCategories: ProductCategory[] = [
                   "PVDF -20 to 125°C",
                   "PFA -30 to 170°C",
                   "PE-UHMW -30 to 95°C",
-                  "PP 90°C"
-
-               ]
+                  "PP 90°C",
+                ],
               },
               {
                 name: "NKP Series (ATEX) ATEX 2014/34/EU",
                 href: "/products/alfa-pumps/non-metallic-pumps/nkp-series/nkp-series-atex-2014-34-eu",
                 image: "NKP-Series-ATEX-1-1-1024x1024_wgrquh",
-                specs:[
+                specs: [
                   "Capacity (Q): up to 200 m3/hr",
                   "Head (H): up to 100 m",
                   "Opt. temperature: -30 to 170°C",
                   "Opt. pressure (p): up to 16 bar",
-                  "Discharge size: DN 25 to DN 65"    ,
-                  
+                  "Discharge size: DN 25 to DN 65",
+
                   "MOC APPLICATION",
                   "PVDF -20 to 125°C",
                   "PFA -30 to 170°C",
                   "PE-UHMW -30 to 95°C",
-                  "PP 90°C"
-                ]
+                  "PP 90°C",
+                ],
               },
             ],
           },
@@ -1218,8 +1282,8 @@ export const productCategories: ProductCategory[] = [
                 name: "TNP Series CANTILEVER TYPE VERTICAL",
                 href: "/products/alfa-pumps/non-metallic-pumps/tnp-series/tnp-series-cantilever-type-vertical",
                 image: "TNP-Series-1-1-1024x1024_ddhzqi",
-                specs:[
-                  "DUTY CONDITIONS",                
+                specs: [
+                  "DUTY CONDITIONS",
                   "Capacity (Q): up to 200 m3/hr",
                   "Head (H): up to 60 m",
                   "Opt. temperature: -30 to 125°C",
@@ -1229,10 +1293,8 @@ export const productCategories: ProductCategory[] = [
                   "MOC APPLICATION",
                   "PP 0 to 90°C",
                   "PVDF -20 to 125°C",
-                  "PE-UHMW -30 to 95°C" 
-
-
-                  ]
+                  "PE-UHMW -30 to 95°C",
+                ],
               },
             ],
           },
@@ -1524,45 +1586,45 @@ export const productCategories: ProductCategory[] = [
             href: "/products/bmd/belt-scraper/primary-scraper",
             image: "primary-belt-scraper-hd_koyfbp",
             items: [
-            {
-              name: "Primary Scraper HD",
-              href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-hd",
-              image: "primary-belt-scraper-hd_koyfbp",
-              specs:[
-                "BELT SCRAPER TYPE",
-                "PBS: PRIMARY BELT SCRAPER",
-                "HD: HEAVY DUTY",
-                "MAINFRAME & BLADE",
-                "ASM: ASSEMBLY",
-              "SPR: BLADE & LOCK PINS",
-"OPERATING CONDITION",
-"AMB: AMBIENT",
-"HRT: HEAT RESISTANT",
+              {
+                name: "Primary Scraper HD",
+                href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-hd",
+                image: "primary-belt-scraper-hd_koyfbp",
+                specs: [
+                  "BELT SCRAPER TYPE",
+                  "PBS: PRIMARY BELT SCRAPER",
+                  "HD: HEAVY DUTY",
+                  "MAINFRAME & BLADE",
+                  "ASM: ASSEMBLY",
+                  "SPR: BLADE & LOCK PINS",
+                  "OPERATING CONDITION",
+                  "AMB: AMBIENT",
+                  "HRT: HEAT RESISTANT",
 
-"BELT WIDTH (mm):600 - 2400mm",
-"BLADE COVERAGE (mm): 500 - 2250mm"
-              ]
-            },
-            {
-              name: "Primary Scraper SHD",
-              href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-shd",
-              image: "primary-belt-scraper-shd_zqkcpi",
-              specs:[
-                "BELT SCRAPER TYPE",
-"PBS: PRIMARY BELT SCRAPER",
-"SHD: SUPER HEAVY DUTY",
-"MAINFRAME & BLADE",
-"ASM: ASSEMBLY",
-"SPR: BLADE & LOCK PINS",
-"OPERATING CONDITION",
-"AMB: AMBIENT",
-"HRT: HEAT RESISTAN",
- 
-"BELT WIDTH (mm):600 - 2400mm",
-"BLADE COVERAGE (mm): 500 - 2250mm"
-              ]
-            },
-          ]
+                  "BELT WIDTH (mm):600 - 2400mm",
+                  "BLADE COVERAGE (mm): 500 - 2250mm",
+                ],
+              },
+              {
+                name: "Primary Scraper SHD",
+                href: "/products/bmd/belt-scraper/primary-scraper/primary-scraper-shd",
+                image: "primary-belt-scraper-shd_zqkcpi",
+                specs: [
+                  "BELT SCRAPER TYPE",
+                  "PBS: PRIMARY BELT SCRAPER",
+                  "SHD: SUPER HEAVY DUTY",
+                  "MAINFRAME & BLADE",
+                  "ASM: ASSEMBLY",
+                  "SPR: BLADE & LOCK PINS",
+                  "OPERATING CONDITION",
+                  "AMB: AMBIENT",
+                  "HRT: HEAT RESISTAN",
+
+                  "BELT WIDTH (mm):600 - 2400mm",
+                  "BLADE COVERAGE (mm): 500 - 2250mm",
+                ],
+              },
+            ],
           },
           {
             name: "Secondary Scraper",
@@ -1573,42 +1635,42 @@ export const productCategories: ProductCategory[] = [
                 name: "Secondary Scraper HD",
                 href: "/products/bmd/belt-scraper/secondary-scraper/secondary-scraper-hd",
                 image: "secondary-belt-scraper-sd_qyit75",
-                specs:[
+                specs: [
                   "BELT SCRAPER TYPE",
-"SBS: SECONDARY BELT SCRAPER",
-"HD: HEAVY DUTY",
-"MAINFRAME & BLADE",
-"ASM: ASSEMBLY",
-"SPR: BLADE & LOCK PINS",
-"OPERATING CONDITION",
-"AMB: AMBIENT",
-"HRT: HEAT RESISTANT",
+                  "SBS: SECONDARY BELT SCRAPER",
+                  "HD: HEAVY DUTY",
+                  "MAINFRAME & BLADE",
+                  "ASM: ASSEMBLY",
+                  "SPR: BLADE & LOCK PINS",
+                  "OPERATING CONDITION",
+                  "AMB: AMBIENT",
+                  "HRT: HEAT RESISTANT",
 
-"BELT WIDTH (mm):600 - 2400mm",
-"BLADE COVERAGE (mm): 500 - 2250mm"
-                ]
+                  "BELT WIDTH (mm):600 - 2400mm",
+                  "BLADE COVERAGE (mm): 500 - 2250mm",
+                ],
               },
               {
                 name: "Secondary Scraper SHD",
                 href: "/products/bmd/belt-scraper/secondary-scraper/secondary-scraper-shd",
                 image: "secondary-belt-scraper-hd-_-hd-hybrid_idtaqv",
-                specs:[
+                specs: [
                   "BELT SCRAPER TYPE",
-"SBS: SECONDARY BELT SCRAPER",
-"SHD: SUPER HEAVY DUTY",
-"MAINFRAME & BLADE",
-"ASM: ASSEMBLY",
-"SPR: BLADE & LOCK PINS",
-"OPERATING CONDITION",
-"AMB: AMBIEN",
-"HRT: HEAT RESISTANT",
-"BELT WIDTH (mm):600 - 2400mm",
-"BLADE COVERAGE (mm): 500 - 2250mm"
-                ]
-              }
-            ]
-          }
-        ]
+                  "SBS: SECONDARY BELT SCRAPER",
+                  "SHD: SUPER HEAVY DUTY",
+                  "MAINFRAME & BLADE",
+                  "ASM: ASSEMBLY",
+                  "SPR: BLADE & LOCK PINS",
+                  "OPERATING CONDITION",
+                  "AMB: AMBIEN",
+                  "HRT: HEAT RESISTANT",
+                  "BELT WIDTH (mm):600 - 2400mm",
+                  "BLADE COVERAGE (mm): 500 - 2250mm",
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Skirt Seal",
@@ -1623,11 +1685,11 @@ export const productCategories: ProductCategory[] = [
                 name: "Dual Skirt Seal",
                 href: "/products/bmd/skirt-seal/dual/dual-skirt-seal",
                 image: "dual-skirt-seal_ecnzkl",
-                specs:[
+                specs: [
                   "A: Ambient Temp upto 70°C",
-"H: HR Rubber sustain upto 140°C intermediate temp ",
-"F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
-                ]
+                  "H: HR Rubber sustain upto 140°C intermediate temp ",
+                  "F: Fire Retardant Rubber sustain upto 180°C intermediate temp",
+                ],
               },
             ],
           },
@@ -1641,16 +1703,14 @@ export const productCategories: ProductCategory[] = [
                 name: "Rear Skirt Seal",
                 href: "/products/bmd/skirt-seal/rear/rear-skirt-seal",
                 image: "rear-skirt-seal_e5w0gl",
-                specs:[
-                  
-
-"OPERATING CONDITIONS ",
-"A: Ambient Temp upto 70°C",
-"H: HR Rubber sustain upto 140°C intermediate temp ",
-"F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
-                ]
-              }
-            ]
+                specs: [
+                  "OPERATING CONDITIONS ",
+                  "A: Ambient Temp upto 70°C",
+                  "H: HR Rubber sustain upto 140°C intermediate temp ",
+                  "F: Fire Retardant Rubber sustain upto 180°C intermediate temp",
+                ],
+              },
+            ],
           },
           {
             name: "Self Adjusted",
@@ -1662,15 +1722,15 @@ export const productCategories: ProductCategory[] = [
                 name: "Self Adjusted Skirt Seal",
                 href: "/products/bmd/skirt-seal/self-adjusted/self-adjusted-skirt-seal",
                 image: "self-adjusted-skirt-seal_k5rg2h",
-                specs:[
+                specs: [
                   "A: Ambient Temp upto 70°C",
                   "H: HR Rubber sustain upto 140°C intermediate temp ",
-                  "F: Fire Retardant Rubber sustain upto 180°C intermediate temp"
-                ]
-              }
-            ]
-          }
-        ]
+                  "F: Fire Retardant Rubber sustain upto 180°C intermediate temp",
+                ],
+              },
+            ],
+          },
+        ],
       },
       {
         name: "Belt Tracker",
@@ -1679,13 +1739,21 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Belt tracker/ positioner",
             href: "/products/bmd/belt-tracker/belt-tracker-positioner",
-            image: "belt-tracker_ifd2td",
+            image: "8-500x500_ifd2td",
 
             items: [
               {
                 name: "Belt Tracker",
                 href: "/products/bmd/belt-tracker/belt-tracker-positioner/belt-tracker",
-                image: "belt-tracker_ifd2td",
+                image: "8-500x500_ifd2td",
+                specs: [
+                  "BMD BHARAT BELT TRACKER Provides immediate, continuous precision adjustment of conveyor belts.",
+
+                  "The Bharat Belt Tracker system works where other belt alignment devices fail to reduce edge damage, prevent spillage and extend belt life.",
+
+                  "It is having structure like H body which sustain extra load and given strength to the Tracker.",
+                  "It is available in lower side for the conveyors known as return side Belt Tracker and upper unit known as carrying side belt tracker",
+                ],
               },
             ],
           },
@@ -1733,12 +1801,12 @@ export const productCategories: ProductCategory[] = [
           {
             name: "Mild Steel Structure",
             href: "/products/bmd/dust-free-zone/mild-steel-structure",
-            image: "DFZ3_uuz0qv",
+            image: "dust-filter-bag-dust-curtain-and-mild-steel-structure_g2fkcc",
             items: [
               {
                 name: "Mild Steel Structure",
                 href: "/products/bmd/dust-free-zone/mild-steel-structure/mild-steel-structure",
-                image: "DFZ3_uuz0qv",
+                image: "dust-filter-bag-dust-curtain-and-mild-steel-structure_g2fkcc",
               },
             ],
           },
@@ -1911,51 +1979,51 @@ export const productCategories: ProductCategory[] = [
                 name: "T300",
                 href: "/products/tennant/scrubbers/walk-behind/t300",
                 image: "image.tennant-ap.M-T300_cdyyeb",
-                specs:[
+                specs: [
                   "CLEANING PATH: 17 IN / 430 MM, 20 IN / 500 MM, 24 IN / 600 MM",
                   "SOLUTION TANK CAPACITY: 11 GAL / 42 L",
-                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG"
-                ]
+                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG",
+                ],
               },
               {
                 name: "T300e",
                 href: "/products/tennant/scrubbers/walk-behind/t300e",
                 image: "image.tennant-ap.M-T300E_mmr1ej",
-                specs:[
+                specs: [
                   "CLEANING PATH: 17 IN / 430 MM, 20 IN / 500 MM, 24 IN / 600 MM",
                   "SOLUTION TANK CAPACITY: 11 GAL / 42 L",
-                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG"
-                ]
+                  "MAIN DOWN PRESSURE: UP TO 109 LB / 49 KG",
+                ],
               },
               {
                 name: "i-mpop XL Plus",
                 href: "/products/tennant/scrubbers/walk-behind/i-mpop-xl-plus",
                 image: "image.tennant-ap.1267980_jc8cmf",
-                specs:[
+                specs: [
                   "CLEANING PATH :14.5 IN / 368 MM",
                   "SOLUTION TANK CAPACITY: .79 GAL / 3L",
-                  "MAIN DOWN PRESSURE: UP TO 28.6 LB / 13 KG"
-                ]
+                  "MAIN DOWN PRESSURE: UP TO 28.6 LB / 13 KG",
+                ],
               },
               {
                 name: "T1",
                 href: "/products/tennant/scrubbers/walk-behind/t1",
                 image: "image.tennant-ap.9008639_nagqcd",
-                specs:[
+                specs: [
                   "CLEANING PATH: 15 IN / 380 MM",
                   "SOLUTION TANK CAPACITY: 3 GAL / 11 L",
-                  "MAIN DOWN PRESSURE: UP TO 33 LB / 15 KG"
-                ]
+                  "MAIN DOWN PRESSURE: UP TO 33 LB / 15 KG",
+                ],
               },
               {
                 name: "T600",
                 href: "image.tennant-ap.M-T600_tlq7as",
                 image: "image.tennant-ap.M-T600_tlq7as",
-                specs:[
+                specs: [
                   "CLEANING PATH: 28 IN / 700 MM, 32 IN / 800 MM, 36 IN / 900 MM",
                   "SOLUTION TANK CAPACITY: 32 GAL / 121 L",
-                  "MAIN DOWN PRESSURE: UP TO 300 LB / 136 KG (DISK), UP TO 90 LB / 41 KG (CYLINDRICAL), UP TO 169.7 IN / 77 KG (ORBITAL)"
-                ]
+                  "MAIN DOWN PRESSURE: UP TO 300 LB / 136 KG (DISK), UP TO 90 LB / 41 KG (CYLINDRICAL), UP TO 169.7 IN / 77 KG (ORBITAL)",
+                ],
               },
             ],
           },
@@ -1969,37 +2037,37 @@ export const productCategories: ProductCategory[] = [
                 name: "T560",
                 href: "/products/tennant/scrubbers/ride-on/t560",
                 image: "image.tennant-ap.STN8001001E01_ajffzn",
-                specs:[
+                specs: [
                   "CLEANING PATH : 27.6 IN / 700 MM",
-                  "SOLUTION TANK CAPACITY: 18.5 GAL / 70 L"
-                ]
+                  "SOLUTION TANK CAPACITY: 18.5 GAL / 70 L",
+                ],
               },
               {
                 name: "T16",
                 href: "/products/tennant/scrubbers/ride-on/t16",
                 image: "image.tennant-ap.M-T16_uwpwwx",
-                specs:[
+                specs: [
                   "CLEANING PATH :36 IN / 910 MM, 45 IN / 1,145 MM, 46 IN / 1,170 MM",
-                  "SOLUTION TANK CAPACITY: 50 GAL / 190 L (STANDARD), 75 GAL / 280 L (WITH ES) MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG"
-                ]
+                  "SOLUTION TANK CAPACITY: 50 GAL / 190 L (STANDARD), 75 GAL / 280 L (WITH ES) MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG",
+                ],
               },
               {
                 name: "T7",
                 href: "/products/tennant/scrubbers/ride-on/t7",
                 image: "image.tennant-ap.M-T7_ykkq33",
-                specs:[
+                specs: [
                   "CLEANING PATH: 26 IN / 660 MM, 28 IN / 710 MM, 32 IN / 810 MM",
-                  "SOLUTION TANK CAPACITY: 29 GAL / 110 L MAIN DOWN PRESSURE : UP TO 160 LB / 73 KG (DISK), UP TO 120 LB / 54 KG (CYLINDRICAL)"
-                ]
+                  "SOLUTION TANK CAPACITY: 29 GAL / 110 L MAIN DOWN PRESSURE : UP TO 160 LB / 73 KG (DISK), UP TO 120 LB / 54 KG (CYLINDRICAL)",
+                ],
               },
               {
                 name: "T12",
                 href: "/products/tennant/scrubbers/ride-on/t12",
                 image: "image.tennant-ap.M-T12_vtniqa",
-                specs:[
+                specs: [
                   "CLEANING PATH: 32 IN / 800 MM, 41 IN / 1,040 MM",
-                  "SOLUTION TANK CAPACITY: 35 GAL / 132 L MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG"
-                ]
+                  "SOLUTION TANK CAPACITY: 35 GAL / 132 L MAIN DOWN PRESSURE: UP TO 250 LB / 114 KG",
+                ],
               },
             ],
           },
@@ -2055,12 +2123,12 @@ export const productCategories: ProductCategory[] = [
                 name: "B10",
                 href: "/products/tennant/burnishers-floor-cleaning/rider/b10",
                 image: "image.tennant-ap.M-B10_gfdzzh",
-                specs:[
+                specs: [
                   "Sound Level As low as 69 dBA",
-                  "Head Size 24 in / 610 mm, 27.2 in / 690 mm"
-                ]
-              }
-            ]
+                  "Head Size 24 in / 610 mm, 27.2 in / 690 mm",
+                ],
+              },
+            ],
           },
           {
             name: "Walk Behind",
@@ -2072,38 +2140,38 @@ export const productCategories: ProductCategory[] = [
                 name: "BR-1600-NDC",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-1600-ndc",
                 image: "image.tennant-ap.9007347_czhi35",
-                specs:[
+                specs: [
                   "Sound Level As low as 70 dBA",
-                  "Head Size 20 in / 510 mm"
-                ]
+                  "Head Size 20 in / 510 mm",
+                ],
               },
               {
                 name: "BR-2000-DC",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/br-2000-dc",
                 image: "image.tennant-ap.9007349_pzpxm5",
-                specs:[
+                specs: [
                   "Sound Level As low as 66 dBA",
-                  "Head Size 20 in / 510 mm"
-                ]
+                  "Head Size 20 in / 510 mm",
+                ],
               },
               {
                 name: "B5",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b5",
                 image: "image.tennant-ap.M-B5_vuo3op",
-                specs:[
+                specs: [
                   "Sound Level As low as 64 dBA",
                   "Head Size 20 in / 510 mm",
-                  "Pad RPMs Up to 2100 rpm"
-                ]
+                  "Pad RPMs Up to 2100 rpm",
+                ],
               },
               {
                 name: "B7",
                 href: "/products/tennant/burnishers-floor-cleaning/walk-behind/b7",
                 image: "image.tennant-ap.M-B7_mcn1cn",
-                specs:[
+                specs: [
                   "Sound Level As low as 63 dBA",
-                  "Head Size 27.2 in / 690 mm"
-                ]
+                  "Head Size 27.2 in / 690 mm",
+                ],
               },
             ],
           },
@@ -2124,19 +2192,19 @@ export const productCategories: ProductCategory[] = [
                 name: "V-CAN-16",
                 href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-16",
                 image: "image.tennant-ap.1252618_lrgyqi",
-                specs:[
+                specs: [
                   "Sound Level As low as 62 dBA",
-                  "Power Cord Length 41 ft / 12 m"
-                ]
+                  "Power Cord Length 41 ft / 12 m",
+                ],
               },
               {
                 name: "V-CAN-10",
                 href: "/products/tennant/vaccum-cleaners/dry-canister/v-can-10",
                 image: "image.tennant-ap.1244292_ulvtkd",
-                specs:[
+                specs: [
                   "Sound Level As low as 68 dBA",
-                  "Power Cord Length 26 ft / 8 m"
-                ]
+                  "Power Cord Length 26 ft / 8 m",
+                ],
               },
             ],
           },
@@ -2150,28 +2218,28 @@ export const productCategories: ProductCategory[] = [
                 name: "V-WD-62",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-62",
                 image: "image.tennant-ap.1244337_sxvxqu",
-                specs:[
+                specs: [
                   "Sound Level As low as 74 dBA",
-                  "Power Cord Length 27.9 ft / 8.5 m"
-                ]
+                  "Power Cord Length 27.9 ft / 8.5 m",
+                ],
               },
               {
                 name: "V-WD-72",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-72",
                 image: "image.tennant-ap.1244342_nycbgm",
-                specs:[
+                specs: [
                   "SOUND LEVEL AS LOW AS 76 DBA",
-                  "POWER CORD LENGTH 27.9 FT / 8.5 M"
-                ]
+                  "POWER CORD LENGTH 27.9 FT / 8.5 M",
+                ],
               },
               {
                 name: "V-WD-27",
                 href: "/products/tennant/vaccum-cleaners/wet-dry/v-wd-27",
                 image: "image.tennant-ap.1244332_klk8vn",
-                specs:[
+                specs: [
                   "SOUND LEVEL AS LOW AS 70 DBA",
-                  "POWER CORD LENGTH 27.9 FT / 8.5 M"
-                ]
+                  "POWER CORD LENGTH 27.9 FT / 8.5 M",
+                ],
               },
             ],
           },
@@ -2185,20 +2253,20 @@ export const productCategories: ProductCategory[] = [
                 name: "V-BP-7",
                 href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-7",
                 image: "image.tennant-ap.1233392_xhluxz",
-                specs:[
+                specs: [
                   "SOUND LEVEL AS LOW AS 69 DBA",
-                  "POWER CORD LENGTH 49.2 FT / 15 M"
-                ]
+                  "POWER CORD LENGTH 49.2 FT / 15 M",
+                ],
               },
               {
                 name: "V-BP-6",
                 href: "/products/tennant/vaccum-cleaners/backpack-vaccum/v-bp-6",
                 image: "image.tennant-ap.1215364_te2kk8",
-                specs:[
+                specs: [
                   "CLEANING PATH: 14 IN / 355 MM (STANDARD TELESCOPING KIT AND BASE KIT), 18 IN / 457 MM (PREMIUM SIDEWINDER KIT)",
                   "SOUND LEVEL :AS LOW AS 67 DBA",
-                  "POWER CORD LENGTH: 50 FT / 15 M"
-                ]
+                  "POWER CORD LENGTH: 50 FT / 15 M",
+                ],
               },
             ],
           },
@@ -2218,31 +2286,31 @@ export const productCategories: ProductCategory[] = [
                 name: "S6",
                 href: "/products/tennant/sweepers/walk-behind/s6",
                 image: "image.tennant-ap.1251268_glpavh",
-                specs:[
+                specs: [
                   "CLEANING PATH 25 IN / 635 MM",
                   "HOPPER CAPACITY 1.25 CUBIC FT / 35L",
-                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 18,750 SQ FT / 1,742 SQ M"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 18,750 SQ FT / 1,742 SQ M",
+                ],
               },
               {
                 name: "S10",
                 href: "/products/tennant/sweepers/walk-behind/s10",
                 image: "image.tennant-ap.M-S10_jrng0h",
-                specs:[
+                specs: [
                   "CLEANING PATH 34 IN / 860 MM",
                   "HOPPER CAPACITY 2.8 CUBIC FT / 79 L",
-                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 43,300 SQ FT / 4,000 SQ M"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 43,300 SQ FT / 4,000 SQ M",
+                ],
               },
               {
                 name: "S7",
                 href: "/products/tennant/sweepers/walk-behind/s7",
                 image: "image.tennant-ap.1251273_eqsihc",
-                specs:[
+                specs: [
                   "CLEANING PATH 28 IN / 700 MM",
                   "HOPPER CAPACITY 1.6 CUBIC FT / 45 L",
-                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,000 SQ FT / 2,601 SQ M"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,000 SQ FT / 2,601 SQ M",
+                ],
               },
             ],
           },
@@ -2256,31 +2324,31 @@ export const productCategories: ProductCategory[] = [
                 name: "s30",
                 href: "/products/tennant/sweepers/ride-on/s30",
                 image: "image.tennant-ap.M-S30_ktvut8",
-                specs:[
+                specs: [
                   "CLEANING PATH 62.5 IN / 1,588 MM, 80 IN / 2,032 MM",
                   "HOPPER CAPACITY 14.0 CUBIC FT / 395 L",
-                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,1600 SQ FT / 26,010 SQ M"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 28,1600 SQ FT / 26,010 SQ M",
+                ],
               },
               {
                 name: "6100",
                 href: "/products/tennant/sweepers/ride-on/6100",
                 image: "image.tennant-ap.M-6100_gfncxj",
-                specs:[
+                specs: [
                   "CLEANING PATH 30 IN / 760 MM, 38 IN / 970 MM",
                   "HOPPER CAPACITY 3 FT³ / 85 L",
-                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 83,600 SQ FT / 7,720 SQ M"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 83,600 SQ FT / 7,720 SQ M",
+                ],
               },
               {
                 name: "S16",
                 href: "/products/tennant/sweepers/ride-on/s16",
                 image: "image.tennant-ap.M-S16H_ezqq8u",
-                specs:[
-                  "CLEANING PATH 46 IN / 1, 170 MM (SINGLE SIDE BRUSH), 60 IN / 1, 520 MM (DUAL SIDE BRUSH)" ,
+                specs: [
+                  "CLEANING PATH 46 IN / 1, 170 MM (SINGLE SIDE BRUSH), 60 IN / 1, 520 MM (DUAL SIDE BRUSH)",
                   "HOPPER CAPACITY 5.3 CUBIC FT / 150 L",
-"ESTIMATED COVERAGE/PRODUCTIVITY UP TO 111, 320 SQ FT / 10, 340 SQ M (SINGLE SIDE BRUSH), UP TO 145, 200 SQ FT / 13, 490 SQ M (DUAL SIDE BRUSH)"
-                ]
+                  "ESTIMATED COVERAGE/PRODUCTIVITY UP TO 111, 320 SQ FT / 10, 340 SQ M (SINGLE SIDE BRUSH), UP TO 145, 200 SQ FT / 13, 490 SQ M (DUAL SIDE BRUSH)",
+                ],
               },
             ],
           },
