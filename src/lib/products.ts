@@ -1090,32 +1090,32 @@ export const productCategories: ProductCategory[] = [
         subcategories: [
           {
             name: "Sandpipers",
-            href: "/products/idex-pumps/sandpipers",
+            href: "/products/idex-pumps/pumps/sandpipers",
             image: "Evolution-Series-Pump_1_upqdp0",
             items: [
               {
                 name: "Standard Duty metallic pump",
-                href: "/products/idex-pumps/sandpipers/standard-duty-metallic",
+                href: "/products/idex-pumps/pumps/sandpipers/standard-duty-metallic",
                 image: "Evolution-Series-Pump_1_upqdp0",
               },
               {
                 name: "Standard Duty non-metallic pump",
-                href: "/products/idex-pumps/sandpipers/standard-duty-non-metallic",
+                href: "/products/idex-pumps/pumps/sandpipers/standard-duty-non-metallic",
                 image: "S1F-non-metallic-containment_abxfuh",
               },
               {
                 name: "Heavy Duty Flap Valve pumps",
-                href: "/products/idex-pumps/sandpipers/heavy-duty-flap-valve",
+                href: "/products/idex-pumps/pumps/sandpipers/heavy-duty-flap-valve",
                 image: "download_s0u2n8",
               },
               {
                 name: "Containment duty pump",
-                href: "/products/idex-pumps/sandpipers/containment-duty",
+                href: "/products/idex-pumps/pumps/sandpipers/containment-duty",
                 image: "download_drcfim",
               },
               {
                 name: "Heavy Duty ball Valve pumps",
-                href: "/products/idex-pumps/sandpipers/heavy-duty-ball-valve",
+                href: "/products/idex-pumps/pumps/sandpipers/heavy-duty-ball-valve",
                 image: "heavy-duty-ball-valve-pump-074_yqd2of",
               },
             ],
@@ -1156,34 +1156,34 @@ export const productCategories: ProductCategory[] = [
           },
           {
             name: "Internal/External Gear Pumps",
-            href: "/products/idex-pumps/internal-external-gear-pumps",
+            href: "/products/idex-pumps/pumps/internal-external-gear-pumps",
             image: "ss_ajpalx",
             items: [
               {
                 name: "Gearpumps",
-                href: "/products/idex-pumps/internal-external-gear-pumps/gear-pumps",
+                href: "/products/idex-pumps/pumps/internal-external-gear-pumps/gear-pumps",
                 image: "ss_ajpalx",
               },
             ],
           },
           {
             name: "Metering and Dosing",
-            href: "/products/idex-pumps/metering-and-dosing",
+            href: "/products/idex-pumps/pumps/metering-and-dosing",
             image: "pulsapro-img_iibxzd",
             items: [
               {
                 name: "PulsaPro7120",
-                href: "/products/idex-pumps/metering-and-dosing/pulsapro7120",
+                href: "/products/idex-pumps/pumps/metering-and-dosing/pulsapro7120",
                 image: "pulsapro-img_iibxzd",
               },
               {
                 name: "Pulsa 7440",
-                href: "/products/idex-pumps/metering-and-dosing/pulsa-7440",
+                href: "/products/idex-pumps/pumps/metering-and-dosing/pulsa-7440",
                 image: "Pulsa_image_ek5dyh",
               },
               {
                 name: "Pulsa Pro 680",
-                href: "/products/idex-pumps/metering-and-dosing/pulsa-pro-680",
+                href: "/products/idex-pumps/pumps/metering-and-dosing/pulsa-pro-680",
                 image: "Pulsafeeder-Pro_smsly1",
               },
             ],
